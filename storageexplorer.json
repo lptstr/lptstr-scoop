@@ -11,9 +11,7 @@
     },
     "uninstaller": {
         "file": "unins000.exe",
-        "args": [
-            "/VERYSILENT"
-        ]
+        "args": "/VERYSILENT"
     },
     "bin": "storageexplorer.exe",
     "checkver": {

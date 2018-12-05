@@ -23,9 +23,7 @@
             "java/oraclejdk",
             "java/openjdk"
         ],
-        "groovyserv": [
-            "groovyserv"
-        ]
+        "groovyserv": "groovyserv"
     },
     "checkver": {
         "url": "http://www.groovy-lang.org/download.html",

@@ -33,9 +33,7 @@
     "env_set": {
         "TESSDATA_PREFIX": "$persist_dir\\tessdata"
     },
-    "persist": [
-        "tessdata"
-    ],
+    "persist": "tessdata",
     "notes": "Language data files can be downloaded from https://github.com/tesseract-ocr/tessdata",
     "checkver": {
         "re": "tesseract-ocr-w32-setup-v(?<version>[\\d.]+).exe",

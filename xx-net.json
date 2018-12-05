@@ -20,9 +20,7 @@
             "code\\default\\launcher\\web_ui\\favicon.ico"
         ]
     ],
-    "persist": [
-        "data"
-    ],
+    "persist": "data",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/XX-net/XX-Net/releases/download/$version/XX-Net-$version.7z",

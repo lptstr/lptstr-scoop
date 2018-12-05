@@ -44,9 +44,7 @@
             "idle3"
         ]
     ],
-    "env_add_path": [
-        "scripts"
-    ],
+    "env_add_path": "scripts",
     "checkver": {
         "url": "https://www.python.org/downloads/windows/",
         "re": "Latest Python 3 Release - Python ([\\d\\.]+)"

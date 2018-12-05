@@ -23,9 +23,7 @@
             "python3"
         ]
     ],
-    "env_add_path": [
-        "scripts"
-    ],
+    "env_add_path": "scripts",
     "checkver": {
         "url": "https://winpython.github.io/md5_sha1.txt",
         "re": "-([\\d.]+)Zero.exe"

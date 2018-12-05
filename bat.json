@@ -11,9 +11,7 @@
     },
     "bin": "bat.exe",
     "suggest": {
-        "less": [
-            "less"
-        ]
+        "less": "less"
     },
     "checkver": "github",
     "autoupdate": {

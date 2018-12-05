@@ -7,9 +7,7 @@
     "hash": "c5baf6c8c9c17a16b092192756b1283b537d805c360807be25908a91159c7e66",
     "bin": "cake.exe",
     "suggest": {
-        "NuGet": [
-            "nuget"
-        ]
+        "NuGet": "nuget"
     },
     "checkver": {
         "github": "https://github.com/cake-build/cake"

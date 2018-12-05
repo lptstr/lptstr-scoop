@@ -12,9 +12,7 @@
     },
     "uninstaller": {
         "file": "uninstall.exe",
-        "args": [
-            "/S"
-        ]
+        "args": "/S"
     },
     "bin": [
         "DOSBox.exe",

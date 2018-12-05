@@ -9,9 +9,7 @@
         "luac.exe",
         "luarocks.bat"
     ],
-    "depends": [
-        "innounp"
-    ],
+    "depends": "innounp",
     "checkver": {
         "url": "https://github.com/rjpcomputing/luaforwindows/releases/latest",
         "re": "/releases/tag/v([\\d.\\-]+)"

@@ -12,9 +12,7 @@
             "hash": "e832fe40647cdeea6eebed8abfaf0c775fcd951d1b030844597ad1eaf5d6b205"
         }
     },
-    "bin": [
-        "terraform.exe"
-    ],
+    "bin": "terraform.exe",
     "checkver": {
         "url": "https://releases.hashicorp.com/terraform/",
         "re": "terraform_([\\d.]+)</a>"

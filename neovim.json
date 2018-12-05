@@ -15,9 +15,7 @@
         }
     },
     "suggest": {
-        "Visual Studio 2015 C++ redistributable": [
-            "vcredist2015"
-        ]
+        "Visual Studio 2015 C++ redistributable": "vcredist2015"
     },
     "homepage": "https://neovim.io/",
     "bin": [

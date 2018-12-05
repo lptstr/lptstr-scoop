@@ -15,9 +15,7 @@
         "extras/vcredist2012",
         "openssl"
     ],
-    "persist": [
-        "$dir/lynx.cfg"
-    ],
+    "persist": "$dir/lynx.cfg",
     "pre_install": [
         "$q = [char]34",
         "add-content \"$dir/lynx.cfg\" -value \"SSL_CERT_FILE:$(appdir openssl)/current/cacert.pem`n\"",
@@ -40,7 +38,5 @@
     "autoupdate": {
         "url": "https://invisible-island.net/datafiles/current/lynx-newssl-setup.exe"
     },
-    "notes": [
-        "lynx requires the 32-bit version of openssl to be installed"
-    ]
+    "notes": "lynx requires the 32-bit version of openssl to be installed"
 }

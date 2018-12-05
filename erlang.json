@@ -28,9 +28,7 @@
     },
     "uninstaller": {
         "file": "Uninstall.exe",
-        "args": [
-            "/S"
-        ]
+        "args": "/S"
     },
     "checkver": {
         "url": "https://www.erlang.org/downloads",

@@ -12,9 +12,7 @@
             "hash": "99a16064e60776922ae9cb1bef9e9ec8311511f735b1332a811817d3f93171f2"
         }
     },
-    "bin": [
-        "packer.exe"
-    ],
+    "bin": "packer.exe",
     "checkver": {
         "url": "https://releases.hashicorp.com/packer/",
         "re": "packer_([\\d.]+)</a>"

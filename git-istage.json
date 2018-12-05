@@ -10,9 +10,7 @@
         "url": "https://www.nuget.org/api/v2/package/git-istage/$version"
     },
     "hash": "b10a695780221c51870de0247f4f8603a14474635f61be06ae876d3a30fba529",
-    "depends": [
-        "dotnet-sdk"
-    ],
+    "depends": "dotnet-sdk",
     "description": "A better git add -p",
     "license": "MIT",
     "installer": {

@@ -16,9 +16,7 @@
         "If you have 64bit Windows but 32bit Java, you MUST reinstall 'ipscan' with the following option:",
         "--arch 32bit"
     ],
-    "bin": [
-        "ipscan.exe"
-    ],
+    "bin": "ipscan.exe",
     "shortcuts": [
         [
             "ipscan.exe",
@@ -39,8 +37,6 @@
         }
     },
     "suggest": {
-        "JRE": [
-            "java/oraclejre8"
-        ]
+        "JRE": "java/oraclejre8"
     }
 }

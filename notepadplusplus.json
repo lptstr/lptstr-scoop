@@ -27,9 +27,7 @@
         "Add-Content \"$dir/session.xml\" $null"
     ],
     "suggest": {
-        "Notepad++ Plugin Manager": [
-            "extras/notepadplusplus-pm"
-        ]
+        "Notepad++ Plugin Manager": "extras/notepadplusplus-pm"
     },
     "shortcuts": [
         [

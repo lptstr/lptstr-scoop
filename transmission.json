@@ -13,9 +13,7 @@
         }
     },
     "extract_dir": "PFiles\\Transmission",
-    "bin": [
-        "transmission-qt.exe"
-    ],
+    "bin": "transmission-qt.exe",
     "shortcuts": [
         [
             "transmission-qt.exe",
@@ -36,8 +34,6 @@
         }
     },
     "suggest": {
-        "vcredist": [
-            "extras/vcredist2017"
-        ]
+        "vcredist": "extras/vcredist2017"
     }
 }

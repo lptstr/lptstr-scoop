@@ -5,9 +5,7 @@
     "version": "2.1.5",
     "url": "https://apps.ankiweb.net/downloads/current/anki-2.1.5-windows.exe#/dl.7z",
     "hash": "e39c007126928d54c04a556bdcb2aec5710af97fcf196e1c839568ce39c60dd9",
-    "persist": [
-        "data"
-    ],
+    "persist": "data",
     "bin": [
         [
             "anki.cmd",
@@ -24,9 +22,7 @@
         ]
     ],
     "suggest": {
-        "vcredist": [
-            "extras/vcredist2008"
-        ]
+        "vcredist": "extras/vcredist2008"
     },
     "checkver": {
         "url": "https://apps.ankiweb.net/docs/changes.html",

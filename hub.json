@@ -12,9 +12,7 @@
             "hash": "6fb3093a22dd33cb860abf814d5f475eeccc62a5fe995c80c492ee5c28ae96bf"
         }
     },
-    "bin": [
-        "bin\\hub.exe"
-    ],
+    "bin": "bin\\hub.exe",
     "checkver": {
         "github": "https://github.com/github/hub"
     },

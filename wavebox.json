@@ -10,9 +10,7 @@
         }
     },
     "extract_dir": "lib\\net45",
-    "bin": [
-        "Wavebox.exe"
-    ],
+    "bin": "Wavebox.exe",
     "shortcuts": [
         [
             "Wavebox.exe",

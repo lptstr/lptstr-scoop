@@ -20,9 +20,7 @@
         "url": "https://downloads.sourceforge.net/project/nsis/NSIS%20$majorVersion/$version/nsis-$version.zip",
         "extract_dir": "nsis-$version"
     },
-    "persist": [
-        "nsisconf.nsh"
-    ],
+    "persist": "nsisconf.nsh",
     "shortcuts": [
         [
             "NSIS.exe",
