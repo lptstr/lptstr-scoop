@@ -1011,7 +1011,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     zola (0.5.0)
     zookeeper (3.4.13)
     zstd (1.3.7)
-    ```
+```
 
 ## Acknowledgments
 Open-Scoop borrows heavily from the other two Scoop buckets, the main bucket and the 
