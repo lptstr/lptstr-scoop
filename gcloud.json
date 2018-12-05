@@ -1,0 +1,37 @@
+{
+    "version": "227.0.0",
+    "homepage": "https://cloud.google.com/sdk/",
+    "architecture": {
+        "64bit": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-227.0.0-windows-x86_64-bundled-python.zip",
+            "hash": "bd14537581e6be1823d3b341f2f23f8b7853cc9804c206cab63c977d45fa65f7"
+        },
+        "32bit": {
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-227.0.0-windows-x86-bundled-python.zip",
+            "hash": "0a2f7412d6c6dcfdacd4e54511011ac737c7bf220983a82c5a1cf0bfe37d64d1"
+        }
+    },
+    "extract_dir": "google-cloud-sdk",
+    "bin": [
+        "bin\\gcloud.cmd",
+        "bin\\gsutil.cmd",
+        "bin\\bq.cmd",
+        "bin\\docker-credential-gcloud.cmd",
+        "bin\\git-credential-gcloud.cmd"
+    ],
+    "post_install": "gcloud init",
+    "checkver": {
+        "url": "https://cloud.google.com/sdk/docs/",
+        "re": "Install the latest Cloud SDK version \\(([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86-bundled-python.zip"
+            }
+        }
+    }
+}

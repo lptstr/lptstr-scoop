@@ -1,0 +1,21 @@
+{
+    "homepage": "https://geekuninstaller.com/",
+    "license": "Free for personnal use only",
+    "version": "1.4.5.132",
+    "url": "https://geekuninstaller.com/geek.7z",
+    "hash": "1896a8dceaa85933b99e4a84ec683671fa6c8fb61837ffdf7903859494bbc123",
+    "bin": "geek.exe",
+    "shortcuts": [
+        [
+            "geek.exe",
+            "Geek Uninstaller"
+        ]
+    ],
+    "checkver": {
+        "url": "https://geekuninstaller.com/download",
+        "re": "<b>([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://geekuninstaller.com/geek.7z"
+    }
+}

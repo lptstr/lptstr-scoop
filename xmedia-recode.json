@@ -1,0 +1,28 @@
+{
+    "homepage": "https://www.xmedia-recode.de/en/",
+    "version": "3.4.4.8",
+    "license": "Freeware",
+    "url": "https://www.xmedia-recode.de/download/XMediaRecode3448.zip",
+    "hash": "8d4cbfdaa0fcb3da0cab9c99dcc30e967ecfc33f36e6e34a9efc58015e4e5eb1",
+    "bin": "XMedia Recode.exe",
+    "shortcuts": [
+        [
+            "XMedia Recode.exe",
+            "XMedia Recode"
+        ]
+    ],
+    "extract_dir": "XMediaRecode3448",
+    "pre_install": "if(!(test-path $dir\\Fav.ini)) { write-host \"\" | out-file -encoding oem $dir\\Fav.ini }",
+    "persist": [
+        "XMediaRecode.ini",
+        "Fav.ini"
+    ],
+    "checkver": {
+        "url": "https://www.xmedia-recode.de/update/version.txt",
+        "re": "Version=([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://www.xmedia-recode.de/download/XMediaRecode$cleanVersion.zip",
+        "extract_dir": "XMediaRecode$cleanVersion"
+    }
+}

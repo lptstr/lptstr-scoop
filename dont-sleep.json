@@ -1,0 +1,44 @@
+{
+    "homepage": "https://www.softwareok.com/?Download=DontSleep",
+    "version": "4.91",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://www.softwareok.com/?seite=Microsoft/DontSleep/Eula"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://www.softwareok.com/Download/DontSleep_x64.zip",
+            "hash": "31a9975ae69470c01769ce7e87f91d09e24a56fc3ca9717a9c10ed9568949a90",
+            "shortcuts": [
+                [
+                    "DontSleep_x64.exe",
+                    "DontSleep"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://www.softwareok.com/Download/DontSleep.zip",
+            "hash": "bbb08f4dddd8306ed26897bf869cec8531a207425152823e8de3e7013a73acc6",
+            "shortcuts": [
+                [
+                    "DontSleep.exe",
+                    "DontSleep"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://www.softwareok.com/?seite=Microsoft/DontSleep/History",
+        "re": "version ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.softwareok.com/Download/DontSleep_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.softwareok.com/Download/DontSleep.zip"
+            }
+        }
+    }
+}

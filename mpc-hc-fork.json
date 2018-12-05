@@ -1,0 +1,50 @@
+{
+    "homepage": "https://github.com/clsid2/mpc-hc",
+    "version": "1.8.3",
+    "license": "GPL-3.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/clsid2/mpc-hc/releases/download/1.8.3/MPC-HC.1.8.3.x64.zip",
+            "hash": "1810b349092fafbf7084c0854be6341d4820c87d94c0a56d237121c56308e406",
+            "bin": [
+                "mpc-hc64.exe",
+                [
+                    "mpc-hc64.exe",
+                    "mpc-hc"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "mpc-hc64.exe",
+                    "MPC-HC x64"
+                ]
+            ]
+        },
+        "32bit": {
+            "url": "https://github.com/clsid2/mpc-hc/releases/download/1.8.3/MPC-HC.1.8.3.x86.zip",
+            "hash": "712c24ca4a3c12e2c77551b8df2cbfc0625dc343bb72c8ffc7c2df10258b559b",
+            "bin": [
+                "mpc-hc.exe"
+            ],
+            "shortcuts": [
+                [
+                    "mpc-hc.exe",
+                    "MPC-HC"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "github": "https://github.com/clsid2/mpc-hc"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/clsid2/mpc-hc/releases/download/$version/MPC-HC.$version.x86.zip"
+            }
+        }
+    }
+}

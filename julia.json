@@ -1,0 +1,55 @@
+{
+    "homepage": "https://julialang.org",
+    "version": "1.0.2",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x64/1.0/julia-1.0.2-win64.exe#/dl.7z",
+            "hash": "e7214b93184075cac20ec3a478bbe0fb4b7d9358f604e9f32768c2fd2f031877"
+        },
+        "32bit": {
+            "url": "https://julialang-s3.julialang.org/bin/winnt/x86/1.0/julia-1.0.2-win32.exe#/dl.7z",
+            "hash": "359cd3e28c57883993bb651d7e4f31e38f79395db92dc77394f1ba8f4cb98b1e"
+        }
+    },
+    "installer": {
+        "file": "julia-installer.exe",
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "uninstall.exe",
+        "args": "/S"
+    },
+    "env_set": {
+        "JULIA_HOME": "$dir\\bin",
+        "JULIA_EXE": "julia.exe",
+        "JULIA": "$dir\\bin\\julia.exe",
+        "JL_PRIVATE_LIB_DIR": "bin"
+    },
+    "bin": [
+        [
+            "bin\\julia.exe",
+            "julia"
+        ]
+    ],
+    "checkver": {
+        "url": "https://julialang.org/downloads/",
+        "re": "Current stable release \\(v([\\d.]+)\\)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x64/$majorVersion.$minorVersion/julia-$version-win64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://julialang-s3.julialang.org/bin/winnt/x86/$majorVersion.$minorVersion/julia-$version-win32.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "https://julialang-s3.julialang.org/bin/checksums/julia-$version.sha256"
+        }
+    }
+}

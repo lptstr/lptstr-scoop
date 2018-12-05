@@ -1,0 +1,55 @@
+{
+    "homepage": "https://www.erlang.org",
+    "version": "21.1",
+    "license": "Apache-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "http://erlang.org/download/otp_win64_21.1.exe",
+            "hash": "170c44850a3e4f0a5b510653b500f7a7b99337fbfb38d19a745f38869baa23a5"
+        },
+        "32bit": {
+            "url": "http://erlang.org/download/otp_win32_21.1.exe",
+            "hash": "9c8a48f6622325124795563a7d848f9d03bb3b9b011226886326245c05ffd92e"
+        }
+    },
+    "bin": [
+        "bin\\erl.exe",
+        "bin\\erlc.exe",
+        "bin\\escript.exe"
+    ],
+    "env_set": {
+        "ERLANG_HOME": "$dir"
+    },
+    "installer": {
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "uninstaller": {
+        "file": "Uninstall.exe",
+        "args": [
+            "/S"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.erlang.org/downloads",
+        "re": "DOWNLOAD\\s+OTP ([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "http://erlang.org/download/otp_win64_$version.exe"
+            },
+            "32bit": {
+                "url": "http://erlang.org/download/otp_win32_$version.exe"
+            }
+        }
+    },
+    "shortcuts": [
+        [
+            "bin\\werl.exe",
+            "Erlang"
+        ]
+    ]
+}

@@ -1,0 +1,37 @@
+{
+    "homepage": "https://ryochan7.github.io/ds4windows-site/",
+    "description": "Portable program that allows you to get the best experience while using a DualShock 4 on your PC.",
+    "version": "1.5.17",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v1.5.17/DS4Windows_1.5.17_x64.zip",
+            "hash": "e34e4d0556cb901c132ef6d798f644cbec7b8a91a76347a6f1da1284ede26734"
+        },
+        "32bit": {
+            "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v1.5.17/DS4Windows_1.5.17_x86.zip",
+            "hash": "2400fa2388320e7281975bd8c7ded01c6fabe03ac38b99d768afca38e9d9b7b6"
+        }
+    },
+    "bin": "DS4Windows.exe",
+    "extract_dir": "DS4Windows",
+    "post_install": "If (Test-Path \"$dir\\DS4Updater.exe\") { Remove-Item \"$dir\\DS4Updater.exe\" -Force }",
+    "shortcuts": [
+        [
+            "DS4Windows.exe",
+            "DS4Windows"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/Ryochan7/DS4Windows"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v$version/DS4Windows_$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Ryochan7/DS4Windows/releases/download/v$version/DS4Windows_$version_x86.zip"
+            }
+        }
+    }
+}

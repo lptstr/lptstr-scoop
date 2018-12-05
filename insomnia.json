@@ -1,0 +1,21 @@
+{
+    "version": "6.2.3",
+    "license": "MIT",
+    "url": "https://github.com/getinsomnia/insomnia/releases/download/v6.2.3/insomnia-6.2.3-full.nupkg#/dl.7z",
+    "homepage": "https://insomnia.rest",
+    "hash": "b2426f7dca7ec877506df84f4640e5f8197b54900daf12f643ad532b10faaf7d",
+    "extract_dir": "lib\\net45",
+    "shortcuts": [
+        [
+            "Insomnia.exe",
+            "Insomnia"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/getinsomnia/insomnia"
+    },
+    "autoupdate": {
+        "url": "https://github.com/getinsomnia/insomnia/releases/download/v$version/insomnia-$version-full.nupkg#/dl.7z",
+        "extract_dir": "lib\\net45"
+    }
+}

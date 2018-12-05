@@ -1,0 +1,48 @@
+{
+    "homepage": "https://nodejs.org",
+    "version": "11.3.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://nodejs.org/dist/v11.3.0/node-v11.3.0-win-x64.7z",
+            "hash": "a6a931e8c8f6dfd21f86da1ca14666a21069c4d033e39e734e787e4c50499bc6",
+            "extract_dir": "node-v11.3.0-win-x64"
+        },
+        "32bit": {
+            "url": "https://nodejs.org/dist/v11.3.0/node-v11.3.0-win-x86.7z",
+            "hash": "8369634a081e77b5e21344a8dd57add942c760a8d1193175d0ee88b91b8e1902",
+            "extract_dir": "node-v11.3.0-win-x86"
+        }
+    },
+    "persist": [
+        "bin",
+        "cache"
+    ],
+    "env_add_path": [
+        ".",
+        "bin"
+    ],
+    "post_install": [
+        "# Set npm prefix to install modules inside bin and npm cache so they persist",
+        "Set-Content -Value \"prefix=$persist_dir\\bin`ncache=$persist_dir\\cache\" -Path \"$dir\\node_modules\\npm\\npmrc\""
+    ],
+    "checkver": {
+        "url": "https://nodejs.org/dist/latest/",
+        "re": "node-v([\\d.]+)-x86.msi"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x64.7z",
+                "extract_dir": "node-v$version-win-x64"
+            },
+            "32bit": {
+                "url": "https://nodejs.org/dist/v$version/node-v$version-win-x86.7z",
+                "extract_dir": "node-v$version-win-x86"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/SHASUMS256.txt.asc"
+        }
+    }
+}

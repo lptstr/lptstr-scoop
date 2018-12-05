@@ -1,0 +1,49 @@
+{
+    "description": "Free, open-source and portable Python distribution for Windows",
+    "version": "3.6.7.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.6/3.6.7.0/WinPython64-3.6.7.0Zero.exe#/dl.7z",
+            "hash": "e52e2606f3a2f7d79fd9eac0701b144efe0832ecdcf7c5a2f3bf3aebba4e70c6",
+            "extract_dir": "python-3.6.7.amd64"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/winpython/WinPython_3.6/3.6.7.0/WinPython32-3.6.7.0Zero.exe#/dl.7z",
+            "hash": "8b6b22f36aecb80ce8b13212deb4bbba0e9a902ddd081d7c6288cf0f44e419be",
+            "extract_dir": "python-3.6.7"
+        }
+    },
+    "homepage": "https://winpython.github.io/",
+    "bin": [
+        "python.exe",
+        "pythonw.exe",
+        [
+            "python.exe",
+            "python3"
+        ]
+    ],
+    "env_add_path": [
+        "scripts"
+    ],
+    "checkver": {
+        "url": "https://winpython.github.io/md5_sha1.txt",
+        "re": "-([\\d.]+)Zero.exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython64-$versionZero.exe#/dl.7z",
+                "extract_dir": "python-$majorVersion.$minorVersion.$patchVersion.amd64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/winpython/WinPython_$majorVersion.$minorVersion/$version/WinPython32-$versionZero.exe#/dl.7z",
+                "extract_dir": "python-$majorVersion.$minorVersion.$patchVersion"
+            }
+        },
+        "hash": {
+            "url": "https://winpython.github.io/md5_sha1.txt",
+            "find": "([a-fA-F\\d]{64})\\s\\|\\s$basename"
+        }
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "homepage": "https://www.mercurial-scm.org/",
+    "version": "4.8",
+    "license": "GPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.mercurial-scm.org/release/windows/Mercurial-4.8-x64.exe",
+            "hash": "21812cf412b13cbb6f1ac0ca96ca047a9bdbfc2bcfb9d44cc6d85b16572f4837"
+        },
+        "32bit": {
+            "url": "https://www.mercurial-scm.org/release/windows/Mercurial-4.8.exe",
+            "hash": "2bf36cbd60af21600d9a296b8ec2d00131cbd92acbaf56511cb0d7de6e2a5910"
+        }
+    },
+    "innosetup": true,
+    "bin": "hg.exe",
+    "checkver": {
+        "url": "https://www.mercurial-scm.org/release/windows/latest.dat",
+        "re": "Mercurial-([\\d.]+).exe"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.mercurial-scm.org/release/windows/Mercurial-$version-x64.exe"
+            },
+            "32bit": {
+                "url": "https://www.mercurial-scm.org/release/windows/Mercurial-$version.exe"
+            }
+        }
+    }
+}

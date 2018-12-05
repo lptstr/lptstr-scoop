@@ -1,0 +1,43 @@
+{
+    "homepage": "https://atom.io/",
+    "version": "1.33.0",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/atom/atom/releases/download/v1.33.0/atom-x64-windows.zip",
+            "hash": "6e495dc96f059d96ec76058bdf1401cbe7df487e485d68438e4695ec459f0d67",
+            "extract_dir": "Atom x64"
+        },
+        "32bit": {
+            "url": "https://github.com/atom/atom/releases/download/v1.33.0/atom-windows.zip",
+            "hash": "bf8f6fba01f23006715321de2919b593a3f5833584304f110d27971310fa79a9",
+            "extract_dir": "Atom"
+        }
+    },
+    "extract_dir": "Atom",
+    "bin": [
+        "\\resources\\cli\\atom.cmd",
+        "\\resources\\app\\apm\\bin\\apm.cmd"
+    ],
+    "shortcuts": [
+        [
+            "atom.exe",
+            "Atom"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/atom/atom"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/atom/atom/releases/download/v$version/atom-x64-windows.zip",
+                "extract_dir": "Atom x64"
+            },
+            "32bit": {
+                "url": "https://github.com/atom/atom/releases/download/v$version/atom-windows.zip",
+                "extract_dir": "Atom"
+            }
+        }
+    }
+}

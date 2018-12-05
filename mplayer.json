@@ -1,0 +1,33 @@
+{
+    "version": "38117",
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r38117/mplayer-svn-38117-x86_64.7z",
+            "hash": "sha1:f740c876d171fb9151233fa38f98ee49dca363be",
+            "extract_dir": "mplayer-svn-38117-x86_64"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r38117/mplayer-svn-38117.7z",
+            "hash": "sha1:ac41557d8f2b5aeddaff74c17669f628bb7d8af4",
+            "extract_dir": "mplayer-svn-38117"
+        }
+    },
+    "homepage": "http://mplayerwin.sourceforge.net/",
+    "bin": [
+        "mencoder.exe",
+        "mplayer.exe"
+    ],
+    "checkver": "MPlayer r([\\d-]+)",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version-x86_64.7z",
+                "extract_dir": "mplayer-svn-$version-x86_64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version.7z",
+                "extract_dir": "mplayer-svn-$version"
+            }
+        }
+    }
+}

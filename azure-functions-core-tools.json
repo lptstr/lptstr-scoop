@@ -1,0 +1,28 @@
+{
+    "description": "Microsoft Azure Functions Core Tools",
+    "homepage": "https://github.com/Azure/azure-functions-core-tools",
+    "version": "2.3.148",
+    "license": "MIT",
+    "checkver": "github",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/2.3.148/Azure.Functions.Cli.win-x64.2.3.148.zip",
+            "hash": "20d591555d966e88242576dfd34ca880a96c0fa28114f716bcc460dd63e06d7b"
+        },
+        "32bit": {
+            "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/2.3.148/Azure.Functions.Cli.win-x86.2.3.148.zip",
+            "hash": "11b88d8edbbb1530a2d735f609c90fcdca36dbb60400c08fd0d4110d31d954ef"
+        }
+    },
+    "bin": "func.exe",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/$version/Azure.Functions.Cli.win-x64.$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Azure/azure-functions-core-tools/releases/download/$version/Azure.Functions.Cli.win-x86.$version.zip"
+            }
+        }
+    }
+}

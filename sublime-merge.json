@@ -1,0 +1,30 @@
+{
+    "homepage": "https://www.sublimemerge.com/",
+    "version": "1092",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.sublimetext.com/sublime_merge_build_1092_x64.zip",
+            "hash": "d7524c96e1516f9591b47cc07afad9501aa1f76606fa108db0803972a15d47d6"
+        }
+    },
+    "bin": "smerge.exe",
+    "persist": "Data",
+    "notes": "Sublime Merge may be downloaded and evaluated for free, however a license must be purchased for continued use. There is currently no enforced time limit for the evaluation. For more information please see https://www.sublimemerge.com/",
+    "shortcuts": [
+        [
+            "sublime_merge.exe",
+            "Sublime Merge"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.sublimemerge.com/download",
+        "re": "Version:</i>\\sBuild\\s([\\d]+)</p>"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://download.sublimetext.com/sublime_merge_build_$version_x64.zip"
+            }
+        }
+    }
+}

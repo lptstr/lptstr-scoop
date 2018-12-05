@@ -1,0 +1,50 @@
+{
+    "version": "0.12.1",
+    "homepage": "https://github.com/IBM-Bluemix/bluemix-cli-release",
+    "license": {
+        "identifier": "Proprietary",
+        "url": "https://console.ng.bluemix.net/docs/navigation/notices.html"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://clis.ng.bluemix.net/download/bluemix-cli/0.12.1/win64/archive#/dl.zip",
+            "hash": "sha1:96434ecad5b599fa0f189d0b18c3475546000ec6"
+        },
+        "32bit": {
+            "url": "https://clis.ng.bluemix.net/download/bluemix-cli/0.12.1/win32/archive#/dl.zip",
+            "hash": "sha1:11d4745475bd1cdff949a3eacf69906863fa1322"
+        }
+    },
+    "extract_dir": "IBM_Cloud_CLI",
+    "bin": [
+        "ibmcloud.exe",
+        [
+            "ibmcloud.exe",
+            "bluemix"
+        ],
+        [
+            "ibmcloud.exe",
+            "bx"
+        ],
+        "ibmcloud-analytics.exe"
+    ],
+    "env_set": {
+        "IBMCLOUD_HOME": "$dir\\config"
+    },
+    "persist": "config",
+    "post_install": "ibmcloud plugin update --all",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://clis.ng.bluemix.net/download/bluemix-cli/$version/win64/archive#/dl.zip"
+            },
+            "32bit": {
+                "url": "https://clis.ng.bluemix.net/download/bluemix-cli/$version/win32/archive#/dl.zip"
+            }
+        },
+        "hash": {
+            "url": "$url/checksum"
+        }
+    }
+}

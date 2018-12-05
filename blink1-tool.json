@@ -1,0 +1,14 @@
+{
+    "homepage": "https://blink1.thingm.com/",
+    "license": "CC-BY-SA-3.0",
+    "version": "2.0.1",
+    "url": "https://github.com/todbot/blink1-tool/releases/download/v2.0.1/blink1-tool-v2.0.1-windows-x86_64.zip",
+    "hash": "b77c7560fb431bfdb92848be22c9dcba52205342f1c4b5e5efb09991e7e1c096",
+    "bin": "blink1-tool.exe",
+    "checkver": {
+        "github": "https://github.com/todbot/blink1-tool"
+    },
+    "autoupdate": {
+        "url": "https://github.com/todbot/blink1-tool/releases/download/v$version/blink1-tool-v$version-windows-x86_64.zip"
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "homepage": "http://hainproject.github.io/hain/",
+    "version": "0.6.6",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/hainproject/hain/releases/download/v0.6.6/Hain-x64-v0.6.6.zip",
+            "hash": "f48e2d70d02bdbd4129d581428e5cf466768f5389e40c4c76435d48a71c5d421"
+        },
+        "32bit": {
+            "url": "https://github.com/hainproject/hain/releases/download/v0.6.6/Hain-ia32-v0.6.6.zip",
+            "hash": "49b08102e3e6015489f70ffc32a53518f6f674507de97f47b225cffd9ed5cf01"
+        }
+    },
+    "bin": "Hain.exe",
+    "shortcuts": [
+        [
+            "Hain.exe",
+            "Hain"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/hainproject/hain"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/hainproject/hain/releases/download/v$version/Hain-x64-v$version.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/hainproject/hain/releases/download/v$version/Hain-ia32-v$version.zip"
+            }
+        }
+    }
+}

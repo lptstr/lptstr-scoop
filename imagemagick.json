@@ -1,0 +1,49 @@
+{
+    "homepage": "https://www.imagemagick.org/script/index.php",
+    "license": "ImageMagick",
+    "version": "7.0.8-15",
+    "architecture": {
+        "64bit": {
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.8-15-portable-Q16-x64.zip",
+            "hash": "1bd5259c843a0b5a0d935a8b3e364091d8d1cdc045c28823aa080750a84f2622"
+        },
+        "32bit": {
+            "url": "https://www.imagemagick.org/download/binaries/ImageMagick-7.0.8-15-portable-Q16-x86.zip",
+            "hash": "9c6cfe8f36ae86efc09e41cc37da440ad545440db2d2c3645b271527c24f208c"
+        }
+    },
+    "depends": "ffmpeg",
+    "bin": [
+        "compare.exe",
+        "composite.exe",
+        "conjure.exe",
+        "convert.exe",
+        [
+            "convert.exe",
+            "imconvert"
+        ],
+        "dcraw.exe",
+        "hp2xx.exe",
+        "identify.exe",
+        "IMDisplay.exe",
+        "magick.exe",
+        "mogrify.exe",
+        "montage.exe",
+        "stream.exe"
+    ],
+    "checkver": "The current release is ImageMagick <a.*?>([0-9\\.p-]+)</a>",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://www.imagemagick.org/download/binaries/ImageMagick-$version-portable-Q16-x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.imagemagick.org/download/binaries/ImageMagick-$version-portable-Q16-x86.zip"
+            }
+        },
+        "hash": {
+            "mode": "rdf",
+            "url": "https://www.imagemagick.org/download/binaries/digest.rdf"
+        }
+    }
+}

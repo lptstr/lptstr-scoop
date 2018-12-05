@@ -1,0 +1,32 @@
+{
+    "version": "1.6.0",
+    "license": "MIT",
+    "url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v1.6.0/HackFontsWindowsInstaller.exe",
+    "homepage": "https://sourcefoundry.org/hack/",
+    "checkver": {
+        "github": "https://github.com/source-foundry/Hack-windows-installer"
+    },
+    "autoupdate": {
+        "url": "https://github.com/source-foundry/Hack-windows-installer/releases/download/v$version/HackFontsWindowsInstaller.exe"
+    },
+    "hash": "a408b54d3b08f9a120574a6da1f1c6bbf2af7e9803c50da49ef13090f5edcc67",
+    "installer": {
+        "file": "HackFontsWindowsInstaller.exe",
+        "args": [
+            "/VERYSILENT",
+            "/DIR=\"$dir\"",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART",
+            "/CLOSEAPPLICATIONS",
+            "/NORESTARTAPPLICATIONS"
+        ]
+    },
+    "uninstaller": {
+        "file": "unins000.exe",
+        "args": [
+            "/VERYSILENT",
+            "/SUPPRESSMSGBOXES",
+            "/NORESTART"
+        ]
+    }
+}

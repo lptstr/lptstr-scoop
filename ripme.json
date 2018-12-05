@@ -1,0 +1,16 @@
+{
+    "description": "Downloads image albums from various websites in bulk.",
+    "homepage": "https://github.com/RipMeApp/ripme",
+    "version": "1.7.71",
+    "license": "MIT",
+    "url": "https://github.com/RipMeApp/ripme/releases/download/1.7.71/ripme.jar",
+    "bin": "ripme.jar",
+    "suggest": {
+        "JRE": "java/oraclejre8"
+    },
+    "hash": "c34c6a40b471cd5cbdefdaadf6eacdad4c6b87ff12797daff7f2edc79b6fe176",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/RipMeApp/ripme/releases/download/$version/ripme.jar"
+    }
+}

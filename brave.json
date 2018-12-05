@@ -1,0 +1,45 @@
+{
+    "homepage": "https://brave.com",
+    "version": "0.25.2",
+    "license": {
+        "identifier": "Freeware",
+        "url": "https://github.com/brave/browser-laptop/blob/master/LICENSE.txt"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/0.25.2/winx64/brave-0.25.2-full.nupkg#/dl.7z",
+            "hash": "sha1:6283c5d4b195e9f8d75e0297f78b6b20625a2574"
+        },
+        "32bit": {
+            "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/0.25.2/winia32/brave-0.25.2-full.nupkg#/dl.7z",
+            "hash": "sha1:73c1b1983de5c4a69df756a0ea3ab17921c317ec"
+        }
+    },
+    "extract_dir": "lib\\net45",
+    "extract_to": "brave",
+    "bin": "brave\\Brave.exe",
+    "post_install": "Copy-Item -force \"$dir\\brave\\squirrel.exe\" \"$dir\\update.exe\"",
+    "shortcuts": [
+        [
+            "brave\\Brave.exe",
+            "Brave"
+        ]
+    ],
+    "checkver": {
+        "url": "https://laptop-updates.brave.com/1/releases/dev/$majorVersion.$minorVersion.0/winx64?accept_preview=false",
+        "jp": "$.version"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winx64/brave-$version-full.nupkg#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winia32/brave-$version-full.nupkg#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}

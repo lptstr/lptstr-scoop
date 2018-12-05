@@ -1,0 +1,44 @@
+{
+    "version": "2018.3",
+    "homepage": "https://www.jetbrains.com/pycharm/",
+    "url": "https://download.jetbrains.com/python/pycharm-community-2018.3.zip",
+    "hash": "083af4c9f99663e1699daa47707b060b898da025383ac5b1db5c8f96d231a684",
+    "env_add_path": "bin",
+    "notes": "Please restart your command line for changes to take effect.",
+    "architecture": {
+        "64bit": {
+            "bin": [
+                "bin\\pycharm64.exe",
+                [
+                    "bin\\pycharm64.exe",
+                    "pycharm"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "bin/pycharm64.exe",
+                    "IDEA PyCharm Community"
+                ]
+            ]
+        },
+        "32bit": {
+            "bin": "bin\\pycharm.exe",
+            "shortcuts": [
+                [
+                    "bin/pycharm.exe",
+                    "IDEA PyCharm Community"
+                ]
+            ]
+        }
+    },
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=PCC&latest=true&type=release",
+        "jp": "$..version"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/python/pycharm-community-$version.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}

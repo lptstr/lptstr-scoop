@@ -1,0 +1,28 @@
+{
+    "homepage": "https://winscp.net",
+    "license": "GPL-3.0-or-later",
+    "version": "5.13.5",
+    "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/5.13.5/WinSCP-5.13.5-Portable.zip",
+    "hash": "sha1:654b7eabeff3b506631f4303037b47db326b86ae",
+    "bin": "WinSCP.exe",
+    "persist": "winscp.ini",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\winscp.ini\")) {",
+        "    New-Item \"$dir\\winscp.ini\" -type file",
+        "    write-output \"[Configuration\\Interface]`r`nRandomSeedFile=.\\winscp.rnd\" | Out-File -encoding \"ASCII\" \"$dir\\winscp.ini\"",
+        "}"
+    ],
+    "checkver": {
+        "url": "https://winscp.net/eng/downloads.php",
+        "re": "WinSCP-([\\d.]+)-Portable\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/winscp/WinSCP/$version/WinSCP-$version-Portable.zip"
+    },
+    "shortcuts": [
+        [
+            "WinSCP.exe",
+            "WinSCP"
+        ]
+    ]
+}

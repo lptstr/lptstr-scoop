@@ -1,0 +1,39 @@
+{
+    "homepage": "https://www.henrypp.org/product/simplewall",
+    "license": "GPL-3.0-only",
+    "version": "2.3.10",
+    "url": "https://github.com/henrypp/simplewall/releases/download/v.2.3.10/simplewall-2.3.10-bin.zip#/dl.7z",
+    "hash": "4c3ef26c24f79caca73db38c04a10793ff3a38727c3dba89c6cee5c4b95675f5",
+    "architecture": {
+        "64bit": {
+            "extract_dir": "simplewall/64"
+        },
+        "32bit": {
+            "extract_dir": "simplewall/32"
+        }
+    },
+    "bin": [
+        [
+            "simplewall.exe",
+            "simplewall"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "simplewall.exe",
+            "simplewall"
+        ]
+    ],
+    "persist": "simplewall.ini",
+    "pre_install": "if(!(test-path \"$dir\\simplewall.ini\")) { Add-Content \"$dir\\simplewall.ini\" $null }",
+    "checkver": {
+        "github": "https://github.com/henrypp/simplewall",
+        "re": "simplewall-([\\d.]+)-bin.zip"
+    },
+    "autoupdate": {
+        "url": "https://github.com/henrypp/simplewall/releases/download/v.$version/simplewall-$version-bin.zip#/dl.7z",
+        "hash": {
+            "url": "$baseurl/simplewall-$version.sha256"
+        }
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "homepage": "https://etcher.io/",
+    "license": "Apache-2.0",
+    "version": "1.4.8",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/balena-io/etcher/releases/download/v1.4.8/balenaEtcher-Setup-1.4.8-x64.exe#/dl.7z",
+            "hash": "b8f8114cc2e106c2a9bd4b1855180f547b7da6ffbcb763c66a8d0d3a1655fb0c"
+        },
+        "32bit": {
+            "url": "https://github.com/balena-io/etcher/releases/download/v1.4.8/balenaEtcher-Setup-1.4.8-x86.exe#/dl.7z",
+            "hash": "d9efa763fbe6731ccba403496cf2db66b7fc616cebd40d979445fbe31d8b0f33"
+        }
+    },
+    "shortcuts": [
+        [
+            "balenaEtcher.exe",
+            "balenaEtcher"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/balena-io/etcher"
+    },
+    "pre_install": "extract_7zip \"$dir\\`$PLUGINSDIR\\app-*.7z\" \"$dir\"",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/balena-io/etcher/releases/download/v$version/balenaEtcher-Setup-$version-x64.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/balena-io/etcher/releases/download/v$version/balenaEtcher-Setup-$version-x86.exe#/dl.7z"
+            }
+        },
+        "hash": {
+            "url": "https://github.com/balena-io/etcher/releases/download/v$version/SHASUMS256.txt"
+        }
+    }
+}

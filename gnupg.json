@@ -1,0 +1,15 @@
+{
+    "homepage": "https://www.gnupg.org/",
+    "version": "2.2.11",
+    "license": "GPL-3.0",
+    "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-2.2.11_20181106.exe#/dl.7z",
+    "hash": "1e3fe08215b34f1ba71e7fb7856151db9167478cb9e8f21140801d776799bdfe",
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "https://www.gnupg.org/download/index.html",
+        "re": "gnupg-w32-(?<version>[\\d.]+)_(?<date>[\\d]{8}).exe"
+    },
+    "autoupdate": {
+        "url": "https://www.gnupg.org/ftp/gcrypt/binary/gnupg-w32-$version_$matchDate.exe#/dl.7z"
+    }
+}

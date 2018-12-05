@@ -1,0 +1,21 @@
+{
+    "homepage": "https://docs.microsoft.com/en-us/sql/azure-data-studio",
+    "version": "1.2.4",
+    "license": "MIT",
+    "bin": "bin\\azuredatastudio.cmd",
+    "shortcuts": [
+        [
+            "azuredatastudio.exe",
+            "Azure Data Studio"
+        ]
+    ],
+    "url": "https://github.com/Microsoft/azuredatastudio/releases/download/1.2.4/azuredatastudio-windows-1.2.4.zip",
+    "hash": "e9813eb642e1670f8b2006b3b63df107e2b9bac7ebf3fb16731d03a18d52d9f5",
+    "extract_dir": "azuredatastudio-windows",
+    "checkver": {
+        "github": "https://github.com/Microsoft/azuredatastudio"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Microsoft/azuredatastudio/releases/download/$version/azuredatastudio-windows-$version.zip"
+    }
+}
