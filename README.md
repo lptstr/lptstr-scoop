@@ -1,5 +1,5 @@
 
-<p align="center"><img src="https://kiedtl.surge.sh/img/open-scoop.jpg" alt="Open, open, open Scoop"/></p>
+<p align="center"><img src="https://kiedtl.surge.sh/img/open-scoop.png" alt="Open, open, open Scoop"/></p>
 <p align="center">
 <b><a href="https://github.com/Kiedtl/open-scoop#whats-this">What's this?</a></b>
 |
