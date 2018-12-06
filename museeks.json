@@ -1,0 +1,20 @@
+{
+    "homepage": "https://museeks.io/",
+    "version": "0.10.1",
+    "license": "MIT",
+    "url": "https://github-production-release-asset-2e65be.s3.amazonaws.com/31598574/69e05600-b2b3-11e8-8119-fbb971b5cddd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181206T181536Z&X-Amz-Expires=300&X-Amz-Signature=6daa3bf4e597c5b282937e8a7aaf6ba55dc3c93a637c104fe7c9fc4a82d7a26f&X-Amz-SignedHeaders=host&actor_id=32681240&response-content-disposition=attachment%3B%20filename%3Dmuseeks-setup.exe&response-content-type=application%2Foctet-stream",
+    "hash": "sha256:679c3573947e2f5254dee604f6e9654f084fcb1eebbd36cc608cf51c4ea0968b",
+    "bin": "museeks.exe",
+    "shortcuts": [
+        [
+            "museeks.exe",
+            "Museeks"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/martpie/museeks"
+    },
+    "autoupdate": {
+        "url": "https://github-production-release-asset-2e65be.s3.amazonaws.com/31598574/69e05600-b2b3-11e8-8119-fbb971b5cddd?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20181206%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20181206T181536Z&X-Amz-Expires=300&X-Amz-Signature=6daa3bf4e597c5b282937e8a7aaf6ba55dc3c93a637c104fe7c9fc4a82d7a26f&X-Amz-SignedHeaders=host&actor_id=32681240&response-content-disposition=attachment%3B%20filename%3Dmuseeks-setup.exe&response-content-type=application%2Foctet-stream"
+    }
+}

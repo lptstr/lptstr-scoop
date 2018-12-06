@@ -19,8 +19,8 @@
 <p align="center"><a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/badges/shields.svg" alt="Code-Size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/badges/shields.svg" alt="Repository size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-967-green.svg" alt="Apps in bucket" /></a>
-<a href="https://travis-ci.org/kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
-<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License" /></a>
+<a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
+<a href="https://github.com/kiedtl/open-scoop/blob/master/LICENSE"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License" /></a>
 </p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
  
 ### What's this? 
