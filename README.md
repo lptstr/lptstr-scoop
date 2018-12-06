@@ -23,7 +23,7 @@
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License" /></a>
 </p>
 
-# What's this? 
+## What's this? 
 The [Scoop](http://scoop.sh/) bucket for everything and anything
 
 This repository is a [Scoop](http://scoop.sh/) bucket for pretty much any Windows 7+-compatible application. Most of the application currently in the bucket were take from the Main and Extras Scoop buckets.
