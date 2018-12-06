@@ -1,7 +1,7 @@
 
-<p align="center"><img src="/doc/img/title2.png" alt="Spacemacs"/></p>
+<p align="center"><img src=""https://raw.githubusercontent.com/kiedtl/open-scoop/master/logos/open-scoop-nocolor.bmp alt="Open, open, open Scoop"/></p>
 <p align="center">
-<b><a href="https://github.com/Kiedtl/open-scoop#open-scoop">What's this?</a></b>
+<b><a href="https://github.com/Kiedtl/open-scoop#whats-this">What's this?</a></b>
 |
 <b><a href="https://github.com/Kiedtl/open-scoop#installation">Installation</a></b>
 |
@@ -16,20 +16,16 @@
 
 - - -
 
-<p align="center">
+<!--<p align="center">
 <a href="https://gitter.im/syl20bnr/spacemacs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://badges.gitter.im/Join Chat.svg" alt="Gitter"></a>
 <a href="https://travis-ci.org/syl20bnr/spacemacs"><img src="https://travis-ci.org/syl20bnr/spacemacs.svg" alt="Build Status"></a>
 <a href="https://waffle.io/syl20bnr/spacemacs"><img src="https://badge.waffle.io/syl20bnr/spacemacs.png?label=Merging...&title=Merging" alt="PR being merged"></a>
 <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESFVNPKP4Y742"><img src="https://img.shields.io/badge/Paypal-Donate-blue.svg" alt="Donate"></a>
 <a href="https://shop.spreadshirt.com/spacemacs-shop"><img src="https://img.shields.io/badge/Shop-T--Shirts-blue.svg" alt="Donate"></a>
 <a href="http://www.slant.co/topics/12/~what-are-the-best-programming-text-editors"><img src="https://img.shields.io/badge/Slant-Recommend-ff69b4.svg" alt="Recommend it"></a>
-</p>
+</p>-->
 
-- - -
-
-
-
-# Open-Scoop
+# What's this? 
 The [Scoop](http://scoop.sh/) bucket for everything and anything
 
 This repository is a [Scoop](http://scoop.sh/) bucket for pretty much any Windows 7+-compatible application. Most of the application currently in the bucket were take from the Main and Extras Scoop buckets.
