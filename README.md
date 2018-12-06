@@ -21,14 +21,14 @@
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-967-green.svg" alt="Apps in bucket" /></a>
 <a href="https://travis-ci.org/kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License" /></a>
-</p>
+</p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
 
-## What's this? 
+### What's this? 
 The [Scoop](http://scoop.sh/) bucket for everything and anything
 
 This repository is a [Scoop](http://scoop.sh/) bucket for pretty much any Windows 7+-compatible application. Most of the application currently in the bucket were take from the Main and Extras Scoop buckets.
 
-## Installation
+### Installation
 Make sure you have Scoop installed:
 ```powershell
 $ scoop help
@@ -56,21 +56,21 @@ $ scoop install 7zip git hub
 $ scoop install firefox
 ```
 
-## I want to add an app!
+### I want to add an app!
 No problem! Simply fork this repository and create a JSON file with the app manifest, 
 using the guide [here](https://github.com/lukesampson/scoop/wiki/App-Manifests). Once 
 you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, 
 add the homepage and/or the repository link also.
 
-### Requirements for adding an app
+#### Requirements for adding an app
 1. `Hello World` apps are not allowed.
 2. The app added MUST be the full version of the app, not a trial version (although exceptions are made to this rule - see `sublime-text.json`).
 3. There aren't any more requirements.
 
-## What sort of apps are allowed?
+### What sort of apps are allowed?
 Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM clients, terminals, file managers, text editors, IDEs, word processors (like LibreOffice or the Google Docs desktop app), music players, spreadsheet programs, anything.
 
-## List of application currenly in the bucket
+### List of application currenly in the bucket
 ```
     3rvx (2.9.2)
     7zip (18.05)
@@ -1038,7 +1038,5 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     zstd (1.3.7)
 ```
 
-## Acknowledgments
-Open-Scoop borrows heavily from the other two Scoop buckets, the main bucket and the 
-Scoop-Extras buckets - in fact, many, if not most of the manifests in this bucket came 
-those two repositories.
+### Acknowledgments
+Open-Scoop borrows heavily from the other two Scoop buckets, the main bucket an the Scoop-Extras bucket - in fact, many, if not most of the manifests in this bucket were borrowed from those two repositories.
