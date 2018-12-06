@@ -13,7 +13,6 @@
     "checkver": "github",
     "autoupdate": {
          "url": "https://github.com/jwilm/alacritty/releases/download/$version/Alacritty-$version.exe#/alacritty.exe"
-    }
+    },
     "post_install": "curl https://github.com/jwilm/alacritty/releases/download/$version/winpty-agent.exe -o $dir/winpty-agent.exe"
 }
-
