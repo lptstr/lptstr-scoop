@@ -1,0 +1,19 @@
+{
+    "homepage": "https://github.com/jwilm/alacritty/releases",
+    "description": "A fast, GPU based terminal emulator",
+    "depends": "curl",
+    "license": {
+        "identifier": "Apache-2.0",
+        "url": "https://raw.githubusercontent.com/jwilm/alacritty/master/LICENSE"
+    },
+    "version": "0.2.3",
+    "url": "https://github.com/jwilm/alacritty/releases/download/0.2.3/Alacritty-v2.3.0.exe#/alacritty.exe",
+    "hash": "sha256:7e038c13b3e102b23cf61bf283c78cc3d1b7a7e1aa1e0ada3860da9300017c84",
+    "bin": "alacritty.exe",
+    "checkver": "github",
+    "autoupdate": {
+         "url": "https://github.com/jwilm/alacritty/releases/download/$version/Alacritty-$version.exe#/alacritty.exe"
+    }
+    "post_install": "curl https://github.com/jwilm/alacritty/releases/download/$version/winpty-agent.exe -o $dir/winpty-agent.exe"
+}
+
