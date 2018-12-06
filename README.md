@@ -16,14 +16,14 @@
 
 - - -
 
-<!--<p align="center">
-<a href="https://gitter.im/syl20bnr/spacemacs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img src="https://badges.gitter.im/Join Chat.svg" alt="Gitter"></a>
-<a href="https://travis-ci.org/syl20bnr/spacemacs"><img src="https://travis-ci.org/syl20bnr/spacemacs.svg" alt="Build Status"></a>
-<a href="https://waffle.io/syl20bnr/spacemacs"><img src="https://badge.waffle.io/syl20bnr/spacemacs.png?label=Merging...&title=Merging" alt="PR being merged"></a>
-<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=ESFVNPKP4Y742"><img src="https://img.shields.io/badge/Paypal-Donate-blue.svg" alt="Donate"></a>
-<a href="https://shop.spreadshirt.com/spacemacs-shop"><img src="https://img.shields.io/badge/Shop-T--Shirts-blue.svg" alt="Donate"></a>
-<a href="http://www.slant.co/topics/12/~what-are-the-best-programming-text-editors"><img src="https://img.shields.io/badge/Slant-Recommend-ff69b4.svg" alt="Recommend it"></a>
-</p>-->
+<p align="center">
+
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/badges/shields.svg" alt="Code-Size"></a>
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/badges/shields.svg" alt="Repository size"></a>
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-967-green.svg" alt="Apps in bucket"></a>
+<a href="https://travis-ci.org/kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI"></a>
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/license/mashape/apistatus.svg" alt="License"></a>
+</p>
 
 # What's this? 
 The [Scoop](http://scoop.sh/) bucket for everything and anything
