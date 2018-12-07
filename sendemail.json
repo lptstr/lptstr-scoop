@@ -1,0 +1,14 @@
+{
+    "homepage": "http://caspian.dotconf.net/menu/Software/SendEmail/",
+    "version": "1.56",
+    "url": "http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v156.zip#/dl.7z",
+    "hash": "sha256:111364325e15db9ed830db60032f28ba1145b9bb83a05910675776ad93b8bd8d",
+    "bin": "sendEmail.exe",
+    "checkver": {
+        "url": "http://caspian.dotconf.net/menu/Software/SendEmail/",
+        "re": "sendEmail-v([\\d]+).zip"
+    },
+    "autoupdate": {
+        "url": "http://caspian.dotconf.net/menu/Software/SendEmail/sendEmail-v156.zip#/dl.7z"
+    }
+}
