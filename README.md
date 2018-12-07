@@ -18,7 +18,7 @@
 
 <p align="center"><a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/kiedtl/open-scoop.svg" alt="Code-Size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/kiedtl/open-scoop.svg" alt="Repository size" /></a>
-<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-976-green.svg" alt="Apps in bucket" /></a>
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-976-blue.svg" alt="Apps in bucket" /></a>
 <a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
 <a href="https://github.com/kiedtl/open-scoop/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kiedtl/open-scoop.svg" alt="License" /></a>
 </p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
