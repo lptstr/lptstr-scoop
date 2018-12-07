@@ -52,8 +52,8 @@ openscoop
 ```
 Now, try to install anything:
 ```
-$ scoop install 7zip git hub
-$ scoop install firefox
+$ scoop install genact alacritty process-explorer
+$ scoop install pychess
 ```
 
 ### I want to add an app!
