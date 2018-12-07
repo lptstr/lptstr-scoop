@@ -11,7 +11,7 @@
     "bin": "alacritty.exe",
     "checkver": "github",
     "autoupdate": {
-         "url": "https://github.com/jwilm/alacritty/releases/download/$version/Alacritty-$version.exe#/alacritty.exe"
+        "url": "https://github.com/jwilm/alacritty/releases/download/$version/Alacritty-$version.exe#/alacritty.exe"
     },
     "post_install": "invoke-webrequest https://github.com/jwilm/alacritty/releases/download/v$version/winpty-agent.exe -o $dir/winpty-agent.exe"
 }
