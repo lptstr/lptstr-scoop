@@ -9,7 +9,12 @@
     "url": "https://github.com/jwilm/alacritty/releases/download/v0.2.3/Alacritty-v0.2.3.exe#/alacritty.exe",
     "hash": "sha256:7e038c13b3e102b23cf61bf283c78cc3d1b7a7e1aa1e0ada3860da9300017c84",
     "bin": "alacritty.exe",
-"shortcuts":[["alacritty.exe","Alacritty"]],
+    "shortcuts": [
+        [
+            "alacritty.exe",
+            "Alacritty"
+        ]
+    ],
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/jwilm/alacritty/releases/download/$version/Alacritty-$version.exe#/alacritty.exe"
