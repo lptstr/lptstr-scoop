@@ -17,15 +17,15 @@ Set-Location scoop/proj/open-scoop/bin
 
 git pull
 
+$files = Get-ChildItem ../.\*.json
+$i = 1;
 Get-ChildItem ../.\*.json | Foreach-Object {
   $basename = $_.BaseName
-  $result = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename | Out-String
-  if ($result.endswith("autoupdate available")) {
-  	../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u
-  	git add $basename
-  	git commit -m "Auto-updated $basename"
-    Write-Output "Updated $basename"
-  }
+  Write-Progress -Activity "Updating application manifests" -status "Scanning $basename.json" -percentComplete ($i / $files.count * 100)
+  ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u
+  git add $basename
+  git commit -m "Auto-updated $basename"
+  $i++
 }
 
 Write-Output "Finished updating out-of-date apps"
