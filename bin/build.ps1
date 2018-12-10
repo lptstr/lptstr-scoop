@@ -28,6 +28,4 @@ Get-ChildItem ../.\*.json | Foreach-Object {
 }
 
 Write-Output "Finished updating app manifests"
-git pull
-git push origin master
 Set-Location ..
