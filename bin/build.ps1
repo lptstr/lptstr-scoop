@@ -23,7 +23,7 @@ Get-ChildItem ../.\*.json | Foreach-Object {
   $basename = $_.BaseName
   Write-Progress -Activity "Updating application manifests" -status "Scanning $basename.json" -percentComplete ($i / $files.count * 100)
   $out = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u | Out-String
-  git commit -q -a -m "Auto-updated $basename"
+  git commit -q -a -m "Auto-updated $basename" > log.txt
   $i++
 }
 
