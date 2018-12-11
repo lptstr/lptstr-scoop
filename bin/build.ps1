@@ -29,9 +29,12 @@ Get-ChildItem ../.\*.json | Foreach-Object {
 
 Set-Location ..
 
-$major = Get-Content versdat/major.txt
-$minor = Get-Content versdat/minor.txt
-$build = Get-Content versdat/build.txt
+$smajor = Get-Content versdat/major.txt
+$sminor = Get-Content versdat/minor.txt
+$sbuild = Get-Content versdat/build.txt
+$major = [int]$smajor
+$minor = [int]$sminor
+$build = [int]$sbuild
 
 if ($build -gt 255 -and $minor -lt 255) {
 	$minor++
@@ -46,20 +49,24 @@ else {
 	$build++
 }
 
-Set-Content -Path versdat/major.txt -Value $major
-Set-Content -Path versdat/minor.txt -Value $minor
-Set-Content -Path versdat/build.txt -Value $build
+$smajor = [string]$major
+$sminor = [string]$minor
+$sbuild = [string]$build
+
+Set-Content -Path versdat/major.txt -Value $smajor
+Set-Content -Path versdat/minor.txt -Value $sminor
+Set-Content -Path versdat/build.txt -Value $sbuild
 
 $accesstoken = Get-Content versdat/acctok.txt
 
 Write-Output "Finished updating app manifests"
-Write-Output "Creating GitHub release ${major}.${minor}.${build}"
+Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
 
-$version = "${major}.${minor}.${build}"
+$version = "${smajor}.${sminor}.${sbuild}"
 
 $DATA = '{"tag_name": "v$version","target_commitish": "master","name": "v$version","body": "Automatic release of v$version. Please see the README for installation information.","draft": false,"prerelease": false}'
 
-curl --data "$DATA" https://api.github.com/repos/kiedtl/open-scoop/releases?access_token=$accesstoken
+curl --data "$DATA" "https://api.github.com/repos/kiedtl/open-scoop/releases?access_token=$accesstoken"
 
 
 del log.txt
