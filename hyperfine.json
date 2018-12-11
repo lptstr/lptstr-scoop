@@ -1,0 +1,16 @@
+{
+    "homepage": "https://github.com/sharkdp/hyperfine",
+    "description": "A command-line benchmarking tool",
+    "license": {
+        "identifier": "MIT",
+        "url": "https://github.com/sharkdp/hyperfine/blob/master/LICENSE-MIT"
+    },
+    "version": "1.4.0",
+    "url": "https://github.com/sharkdp/hyperfine/releases/download/v1.4.0/hyperfine-v1.4.0-x86_64-pc-windows-msvc.zip#/hyperfine.zip",
+    "hash": "sha256:5d993dc621f71ea3d13d0d9f48bc083d3b1cb3325e87f248aa0f58f58b0d19b4",
+    "bin": "hyperfine.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "url": "https://github.com/sharkdp/hyperfine/releases/download/v$version/hyperfine-v$version-x86_64-pc-windows-msvc.zip#/hyperfine.zip"
+    }
+}
