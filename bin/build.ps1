@@ -101,4 +101,4 @@ $latestcommit = git rev-parse HEAD
 git tag -a -m "Automatically_added_tag_$version" "v$version" $latestcommit 
 
 Write-Output "`a"
-Remove-Item log.txt
+Remove-Item bin/log.txt
