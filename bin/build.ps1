@@ -64,9 +64,6 @@ Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
 
 $version = "${smajor}.${sminor}.${sbuild}"
 
-$DATA = '{"tag_name": "v$version","target_commitish": "master","name": "v$version","body": "Automatic release of v$version. Please see the README for installation information.","draft": false,"prerelease": false}'
-
-curl --data "$DATA" "https://api.github.com/repos/kiedtl/open-scoop/releases?access_token=$accesstoken"
-
+git tag -a -m "Automatically_added_version_$version" "v$version" 94f43c8d8306aa649fb812091d8eb2b65d26bcbe
 
 del log.txt
