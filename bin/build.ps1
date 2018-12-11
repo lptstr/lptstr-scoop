@@ -29,3 +29,4 @@ Get-ChildItem ../.\*.json | Foreach-Object {
 
 Write-Output "Finished updating app manifests"
 Set-Location ..
+del log.txt
