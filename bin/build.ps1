@@ -37,7 +37,7 @@ if ($build -gt 255 -and $minor -lt 255) {
 	$minor++
 	$build = 0
 }
-else if ($build -gt 255 -and $minor -gt 255) {
+elseif ($build -gt 255 -and $minor -gt 255) {
 	$build = 0
 	$minor = 0
 	$major++
