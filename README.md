@@ -17,29 +17,27 @@
 - - -
 <p align="center"><a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/kiedtl/open-scoop.svg" alt="Code-Size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/kiedtl/open-scoop.svg" alt="Repository size" /></a>
-<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-976-yellow.svg" alt="Apps in bucket" /></a>
+<a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-977-yellow.svg" alt="Apps in bucket" /></a>
  <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/lines%20of%20code-34000%2B-yellow.svg" alt="Lines of code" /></a> <a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
 <a href="https://github.com/kiedtl/open-scoop/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kiedtl/open-scoop.svg" alt="License" /></a>
 </p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
  
 ### What's this? 
-The [Scoop](http://scoop.sh/) bucket for everything and anything
-
-This repository is a [Scoop](http://scoop.sh/) bucket for pretty much any Windows 7+-compatible application. Most of the application currently in the bucket were take from the Main and Extras Scoop buckets.
+This repository is a [Scoop](http://scoop.sh/) bucket for pretty much any Windows application. CLI-utilities, such as `genact`, `hyperfine`, `fd`, or `alacritty` are especially encouraged. Open-Scoop currently has about 975+ apps in the bucket, which means that adding the bucket can take longer that other buckets (less than two minutes for Scoop to clone the repository).
 
 ### Installation
 Make sure you have Scoop installed:
 ```powershell
-$ scoop help
+$ scoop which scoop
 ```
 
-If Scoop is **not** installed, run the follwing code in Powershell:
+If Scoop is **not** installed, run the follwing code in Powershell (`powershell.exe` or `pwsh.exe`):
 ```powershell
 $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-$ Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://get.scoop.sh")
+$ Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://get.scoop.sh"
 ```
 
-Then, add this bucket to Scoop:
+Then, add this repository as a bucket to Scoop:
 ```powershell
 $ scoop bucket add openscoop http://github.com/kiedtl/open-scoop.git
 $ scoop bucket list
@@ -47,19 +45,33 @@ $ scoop bucket list
 If this bucket was correctly installed, you should see the following output:
 ```
 $ scoop bucket list
+extras
+norsoft
+...
+
 openscoop
 ```
-Now, try to install anything:
+Now, try to install anything in this bucket:
 ```
 $ scoop install genact alacritty process-explorer
-$ scoop install pychess
+$ scoop install pychess firefox 
+$ scoop install cloc gitkraken chromium hyperfine sendemail
+```
+
+You can list all of the application in this bucket via the command-line
+```powershell
+$ scoop search
+```
+
+You can also search for an application in this repository without ever leaving the terminal by executing the following:
+```powershell
+$ scoop search <blah>
 ```
 
 ### I want to add an app!
-No problem! Simply fork this repository and create a JSON file with the app manifest, 
-using the guide [here](https://github.com/lukesampson/scoop/wiki/App-Manifests). Once 
-you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, 
-add the homepage and/or the repository link also.
+No problem! Simply fork this repository and create a JSON file with the app manifest, using the guide [here](https://github.com/lukesampson/scoop/wiki/App-Manifests). Once you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, add the homepage and/or the repository link also. 
+
+If you are adding a CLI utility that is hosted on GitHub and that is offered as a single, portable, standalone EXE, see the `genact.json` file for an example. If the application is an application on GitHub that need one or more files available on the internet to work properly, see the [Alacritty manifest](https://github.com/Kiedtl/open-scoop/blob/be9fb4a6b72ae6b436512dad6336f598ed154c64/alacritty.json#L22) for an example of how this can be worked around. 
 
 #### Requirements for adding an app
 1. `Hello World` apps are not allowed.
@@ -67,11 +79,11 @@ add the homepage and/or the repository link also.
 3. There aren't any more requirements.
 
 ### What sort of apps are allowed?
-Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM clients, terminals, file managers, text editors, IDEs, word processors (like LibreOffice or the Google Docs desktop app), music players, spreadsheet programs, anything.
+Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM clients, terminals, file managers, text editors, IDEs, word processors (like LibreOffice or the Google Docs desktop app), music players, games, spreadsheet programs, anything. Apps that can be used to websites, such as Windows version of `wpscan`or other utilities like `XerXes` and viruses aren't allowed.
 
 ### List of application currenly in the bucket
 ```
-    3rvx (2.9.2)
+   3rvx (2.9.2)
     7zip (18.05)
     ack (2.24)
     acmesharp (0.8.1.0)
@@ -83,11 +95,11 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     alacritty (0.2.3)
     allure (2.8.1)
     altools (1.0)
-    ammonite (1.4.4)
+    ammonite (1.5.0)
     anaconda3 (5.3.1)
     android-sdk (4333796)
     android-studio (3.2.1.0)
-    anki (2.1.5)
+    anki (2.1.6)
     annie (0.8.5)
     ant (1.10.5)
     antimicro (2.23)
@@ -99,7 +111,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     apngasm (3.0.0)
     appengine-go (1.9.70)
     archi (4.3)
-    archwsl (18102700)
+    archwsl (18120900)
     arduino (1.8.8)
     aria2 (1.34.0-1)
     armclient (1.3)
@@ -115,7 +127,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     autohotkey (1.1.30.01)
     autoit (3.3.14.5)
     awake (1.4.2)
-    aws (1.16.71)
+    aws (1.16.72)
     axel (2.4)
     axis (1.4)
     azure-cli (2.0.52)
@@ -136,16 +148,16 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     bitwarden (1.11.2)
     bleachbit (2.0)
     blender (2.79b)
-    blink1-tool (2.0.1)
+    blink1-tool (2.0.2)
     blink1control2 (2.2.0)
     blisk (10.1.262.114)
     bochs (2.6.9)
     boostnote (0.11.11)
     boot-clj (2.7.2)
     brackets (1.13)
-    brave (0.25.2)
+    brave (0.26.0)
     brotli (1.0.7_1)
-    buffalo (0.13.9)
+    buffalo (0.13.10)
     bulk-crap-uninstaller (4.12.1)
     busybox (2358-g25a1bcec7)
     bzip2 (1.0.6)
@@ -167,7 +179,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     chefdk (3.5.13)
     chrlauncher (2.5.3)
     chroma (0.6.0)
-    chromedriver (2.44)
+    chromedriver (2.45)
     chromium-dev-nosync (68.0.3424.0-r556419)
     chromium-dev (72.0.3615.0-r609145)
     chromium-nosync (67.0.3396.99-r550428)
@@ -184,7 +196,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     cmder (1.3.10)
     cmdow (1.4.8)
     cobalt (0.14.0)
-    cockroachdb (2.1.1)
+    cockroachdb (2.1.2)
     codetrack (1.0.3.3)
     colortool (1810.02002)
     composer (1.8.0)
@@ -196,7 +208,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     coretemp (1.12.1)
     coreutils (5.97.3)
     cowsay (0.2013.07.19)
-    cppcheck (1.85)
+    cppcheck (1.86)
     cpu-z (1.87)
     craft (april-2013)
     crystaldiskinfo (8.0.0)
@@ -218,7 +230,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     dartium-dev (1.25.0-dev.6.0)
     dartium (1.24.2)
     datamash (1.3)
-    dbeaver (5.2.5)
+    dbeaver (5.3.0)
     dbvis (10.0.16)
     dd (0.6beta3)
     ddev (1.4.1)
@@ -227,7 +239,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     debugviewpp (1.8.0.34)
     defraggler (2.22.995)
     deluge (1.3.15)
-    deno (0.2.1)
+    deno (0.2.2)
     dep (0.5.0)
     dependencies (1.9)
     depends (2.2)
@@ -262,7 +274,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     doxygen (1.8.14)
     draft (0.16.0)
     drone (1.0.4)
-    ds4windows (1.5.17)
+    ds4windows (1.5.18)
     duplicacy (2.1.2)
     eagleget-portable (2.0.4.80)
     easyrsa (3.0.5)
@@ -296,7 +308,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     emacs (26.1)
     enpass (5.6.9)
     enso (0.4.2)
-    erlang (21.1)
+    erlang (21.2)
     etcher-cli (1.4.8)
     etcher (1.4.8)
     etlas (1.5.0.0)
@@ -313,7 +325,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     fastglacier (3.9.1)
     fciv (2.05)
     fd (7.2.0)
-    ffmpeg-nightly (20181206-b44a571)
+    ffmpeg-nightly (20181211-876ed08)
     ffmpeg (4.1)
     fiddler (5.0.20182.28034)
     figlet (1.0-go)
@@ -323,17 +335,17 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     findutils (4.4.2)
     firefox-beta (nightly)
     firefox-developer (nightly)
-    firefox-esr (60.3.0)
+    firefox-esr (60.4.0)
     firefox-nightly (nightly)
     firefox (63.0.3)
     firewallappblocker (1.6)
     flatc (1.10.0)
-    flow (0.87.0)
+    flow (0.88.0)
     flutter (0.10.2)
     flux (4.84)
     flyway (5.2.4)
-    fmedia (1.2)
-    fnproject (0.5.34)
+    fmedia (1.3)
+    fnproject (0.5.35)
     fnr (1.8.1)
     fontforge (20170731-r2)
     foobar2000-encoders (2018-10-19)
@@ -376,10 +388,10 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     git-sizer (1.3.0)
     git-town (7.2.0)
     git-up (1.6.0)
-    git-with-openssh (2.19.1.windows.1)
-    git (2.19.1.windows.1)
+    git-with-openssh (2.20.0.windows.1)
+    git (2.20.0.windows.1)
     git19 (1.9.5-preview20150319)
-    gitea (1.6.0)
+    gitea (1.6.1)
     gitextensions (2.51.05)
     github (1.5.0)
     gitignore (0.2018.08.04)
@@ -407,12 +419,12 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     gow (0.8.0)
     gpg (2.2.11)
     gpg4win (3.1.5)
-    gpu-z (2.15.0)
+    gpu-z (2.16.0)
     gradle-bin (5.0)
     gradle (5.0)
-    grafana (5.4.0)
+    grafana (5.4.1)
     grails (3.3.9)
-    graphicsgale (2.08.18)
+    graphicsgale (2.08.19)
     graphicsmagick-q16 (1.3.31)
     graphicsmagick-q8 (1.3.31)
     graphviz (2.38)
@@ -434,7 +446,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     haskellx (7.8.3)
     haxe (3.4.7)
     heidisql (9.5)
-    helm (2.11.0)
+    helm (2.12.0)
     helmfile (0.40.3)
     heroku-cli (nightly)
     hexchat (2.14.2)
@@ -442,13 +454,14 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     honeyview (5.31)
     hostsman (4.7.105)
     httrack (3.49.2)
-    hub (2.6.0)
+    hub (2.6.1)
     hugo (0.52)
     hwinfo (5.92-3580)
     hwmonitor (1.38)
     hxd (2.1.0.0)
     hygen (1.6.4)
     hyper (2.0.0)
+    hyperfine (1.4.0)
     ibmcloud-cli (0.12.1)
     iconv (1.14-3)
     idea-eap (183.4139.22)
@@ -459,7 +472,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     ie11webdriver (3.14.0)
     ilspy (3.2.0.3856)
     imageglass (5.5.7.26)
-    imagemagick (7.0.8-15)
+    imagemagick (7.0.8-16)
     imgburn (2.5.8.0)
     inadyn-mt (02.28.10)
     inboxer (1.2.1)
@@ -551,7 +564,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     love (11.2)
     lua (5.1.5-52)
     lunacy (3.12)
-    lxrunoffline (3.3.1)
+    lxrunoffline (3.3.2)
     lynx (2.8.9rel.1)
     lzip (1.20)
     madvr (0.92.17)
@@ -563,8 +576,8 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     maven (3.6.0)
     mc (4.8.19)
     MediaCreationTool (10.0.17763.1)
-    mediainfo-gui (18.08.1)
-    mediainfo (18.08.1)
+    mediainfo-gui (18.12)
+    mediainfo (18.12)
     megasync (3.7.1.0)
     meld (3.18.3)
     mercurial (4.8.1)
@@ -572,10 +585,10 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     micro (1.4.1)
     microsip (3.19.8)
     mill (0.3.5)
-    mingit-busybox (2.19.1.windows.1)
-    mingit (2.19.1.windows.1)
+    mingit-busybox (2.20.0.windows.1)
+    mingit (2.20.0.windows.1)
     miniconda3 (4.5.11)
-    minikube (0.30.0)
+    minikube (0.31.0)
     minio-client (2018-12-05T22-59-07Z)
     minio (2018-12-06T01-27-43Z)
     minishift (1.28.0)
@@ -632,7 +645,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     nimbletext (2.9.1.36018)
     ninja (1.8.2)
     nircmd (2.81)
-    nirlauncher (1.20.63)
+    nirlauncher (1.20.64)
     nmap (7.70)
     node-chakracore (10.13.0)
     node-compiler (1.5.0)
@@ -643,15 +656,15 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     notepad2 (4.2.25)
     notepadplusplus-pm (1.4.12)
     notepadplusplus (7.6)
-    now-cli (12.1.9)
+    now-cli (12.1.11)
     nsis (3.03)
     nssm (2.24)
     nteract (0.12.3)
-    nuget-package-explorer (5.0.90)
+    nuget-package-explorer (5.0.116)
     nuget (4.8.1)
     nvm (1.1.7)
-    nwjs-sdk (0.35.0)
-    nwjs (0.35.0)
+    nwjs-sdk (0.35.1)
+    nwjs (0.35.1)
     obs-studio-small (21.1.2)
     obs-studio (22.0.2)
     ocenaudio (3.5.4)
@@ -719,7 +732,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     posh-docker (0.7.0)
     posh-git (0.7.1)
     postgresql (11.1)
-    postman (6.6.0)
+    postman (6.6.1)
     potrace (1.15)
     powerping (1.2.0)
     powertab (1.1.0)
@@ -826,7 +839,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     seqcli (5.0.165)
     serve (0.2.1)
     servicebusexplorer (4.0.110)
-    sfk (1.9.3.3)
+    sfk (1.9.3.4)
     shadowsocks (4.1.2)
     shadowsocksr-csharp (4.9.0)
     sharex (12.3.1)
@@ -835,7 +848,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     shellcheck (0.6.0)
     shim (0.2013.11.19)
     shinjiru (3.3.2)
-    signal (1.18.1)
+    signal (1.19.0)
     simplewall (2.3.10)
     skaffold (0.19.0)
     slack (3.3.3)
@@ -867,7 +880,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     ssh-copy-id (2015-03-22)
     sslscan (1.11.11)
     stack (1.9.3)
-    station (1.31.2)
+    station (1.31.3)
     steam-library-manager (1.5.0.12)
     steam (nightly)
     steamcmd (1532461524)
@@ -883,7 +896,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     subtitleedit (3.5.7)
     sudo (0.2018.08.04)
     sumatrapdf (3.1.2)
-    sunsetscreen (1.28)
+    sunsetscreen (1.30)
     svcat (0.1.38)
     svtplay-dl (2.1)
     sweethome3d (6.0)
@@ -895,15 +908,15 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     sysinternals (July.5.2018)
     taiga (1.3.1)
     tar (1.23)
-    task (2.2.0)
+    task (2.2.1)
     tcc (0.9.26)
     tcpipmanager (4.1.1)
     teamspeak3 (3.2.3)
     teamviewer (14.0.13880)
-    telegram (1.4.3)
+    telegram (1.5.1)
     telnet (msys-inetutils-1.7-1)
     terminals (4.0.1)
-    terminus (1.0.1)
+    terminus (1.0.65)
     terraform (0.11.10)
     terragrunt (0.17.3)
     tesseract (4.0.0.20181030)
@@ -912,13 +925,13 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     textadept (10.2)
     texteditoranywhere (2.01)
     thrift (0.11.0)
-    thunderbird (60.3.2)
+    thunderbird (60.3.3)
     tidy (5.6.0)
     time (0.2018.08.04)
     todolist (7.1.5.0)
     tomcat (9.0.12)
-    tor-browser (8.0.3)
-    tor-expert (0.3.4.8)
+    tor-browser (8.0.4)
+    tor-expert (0.3.4.9)
     tortoisemerge (1.6.7)
     tortoisesvn (1.11.0.28416)
     totalcommander (9.21a)
@@ -927,12 +940,12 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     transmission-cli (2.94)
     transmission (2.94)
     tremulous (1.3.0-alpha.0.13)
-    trid (2.24-18.12.07)
+    trid (2.24-18.12.11)
     tunnel (0.2.12)
     tup (0.7.8)
     UIforETW (1.50)
     unar (1.8.1)
-    unbound (1.8.2)
+    unbound (1.8.3)
     uncap (0.2.2)
     uncrustify (0.68.1)
     unetbootin (661)
@@ -941,7 +954,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     unlocker (1.9.0)
     unrar (5.61)
     unzip (6.00)
-    up (0.8.0)
+    up (0.8.1)
     upx (3.95)
     usql (0.7.0)
     util-linux-ng (2.14.1)
@@ -957,7 +970,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     vcredist2017 (14.10.25008)
     vcxsrv (1.20.1.4)
     vifm (0.10)
-    vim (8.1.0565)
+    vim (8.1.0576)
     vimtutor (0.2018.08.04)
     visual-arm-emulator (1.27)
     visualc (16.00.30319.01)
@@ -974,7 +987,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     warp (0.3.0)
     watchexec (1.9.2)
     watchman-nightly (nightly)
-    wavebox (4.5.3)
+    wavebox (4.5.5)
     webpicmd (4.5)
     webstorm (2018.3.1)
     webtorrent (0.20.0)
@@ -1031,7 +1044,7 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     yasm (1.3.0)
     yatqa (3.9.5)
     youtube-dl-gui (0.4)
-    youtube-dl (2018.12.03)
+    youtube-dl (2018.12.09)
     yubico-piv-tool (1.6.2)
     yubikey-manager-qt (0.5.2)
     yubikey-personalization-gui (3.1.25)
@@ -1046,7 +1059,77 @@ Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM client
     zola (0.5.0)
     zookeeper (3.4.13)
     zstd (1.3.7)
+
+'versions' bucket:
+    7zip-beta (18.03)
+    7zip-zstd (17.01-v1.3.2-R1)
+    ant19 (1.9.13)
+    apache24 (2.4.37)
+    atom18 (1.8.0-beta3)
+    chromium-dev70 (70.0.3518.0-r581881)
+    elasticsearch1 (1.7.6)
+    elasticsearch2 (2.4.6)
+    elasticsearch5 (5.6.13)
+    flow030 (v0.30.0)
+    flow031 (v0.31.0)
+    gcc45 (4.5.2)
+    gradle4 (4.10.3)
+    hub23 (2.3.0-pre9)
+    love0.10.0 (0.10.0)
+    love0.10.1 (0.10.1)
+    love0.10.2 (0.10.2)
+    love0.6.2 (0.6.2)
+    love0.7.0 (0.7.0)
+    love0.7.1 (0.7.1)
+    love0.7.2 (0.7.2)
+    love0.8.0 (0.8.0)
+    love0.9.0 (0.9.0)
+    love0.9.1 (0.9.1)
+    love0.9.2 (0.9.2)
+    lynx283 (2.8.3)
+    mongodb34 (3.4-latest)
+    mysql56 (5.6.42)
+    mysql57 (5.7.24)
+    nodejs010 (0.10.48)
+    nodejs012 (0.12.18)
+    nodejs4 (4.9.1)
+    nodejs6 (6.15.1)
+    nodejs7 (7.10.1)
+    nodejs8 (8.14.0)
+    nodejs9 (9.11.2)
+    nuget3 (3.5.0)
+    openssl10x (1.0.2q)
+    phantomjs19 (1.9.8)
+    php54 (5.4.45)
+    php55-xdebug (2.5.5-5.5)
+    php55 (5.5.38)
+    php56-xdebug (2.5.5-5.6)
+    php56 (5.6.39)
+    php70-xdebug (2.6.1-7.0)
+    php70 (7.0.33)
+    php71-xdebug (2.6.1-7.1)
+    php71 (7.1.25)
+    php72-xdebug (2.6.1-7.2)
+    php72 (7.2.13)
+    postgresql10 (10.5)
+    premake4 (4.4-b5)
+    premake5 (5.0.0-alpha13)
+    python-beta (3.7.0)
+    python27 (2.7.15)
+    python35 (3.5.4)
+    python36 (3.6.7)
+    ruby19 (1.9.3-p551)
+    sbt0.13 (0.13.16)
+    springboot15 (1.5.18)
+    tesseract3 (3.05.02-20180621)
+    tesseract4 (4.0.0.20181030)
+    tomcat6 (6.0.53)
+    tomcat7 (7.0.90)
+    tomcat80 (8.0.53)
+    tomcat85 (8.5.33)
+    zip-beta (3.1d26)
 ```
 
 ### Acknowledgments
-Open-Scoop borrows heavily from the other two Scoop buckets, the main bucket an the Scoop-Extras bucket - in fact, many, if not most of the manifests in this bucket were borrowed from those two repositories.
+Lots of thanks to the maintainers of the Scoop Extras bucket and the 
+Scoop repository, from where I stole a lot of things.
