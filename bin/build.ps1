@@ -57,6 +57,8 @@ Get-ChildItem ../.\*.json | Foreach-Object {
 
 Add-Content -Path "../APPLIST.md" -Value "`r`nThis file was automatically generated." -NoNewline
 
+git add ../APPLIST.md
+git commit -q -m "Automatically updated APPLIST.md"
 
 # Commit and tagging
 
