@@ -15,7 +15,7 @@
         "github": "https://github.com/todbot/Blink1Control2"
     },
     "autoupdate": {
-        "url": "https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win.zip",
+        "url": "https://github.com/todbot/Blink1Control2/releases/download/v$version/Blink1Control2-$version-win-ia32.zip",
         "hash": {
             "url": "$baseurl/latest.yml",
             "find": "sha2:\\s+([a-fA-F\\d]{64})"
