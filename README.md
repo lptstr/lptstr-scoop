@@ -82,7 +82,7 @@ If you are adding a CLI utility that is hosted on GitHub and that is offered as 
 Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM clients, terminals, file managers, text editors, IDEs, word processors (like LibreOffice or the Google Docs desktop app), music players, games, spreadsheet programs, anything. Apps that can be used to websites, such as Windows version of `wpscan`or other utilities like `XerXes` and viruses aren't allowed.
 
 ### List of application currenly in the bucket
-**Note**: this list may be outdated. See APPLIST.md for a complete, up-to-date listing of apps.
+**Note**: this list is outdated. See [Applist.md](APPLIST.md) for a complete, up-to-date listing of all application in this bucket.
 ```
    3rvx (2.9.2)
     7zip (18.05)
