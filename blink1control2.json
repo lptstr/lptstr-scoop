@@ -1,9 +1,9 @@
 {
     "homepage": "https://blink1.thingm.com/",
     "license": "Apache-2.0",
-    "version": "2.2.0",
-    "url": "https://github.com/todbot/Blink1Control2/releases/download/v2.2.0/Blink1Control2-2.2.0-win.zip",
-    "hash": "dbf477ff24bbff9a816e4b324ff70efe59891f04db9d92ad930bf68a51958ceb",
+    "version": "2.2.1",
+    "url": "https://github.com/todbot/Blink1Control2/releases/download/v2.2.1/Blink1Control2-2.2.1-win-ia32.zip",
+    "hash": "551dfdc654dbe983d617e8c13222ff6065041f7b20990ef82c65510bfd006167",
     "bin": "Blink1Control2.exe",
     "shortcuts": [
         [
