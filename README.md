@@ -79,7 +79,7 @@ If the application is an application on GitHub that need one or more files avail
 3. There aren't any more requirements.
 
 ### List of application currenly in the bucket
-**Note**: this list may be outdated. See APPLIST.md for a complete, up-to-date listing of apps.
+**Note**: this list is outdated. See [Applist.md](APPLIST.md) for a complete, up-to-date listing of all application in this bucket.
 ```
    3rvx (2.9.2)
     7zip (18.05)
