@@ -5,7 +5,7 @@
         "url": "https://github.com/archimatetool/archi/blob/master/License.txt"
     },
     "description": "Archi® is a free, open source, cross-platform tool and editor to create ArchiMate models.",
-    "version": "4.3",
+    "version": "4.3.1",
     "architecture": {
         "64bit": {
             "url": "https://www.archimatetool.com/downloads/root43/Archi-Win64-4.3.zip",
@@ -24,10 +24,10 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://www.archimatetool.com/downloads/root$cleanVersion/Archi-Win64-$version.zip"
+                "url": "https://www.archimatetool.com/downloads/$version/Archi-Win64-$version.zip"
             },
             "32bit": {
-                "url": "https://www.archimatetool.com/downloads/root$cleanVersion/Archi-Win32-$version.zip"
+                "url": "https://www.archimatetool.com/downloads/$version/Archi-Win32-$version.zip"
             }
         },
         "hash": {
