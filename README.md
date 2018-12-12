@@ -7,8 +7,6 @@
 |
 <b><a href="https://github.com/Kiedtl/open-scoop#i-want-to-add-an-app">Add an app</a></b>
 |
-<b><a href="https://github.com/Kiedtl/open-scoop#what-sort-of-apps-are-allowed">Allowed apps</a></b>
-|
 <b><a href="https://github.com/Kiedtl/open-scoop#list-of-application-currenly-in-the-bucket">List of apps</a></b>
 |
 <b><a href="https://github.com/Kiedtl/open-scoop#acknowledgments">Acknowledgments</a></b>
@@ -69,17 +67,16 @@ $ scoop search <blah>
 ```
 
 ### I want to add an app!
-No problem! Simply fork this repository and create a JSON file with the app manifest, using the guide [here](https://github.com/lukesampson/scoop/wiki/App-Manifests). Once you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, add the homepage and/or the repository link also. 
+No problem! Simply fork this repository and create a JSON file with the app manifest, using the guide [here](https://github.com/lukesampson/scoop/wiki/App-Manifests) here in the Scoop repository. 
+Once you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, add the homepage and/or the repository link also. 
 
-If you are adding a CLI utility that is hosted on GitHub and that is offered as a single, portable, standalone EXE, see the `genact.json` file for an example. If the application is an application on GitHub that need one or more files available on the internet to work properly, see the [Alacritty manifest](https://github.com/Kiedtl/open-scoop/blob/be9fb4a6b72ae6b436512dad6336f598ed154c64/alacritty.json#L22) for an example of how this can be worked around. 
+If you are adding a CLI utility that is hosted on GitHub and that is offered as a single, portable, standalone EXE, see the `genact.json` file for an example. 
+If the application is an application on GitHub that need one or more files available on the internet to work properly, see the [Alacritty manifest](https://github.com/Kiedtl/open-scoop/blob/be9fb4a6b72ae6b436512dad6336f598ed154c64/alacritty.json#L22) for an example of how this can be worked around.
 
 #### Requirements for adding an app
 1. `Hello World` apps are not allowed.
 2. The app added MUST be the full version of the app, not a trial version (although exceptions are made to this rule - see `sublime-text.json`).
 3. There aren't any more requirements.
-
-### What sort of apps are allowed?
-Anything, really. Browsers, IRC clients, CLI utilities, Email clients, IM clients, terminals, file managers, text editors, IDEs, word processors (like LibreOffice or the Google Docs desktop app), music players, games, spreadsheet programs, anything. Apps that can be used to websites, such as Windows version of `wpscan`or other utilities like `XerXes` and viruses aren't allowed.
 
 ### List of application currenly in the bucket
 **Note**: this list may be outdated. See APPLIST.md for a complete, up-to-date listing of apps.
