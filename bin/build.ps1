@@ -19,7 +19,7 @@
 # 
 
 param (
-	[switch]NoTag = false
+	[switch]$NoTag = $false
 )
 
 $USER = $env:USERNAME
@@ -96,7 +96,7 @@ Set-Content -Path versdat/minor.txt -Value $sminor
 Set-Content -Path versdat/build.txt -Value $sbuild
 
 Write-Output "Finished updating app manifests"
-if (!NoTag) {
+if (!$NoTag) {
 	Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
 	$version = "${smajor}.${sminor}.${sbuild}"
 	$latestcommit = git rev-parse HEAD
