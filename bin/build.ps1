@@ -18,6 +18,9 @@
 #   /__/\__\__,_|_|  \__|
 # 
 
+param (
+	[switch]NoTag = false
+)
 
 $USER = $env:USERNAME
 $APPLIST = "../APPLIST.md"
@@ -93,12 +96,12 @@ Set-Content -Path versdat/minor.txt -Value $sminor
 Set-Content -Path versdat/build.txt -Value $sbuild
 
 Write-Output "Finished updating app manifests"
-Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
-
-$version = "${smajor}.${sminor}.${sbuild}"
-$latestcommit = git rev-parse HEAD
-
-git tag -a -m "Automatically_added_tag_$version" "v$version" $latestcommit 
+if (!NoTag) {
+	Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
+	$version = "${smajor}.${sminor}.${sbuild}"
+	$latestcommit = git rev-parse HEAD
+	git tag -a -m "Automatically_added_tag_$version" "v$version" $latestcommit 
+}
 
 Write-Output "`a"
 Remove-Item bin/log.txt
