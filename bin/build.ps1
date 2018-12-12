@@ -63,40 +63,43 @@ Add-Content -Path "../APPLIST.md" -Value "`nThis file was automatically generate
 git add ../APPLIST.md
 git commit -q -m "Automatically updated APPLIST.md"
 
+Write-Output "Finished updating app manifests"
+
 # Commit and tagging
 
 Set-Location ..
 
-$smajor = Get-Content versdat/major.txt
-$sminor = Get-Content versdat/minor.txt
-$sbuild = Get-Content versdat/build.txt
-$major = [int]$smajor
-$minor = [int]$sminor
-$build = [int]$sbuild
-
-if ($build -gt 255 -and $minor -lt 255) {
-	$minor++
-	$build = 0
-}
-elseif ($build -gt 255 -and $minor -gt 255) {
-	$build = 0
-	$minor = 0
-	$major++
-}
-else {
-	$build++
-}
-
-$smajor = [string]$major
-$sminor = [string]$minor
-$sbuild = [string]$build
-
-Set-Content -Path versdat/major.txt -Value $smajor
-Set-Content -Path versdat/minor.txt -Value $sminor
-Set-Content -Path versdat/build.txt -Value $sbuild
-
-Write-Output "Finished updating app manifests"
 if (!$NoTag) {
+	$smajor = Get-Content versdat/major.txt
+	$sminor = Get-Content versdat/minor.txt
+	$sbuild = Get-Content versdat/build.txt
+	$major = [int]$smajor
+	$minor = [int]$sminor
+	$build = [int]$sbuild
+	
+	if ($build -gt 255 -and $minor -lt 255) {
+		$minor++
+		$build = 0
+	}
+	elseif ($build -gt 255 -and $minor -gt 255) {
+		$build = 0
+		$minor = 0
+		$major++
+	}
+	else {
+		$build++
+	}
+	
+	$smajor = [string]$major
+	$sminor = [string]$minor
+	$sbuild = [string]$build
+	
+	Set-Content -Path versdat/major.txt -Value $smajor
+	Set-Content -Path versdat/minor.txt -Value $sminor
+	Set-Content -Path versdat/build.txt -Value $sbuild
+
+	git commit -a -m "Automatically bumped version number in the versdat directory"
+
 	Write-Output "Creating GitHub release ${smajor}.${sminor}.${sbuild}"
 	$version = "${smajor}.${sminor}.${sbuild}"
 	$latestcommit = git rev-parse HEAD
