@@ -18,5 +18,6 @@
     },
     "autoupdate": {
         "url": "https://github.com/Microsoft/sqlopsstudio/releases/download/v$version/sqlops-windows-$version.zip"
-    }
+    },
+    "notes": "This application is deprecated. Please consider using the Azure Data Studio instead."
 }
