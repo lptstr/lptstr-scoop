@@ -238,6 +238,14 @@ function normalize_values([psobject] $json) {
 # End copyrighted file
 
 
+function parse_json($path) {
+    if(!(Test-Path $path)) { 
+        return $null 
+    }
+    Get-Content $path -raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop
+}
+
+
 Set-Location $HOME
 Set-Location scoop/proj/open-scoop/bin
 
