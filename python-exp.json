@@ -115,5 +115,5 @@
         "$create_reg.Invoke(\"Python\\PythonCore\\3.5\\PythonPath\", \"$dir;$dir\\Lib\\;$dir\\DLLs\\\")"
     ],
     "env_add_path": "scripts",
-    "checkver": "<p>Latest: <a href=\".*\">Python ([\\d.]+)</a> - <a.*>.*</a></p>"
+    "checkver": "Latest: Python ([\\d.]+)"
 }
