@@ -33,6 +33,8 @@ $checkver = "C:\\Users\\$USER\\scoop\\apps\\scoop\\current\\bin\\checkver.ps1"
 $dir = "C:\\Users\\$USER\\scoop\\proj\\open-scoop" 
 $DATETIME = Get-Date
 
+# Checkout update-manifest branch
+git checkout update-manifest
 
 # Copyright (c) 2013 - 2018 Luke Sampson and other Scoop contributers and/or maintainers
 # Taken from the Scoop repository (file lib/json.ps1)
@@ -284,6 +286,12 @@ git commit -q -m "Automatically updated APPLIST.md"
 
 Write-Output "Finished updating app manifests"
 
+git checkout master
+git merge update-manifest
+
+git checkout format-manifest
+git merge update-manifest
+
 # Format each file
 $c = 1
 $manifests = Get-ChildItem ../.\*.json
@@ -296,6 +304,10 @@ Get-ChildItem ../.\*.json | ForEach-Object {
     git commit -q -a -m "Automatically formated JSON in $basename's manifest" > log.txt
     $c++
 }
+
+git checkout master
+git merge format-manifest
+git merge update-manifest
 
 # Commit and tagging
 
