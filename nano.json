@@ -8,6 +8,9 @@
     "extract_dir": "nano-2.5.3-win32",
     "post_install": "if (-not (Test-Path ~/nano.rc)) { Copy-Item \"$dir/nano.rc\" ~/nano.rc }",
     "checkver": "Latest Version\\s+([\\d.]+)",
+    "autoupdate": {
+    	"url": "https://www.nano-editor.org/dist/v${majorVersion}.${minorVersion}/NT/nano-$version.zip"
+    },
     "notes": [
         "You can configure nano editor by editing the configuration file nano.rc",
         "in your home folder. For nano to find the configuration file, you will",
