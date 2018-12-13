@@ -5,9 +5,9 @@
         "identifier": "MIT",
         "url": "https://github.com/sharkdp/hyperfine/blob/master/LICENSE-MIT"
     },
-    "version": "1.4.0",
-    "url": "https://github.com/sharkdp/hyperfine/releases/download/v1.4.0/hyperfine-v1.4.0-x86_64-pc-windows-msvc.zip#/hyperfine.zip",
-    "hash": "sha256:5d993dc621f71ea3d13d0d9f48bc083d3b1cb3325e87f248aa0f58f58b0d19b4",
+    "version": "1.5.0",
+    "url": "https://github.com/sharkdp/hyperfine/releases/download/v1.5.0/hyperfine-v1.5.0-x86_64-pc-windows-msvc.zip#/hyperfine.zip",
+    "hash": "8e34992ef9ad8ccd12a2212982bc54b918083607d3018a19246f024d0d6bc690",
     "bin": "hyperfine.exe",
     "checkver": "github",
     "autoupdate": {
