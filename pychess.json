@@ -13,7 +13,7 @@
         ]
     ],
     "checkver": {
-        "url": "https://github.com/pychess/pychess/",
+        "url": "https://github.com/pychess/pychess/releases",
         "re": "github"
     },
     "autoupdate": {
