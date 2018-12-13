@@ -19,7 +19,7 @@
     },
     "checkver": {
         "github": "https://github.com/Azure/azure-powershell",
-        "regex": "download/v?(?<release>[\\d\\.]+-[\\w\\d]+)/Azure-Cmdlets-([\\d.]+).*\\.msi"
+        "regex": "github"
     },
     "autoupdate": {
         "architecture": {
