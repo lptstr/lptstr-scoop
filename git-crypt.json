@@ -29,5 +29,6 @@
         "hash": {
             "url": "https://github.com/rasa/git-crypt/releases/tag/$version"
         }
-    }
+    },
+    "notes": "This version of Git-Crypt is pre-built and provided by a third-party developer; this prebuilt version may not reflect the current version of git-crypt. To get the current version for Windows, you will have to build the Git-Crypt source cod yourself."
 }
