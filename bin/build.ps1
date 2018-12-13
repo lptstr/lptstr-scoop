@@ -302,7 +302,7 @@ Get-ChildItem ../.\*.json | ForEach-Object {
     Write-Progress -Activity "Formatting JSON in application manifests" -status "Formatting $_" -percentComplete ($c / $manifests.count * 100)
     [System.IO.File]::WriteAllLines("$_", $json)
     git commit -q -a -m "Automatically formated JSON in $basename's manifest" > log.txt
-    Write-Output "Formatted $Name"
+    Write-Output "Formatted $name"
     $c++
 }
 
