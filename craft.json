@@ -14,9 +14,5 @@
             "Craft/craft.exe",
             "Craft"
         ]
-    ],
-    "checkver": "Craft ([A-Za-z]+[ 0-9]+)",
-    "autoupdate": {
-        "url": "https://www.michaelfogleman.com/static/Craft.zip"
-    }
+    ]
 }
