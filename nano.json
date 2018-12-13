@@ -9,7 +9,7 @@
     "post_install": "if (-not (Test-Path ~/nano.rc)) { Copy-Item \"$dir/nano.rc\" ~/nano.rc }",
     "checkver": "Latest Version\\s+([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.nano-editor.org/dist/v${majorVersion}.${minorVersion}/NT/nano-$version.zip"
+        "url": "https://www.nano-editor.org/dist/v$majorVersion.$minorVersion/NT/nano-$version.zip"
     },
     "notes": [
         "You can configure nano editor by editing the configuration file nano.rc",
