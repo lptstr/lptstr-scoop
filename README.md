@@ -46,7 +46,7 @@ If this bucket was correctly installed, you should see the following output:
 ```
 $ scoop bucket list
 extras
-norsoft
+nirsoft
 ...
 
 openscoop
