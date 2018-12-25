@@ -1,9 +1,9 @@
 {
     "homepage": "https://github.com/0xd4d/dnSpy",
-    "version": "5.0.0",
+    "version": "5.0.11",
     "license": "GPL-3.0-only",
-    "url": "https://github.com/0xd4d/dnSpy/releases/download/v5.0.0/dnSpy.zip",
-    "hash": "4571ccf630c408b0af5e01abc012c1b9354733c33dc1f5c70903169f0c0f065c",
+    "url": "https://github.com/0xd4d/dnSpy/releases/download/v5.0.11/dnSpy.zip",
+    "hash": "e61bbca2e920216cc50e1fb5835e8501d29b3c335e0eb59975f78ca55a9e1de4",
     "bin": [
         "dnSpy.Console.exe",
         "dnSpy-x86.exe",

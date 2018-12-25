@@ -1,9 +1,9 @@
 {
     "homepage": "https://icons8.com/lunacy",
     "license": "https://docs.icons8.com/lunacy%20license.md",
-    "version": "3.12",
-    "url": "https://desktop.icons8.com/lunacy/LunacyPortable_3.12.zip",
-    "hash": "111d80af47ad405e99fa510c25c988f10e438e442708303119cb04e7b4e4ff8f",
+    "version": "3.14",
+    "url": "https://desktop.icons8.com/lunacy/LunacyPortable_3.14.zip",
+    "hash": "2c6671df22ec03f7252fa4558b9aab1ed506ba5f9fc015b9c0854a4c487e0255",
     "architecture": {
         "64bit": {
             "extract_dir": "Lunacy_Portable/x64"

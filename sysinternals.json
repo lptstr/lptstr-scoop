@@ -4,9 +4,9 @@
         "identifier": "Freeware",
         "url": "https://docs.microsoft.com/en-us/sysinternals/license-terms"
     },
-    "version": "December.13.2018",
+    "version": "December.18.2018",
     "url": "https://download.sysinternals.com/files/SysinternalsSuite.zip",
-    "hash": "41deb4af2d9b6dbac25927de168cf9eeb9535892bb213cc295c9acca93584563",
+    "hash": "b14466c6bf3be216ea71610a3f455030e791cd5ad1b42a283886194205d176b0",
     "checkver": {
         "url": "https://docs.microsoft.com/en-us/sysinternals/downloads/sysinternals-suite",
         "re": "\\bUpdated:\\s*(\\w+)\\s+(\\d+),\\s+(\\d+)\\b",

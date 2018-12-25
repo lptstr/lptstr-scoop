@@ -1,17 +1,17 @@
 {
-    "version": "2.2.0-dev.1.1",
+    "version": "2.1.1-dev.0.1",
     "license": "BSD-3-Clause",
     "homepage": "https://www.dartlang.org/",
     "extract_dir": "dart-sdk",
     "env_add_path": "bin",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0-dev.1.1/sdk/dartsdk-windows-x64-release.zip",
-            "hash": "27136fa597d840905a3734ada6c418ac2adac617729ec45e9826c92964f459ce"
+            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.1.1-dev.0.1/sdk/dartsdk-windows-x64-release.zip",
+            "hash": "1a7fdbd3279d5f7cb7885c47d8beaee44f776955505ce3ec1343c637f8f3a138"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.2.0-dev.1.1/sdk/dartsdk-windows-ia32-release.zip",
-            "hash": "d6ae4c1f7116e545d305ba883ddb86f92eddb3938b613d79800d265d4d451c69"
+            "url": "https://storage.googleapis.com/dart-archive/channels/dev/release/2.1.1-dev.0.1/sdk/dartsdk-windows-ia32-release.zip",
+            "hash": "9c0e2c45640f8b4e05e960cc516bc8fdc79e362e1f2749b9bfabb4647d9b37ac"
         }
     },
     "checkver": {
