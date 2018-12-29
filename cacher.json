@@ -1,8 +1,8 @@
 {
     "homepage": "https://www.cacher.io/",
-    "version": "2.3.0",
-    "hash": "0485714d8573aebfc3c42627063a9bb458fa3565317c801b66e031483cf24ae4",
-    "url": "https://s3.amazonaws.com/download.cacher.io/Cacher%20Setup%202.3.0.exe#/dl.7z",
+    "version": "2.3.1",
+    "hash": "043510c4e222c3128bf184c7287a53f0eb512a5b68b171a51a753a18095d220c",
+    "url": "https://s3.amazonaws.com/download.cacher.io/Cacher%20Setup%202.3.1.exe#/dl.7z",
     "checkver": {
         "url": "https://s3.amazonaws.com/download.cacher.io/latest.yml",
         "re": "version:\\s([\\d.]+)"
