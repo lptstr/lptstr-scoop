@@ -1,18 +1,1 @@
-{
-    "homepage": "http://www.skytopia.com/software/sunsetscreen/",
-    "description": "Take the glare off your screen in the evening",
-    "version": "1.30",
-    "url": "http://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe",
-    "hash": "70001fe462953ce23fabbc9924893db4f491d0f19dde719b1fd158edeff9861d",
-    "bin": "SunsetScreen.exe",
-    "shortcuts": [
-        [
-            "SunsetScreen.exe",
-            "SunsetScreen"
-        ]
-    ],
-    "checkver": "SunsetScreen v([\\d.]+)",
-    "autoupdate": {
-        "url": "http://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe"
-    }
-}
+{"homepage":"http://www.skytopia.com/software/sunsetscreen/","description":"Take the glare off your screen in the evening","version":"1.30","url":"http://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe","hash":"70001fe462953ce23fabbc9924893db4f491d0f19dde719b1fd158edeff9861d","bin":"SunsetScreen.exe","shortcuts":[["SunsetScreen.exe","SunsetScreen"]],"checkver":"SunsetScreen v([\\d.]+)","autoupdate":{"url":"http://www.skytopia.com/software/sunsetscreen/SunsetScreen.exe"}}
