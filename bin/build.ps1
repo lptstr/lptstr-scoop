@@ -327,11 +327,11 @@ if (!$NoTag) {
 	$minor = [int]$sminor
 	$build = [int]$sbuild
 	
-	if ($build -gt 255 -and $minor -lt 255) {
+	if ($build -gt 25 -and $minor -lt 25) {
 		$minor++
 		$build = 0
 	}
-	elseif ($build -gt 255 -and $minor -gt 255) {
+	elseif ($build -gt 25 -and $minor -gt 25) {
 		$build = 0
 		$minor = 0
 		$major++
