@@ -1,1 +1,33 @@
-{"description":"Music notation editor with easy to use WYSIWYG interface. Cross-platform and available in many languages.","homepage":"https://musescore.org/","version":"3.0","license":"GPL-2.0-only","url":"https://ftp.osuosl.org/pub/musescore/releases/MuseScore-3.0/MuseScore-3.0.msi","hash":"53c1bc584035978515f83eca371105a22e98251c0e7023875e32f567f8b40cc4","extract_dir":"MuseScore 2","bin":["bin\\MuseScore.exe",["bin\\MuseScore.exe","mscore"]],"shortcuts":[["bin\\MuseScore.exe","MuseScore"]],"checkver":{"url":"https://musescore.org/en/download","re":"\u003eThe latest stable version is ([0-9]+(\\.[0-9]+)*)\u003c/"},"autoupdate":{"url":"https://ftp.osuosl.org/pub/musescore/releases/MuseScore-$version/MuseScore-$version.msi","hash":{"url":"https://musescore.org/en/download/musescore.msi","find":"\u003eSHA256 Checksum: ([0-9a-fA-F]{64})\u003c/"}}}
+{
+    "description": "Music notation editor with easy to use WYSIWYG interface. Cross-platform and available in many languages.",
+    "homepage": "https://musescore.org/",
+    "version": "3.0",
+    "license": "GPL-2.0-only",
+    "url": "https://ftp.osuosl.org/pub/musescore/releases/MuseScore-3.0/MuseScore-3.0.msi",
+    "hash": "53c1bc584035978515f83eca371105a22e98251c0e7023875e32f567f8b40cc4",
+    "extract_dir": "MuseScore 2",
+    "bin": [
+        "bin\\MuseScore.exe",
+        [
+            "bin\\MuseScore.exe",
+            "mscore"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "bin\\MuseScore.exe",
+            "MuseScore"
+        ]
+    ],
+    "checkver": {
+        "url": "https://musescore.org/en/download",
+        "re": ">The latest stable version is ([0-9]+(\\.[0-9]+)*)</"
+    },
+    "autoupdate": {
+        "url": "https://ftp.osuosl.org/pub/musescore/releases/MuseScore-$version/MuseScore-$version.msi",
+        "hash": {
+            "url": "https://musescore.org/en/download/musescore.msi",
+            "find": ">SHA256 Checksum: ([0-9a-fA-F]{64})</"
+        }
+    }
+}
