@@ -1,1 +1,25 @@
-{"homepage":"https://www.sourcetreeapp.com/","version":"3.0.15","url":"https://www.sourcetreeapp.com/update/windows/ga/SourceTree-3.0.15-full.nupkg#/dl.7z","hash":"sha1:7c20078b2b045e2c881187e39009fd85284f4e83","bin":"lib\\net45\\sourcetree.exe","shortcuts":[["lib\\net45\\sourcetree.exe","Atlassian SourceTree"]],"checkver":{"url":"https://www.sourcetreeapp.com/update/windows/ga/RELEASES?id=SourceTree\u0026localVersion=0\u0026arch=amd64","re":"SourceTree-([\\d.]+)-full.nupkg","reverse":true},"post_install":"New-Item -ItemType file -Path \"$dir\\lib\\Update.exe\" -force | out-null","autoupdate":{"url":"https://www.sourcetreeapp.com/update/windows/ga/SourceTree-$version-full.nupkg#/dl.7z","hash":{"url":"$baseurl/RELEASES"}}}
+{
+    "homepage": "https://www.sourcetreeapp.com/",
+    "version": "3.0.15",
+    "url": "https://www.sourcetreeapp.com/update/windows/ga/SourceTree-3.0.15-full.nupkg#/dl.7z",
+    "hash": "sha1:7c20078b2b045e2c881187e39009fd85284f4e83",
+    "bin": "lib\\net45\\sourcetree.exe",
+    "shortcuts": [
+        [
+            "lib\\net45\\sourcetree.exe",
+            "Atlassian SourceTree"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.sourcetreeapp.com/update/windows/ga/RELEASES?id=SourceTree&localVersion=0&arch=amd64",
+        "re": "SourceTree-([\\d.]+)-full.nupkg",
+        "reverse": true
+    },
+    "post_install": "New-Item -ItemType file -Path \"$dir\\lib\\Update.exe\" -force | out-null",
+    "autoupdate": {
+        "url": "https://www.sourcetreeapp.com/update/windows/ga/SourceTree-$version-full.nupkg#/dl.7z",
+        "hash": {
+            "url": "$baseurl/RELEASES"
+        }
+    }
+}
