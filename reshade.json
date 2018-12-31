@@ -1,1 +1,20 @@
-{"homepage":"https://reshade.me/","version":"4.0.2","license":"BSD-3-Clause","url":"https://reshade.me/downloads/ReShade_Setup_4.0.2.exe#/ReShade.exe","hash":"1ec2bf65e4ecc4735f1737d6882f0bca6c304c796448c24f47788e3c0c2dc069","bin":"ReShade.exe","shortcuts":[["ReShade.exe","ReShade"]],"checkver":{"re":"\u003cstrong\u003eVersion\\s+([\\d.]+)\u003c/strong\u003e"},"autoupdate":{"url":"https://reshade.me/downloads/ReShade_Setup_$version.exe#/ReShade.exe"}}
+{
+    "homepage": "https://reshade.me/",
+    "version": "4.0.2",
+    "license": "BSD-3-Clause",
+    "url": "https://reshade.me/downloads/ReShade_Setup_4.0.2.exe#/ReShade.exe",
+    "hash": "1ec2bf65e4ecc4735f1737d6882f0bca6c304c796448c24f47788e3c0c2dc069",
+    "bin": "ReShade.exe",
+    "shortcuts": [
+        [
+            "ReShade.exe",
+            "ReShade"
+        ]
+    ],
+    "checkver": {
+        "re": "<strong>Version\\s+([\\d.]+)</strong>"
+    },
+    "autoupdate": {
+        "url": "https://reshade.me/downloads/ReShade_Setup_$version.exe#/ReShade.exe"
+    }
+}
