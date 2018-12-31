@@ -1,1 +1,37 @@
-{"homepage":"https://apps.ankiweb.net/","license":"AGPL-3.0-only","description":"Powerful, intelligent flash cards. Remembering things just became much easier.","version":"2.1.7","url":"https://apps.ankiweb.net/downloads/current/anki-2.1.7-windows.exe#/dl.7z","hash":"d783e4650dc8a4d1eba824c83c6e18bb41006b14e46345bbc027b70277e0289f","persist":"data","bin":[["anki.cmd","anki"]],"pre_install":"\"@echo off`nSET _allParams=`\"%*`\"`nIF /i %_allParams:-b =%==%_allParams% (`n    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" -b `\"$persist_dir\\data`\" %*`n) ELSE (`n    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" %*`n)\" | out-file \"$dir\\anki.cmd\" -encoding oem","shortcuts":[["anki.cmd","Anki","","anki.exe"]],"suggest":{"vcredist":"extras/vcredist2008"},"checkver":{"url":"https://apps.ankiweb.net/docs/changes.html","re":"Changes in ([\\d.]+)"},"autoupdate":{"url":"https://apps.ankiweb.net/downloads/current/anki-$version-windows.exe#/dl.7z","hash":{"url":"https://apps.ankiweb.net/downloads/current/anki-$version-checksums.txt"}}}
+{
+    "homepage": "https://apps.ankiweb.net/",
+    "license": "AGPL-3.0-only",
+    "description": "Powerful, intelligent flash cards. Remembering things just became much easier.",
+    "version": "2.1.7",
+    "url": "https://apps.ankiweb.net/downloads/current/anki-2.1.7-windows.exe#/dl.7z",
+    "hash": "d783e4650dc8a4d1eba824c83c6e18bb41006b14e46345bbc027b70277e0289f",
+    "persist": "data",
+    "bin": [
+        [
+            "anki.cmd",
+            "anki"
+        ]
+    ],
+    "pre_install": "\"@echo off`nSET _allParams=`\"%*`\"`nIF /i %_allParams:-b =%==%_allParams% (`n    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" -b `\"$persist_dir\\data`\" %*`n) ELSE (`n    start `\"anki`\" /D `\"%~dp0`\" `\"%~dp0anki.exe`\" %*`n)\" | out-file \"$dir\\anki.cmd\" -encoding oem",
+    "shortcuts": [
+        [
+            "anki.cmd",
+            "Anki",
+            "",
+            "anki.exe"
+        ]
+    ],
+    "suggest": {
+        "vcredist": "extras/vcredist2008"
+    },
+    "checkver": {
+        "url": "https://apps.ankiweb.net/docs/changes.html",
+        "re": "Changes in ([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://apps.ankiweb.net/downloads/current/anki-$version-windows.exe#/dl.7z",
+        "hash": {
+            "url": "https://apps.ankiweb.net/downloads/current/anki-$version-checksums.txt"
+        }
+    }
+}
