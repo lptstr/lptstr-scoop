@@ -1,1 +1,25 @@
-{"homepage":"https://gitextensions.github.io/","version":"3.00.00","license":"GPL-3.0-only","url":"https://github.com/gitextensions/gitextensions/releases/download/v3.00.00/GitExtensions-Portable-3.00.00.4433.zip","hash":"7c1a40af62bf78f5c969a33319828a567600b64e643db8021bc5e64717b19958","bin":[["GitExtensions\\GitExtensions.exe","gite"]],"shortcuts":[["GitExtensions\\GitExtensions.exe","Git Extensions"]],"checkver":{"github":"https://github.com/gitextensions/gitextensions"},"autoupdate":{"url":"https://github.com/gitextensions/gitextensions/releases/download/v$version/GitExtensions-Portable-$version.zip"}}
+{
+    "homepage": "https://gitextensions.github.io/",
+    "version": "3.00.00",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/gitextensions/gitextensions/releases/download/v3.00.00/GitExtensions-Portable-3.00.00.4433.zip",
+    "hash": "7c1a40af62bf78f5c969a33319828a567600b64e643db8021bc5e64717b19958",
+    "bin": [
+        [
+            "GitExtensions\\GitExtensions.exe",
+            "gite"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "GitExtensions\\GitExtensions.exe",
+            "Git Extensions"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/gitextensions/gitextensions"
+    },
+    "autoupdate": {
+        "url": "https://github.com/gitextensions/gitextensions/releases/download/v$version/GitExtensions-Portable-$version.zip"
+    }
+}
