@@ -1,1 +1,27 @@
-{"description":"Nightly builds of Firefox: the popular open source web browser.","homepage":"https://www.mozilla.org/en-US/firefox/nightly/","version":"nightly","license":"MPL-2.0","architecture":{"64bit":{"url":"https://download.mozilla.org/?product=firefox-nightly-latest-ssl\u0026os=win64\u0026lang=en-US#/firefox.7z"},"32bit":{"url":"https://download.mozilla.org/?product=firefox-nightly-latest-ssl\u0026os=win\u0026lang=en-US#/firefox.7z"}},"extract_dir":"core","bin":[["firefox.exe","firefox-nightly"]],"shortcuts":[["firefox.exe","Firefox Nightly"]]}
+{
+    "description": "Nightly builds of Firefox: the popular open source web browser.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/nightly/",
+    "version": "nightly",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-ssl&os=win64&lang=en-US#/firefox.7z"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=firefox-nightly-latest-ssl&os=win&lang=en-US#/firefox.7z"
+        }
+    },
+    "extract_dir": "core",
+    "bin": [
+        [
+            "firefox.exe",
+            "firefox-nightly"
+        ]
+    ],
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Firefox Nightly"
+        ]
+    ]
+}
