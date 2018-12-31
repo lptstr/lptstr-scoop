@@ -262,8 +262,14 @@ if (!$NoUpdate) {
 	  $name = $_.Name
 	  Write-Progress -Activity "Updating application manifests" -status "Scanning $name" -percentComplete ($i / $files.count * 100)
 	  $out = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u | Out-String
+<<<<<<< HEAD
 	  $doo = (Get-Content ../$name) | ConvertFrom-Json | ConvertTo-Json -Compress
 	  Set-Content -Path ../$name -Value $doo 
+=======
+	  $obj = (Get-Content ../$basename) | ConvertFrom-Json
+	  $json = $obj | ConvertTo-Json -Compress
+	  Set-Content ../$basename $json
+>>>>>>> update-manifest
 	  git commit -q -a -m "Auto-updated $basename" > log.txt
 	  $i++
 	}
