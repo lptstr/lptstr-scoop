@@ -1,1 +1,32 @@
-{"homepage":"https://www.pci-z.com/","description":"PCI-Z is designed for detecting unknown hardware on your Windows based PC","license":"Freeware","version":"2.0-2017.07.01","architecture":{"32bit":{"url":"https://www.pci-z.com/current/PCI-Z.exe","hash":"sha1:4f4543047ad941945225ace697beb13ceb015e7b"},"64bit":{"url":"https://www.pci-z.com/current/x64/PCI-Z.exe","hash":"sha1:b7f3084e77c5629e84d660f0e4f9021374be4c3b"}},"shortcuts":[["PCI-Z.exe","PCI-Z"]],"checkver":{"re":"Download PCI-Z (?\u003cversion\u003e[\\d.]+) \\(.*?\\) \\(PCI ID version (?\u003cpci\u003e[\\d.]+)\\)","replace":"${version}-${pci}"},"autoupdate":{"architecture":{"32bit":"@{url=https://www.pci-z.com/current/PCI-Z.exe; hash=}","64bit":"@{url=https://www.pci-z.com/current/x64/PCI-Z.exe; hash=}"}}}
+{
+    "homepage": "https://www.pci-z.com/",
+    "description": "PCI-Z is designed for detecting unknown hardware on your Windows based PC",
+    "license": "Freeware",
+    "version": "2.0-2017.07.01",
+    "architecture": {
+        "32bit": {
+            "url": "https://www.pci-z.com/current/PCI-Z.exe",
+            "hash": "sha1:4f4543047ad941945225ace697beb13ceb015e7b"
+        },
+        "64bit": {
+            "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
+            "hash": "sha1:b7f3084e77c5629e84d660f0e4f9021374be4c3b"
+        }
+    },
+    "shortcuts": [
+        [
+            "PCI-Z.exe",
+            "PCI-Z"
+        ]
+    ],
+    "checkver": {
+        "re": "Download PCI-Z (?<version>[\\d.]+) \\(.*?\\) \\(PCI ID version (?<pci>[\\d.]+)\\)",
+        "replace": "${version}-${pci}"
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": "@{url=https://www.pci-z.com/current/PCI-Z.exe; hash=}",
+            "64bit": "@{url=https://www.pci-z.com/current/x64/PCI-Z.exe; hash=}"
+        }
+    }
+}
