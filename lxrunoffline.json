@@ -1,1 +1,13 @@
-{"version":"3.3.2","license":"MIT","url":"https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.2/LxRunOffline-v3.3.2.zip","homepage":"https://github.com/DDoSolitary/LxRunOffline","description":"A full-featured utility for Windows Subsystem for Linux (WSL)","checkver":"github","hash":"e2defdc44ca27ca098595823bc78b11bc3f0af13e2c3db9877e3928fc34ea7ab","bin":"LxRunOffline.exe","autoupdate":{"url":"https://github.com/DDoSolitary/LxRunOffline/releases/download/v$version/LxRunOffline-v$version.zip"}}
+{
+    "version": "3.3.2",
+    "license": "MIT",
+    "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v3.3.2/LxRunOffline-v3.3.2.zip",
+    "homepage": "https://github.com/DDoSolitary/LxRunOffline",
+    "description": "A full-featured utility for Windows Subsystem for Linux (WSL)",
+    "checkver": "github",
+    "hash": "e2defdc44ca27ca098595823bc78b11bc3f0af13e2c3db9877e3928fc34ea7ab",
+    "bin": "LxRunOffline.exe",
+    "autoupdate": {
+        "url": "https://github.com/DDoSolitary/LxRunOffline/releases/download/v$version/LxRunOffline-v$version.zip"
+    }
+}
