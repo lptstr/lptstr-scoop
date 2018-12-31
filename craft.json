@@ -1,18 +1,1 @@
-{
-    "homepage": "https://www.michaelfogleman.com/projects/craft/",
-    "description": "A simple Minecraft clone written in C using modern OpenGL (shaders).",
-    "license": {
-        "identifier": "MIT",
-        "url": "https://raw.githubusercontent.com/fogleman/Craft/master/LICENSE.md"
-    },
-    "version": "april-2013",
-    "url": "https://www.michaelfogleman.com/static/Craft.zip",
-    "hash": "sha256:9c9a45e548795ba96586adb6121d22c6ffe17a41f2cfcfdd6ac181e280e504dd",
-    "bin": "Craft/craft.exe",
-    "shortcuts": [
-        [
-            "Craft/craft.exe",
-            "Craft"
-        ]
-    ]
-}
+{"homepage":"https://www.michaelfogleman.com/projects/craft/","description":"A simple Minecraft clone written in C using modern OpenGL (shaders).","license":{"identifier":"MIT","url":"https://raw.githubusercontent.com/fogleman/Craft/master/LICENSE.md"},"version":"april-2013","url":"https://www.michaelfogleman.com/static/Craft.zip","hash":"sha256:9c9a45e548795ba96586adb6121d22c6ffe17a41f2cfcfdd6ac181e280e504dd","bin":"Craft/craft.exe","shortcuts":[["Craft/craft.exe","Craft"]]}
