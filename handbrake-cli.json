@@ -1,1 +1,24 @@
-{"homepage":"https://handbrake.fr/","license":"GPL-2.0","version":"1.2.0","architecture":{"64bit":{"hash":"bd12c0b5e6e0ef562e0123cae7de9c6988b1d17e7e8f90f48c88931d9dc4d5a9","url":"https://download.handbrake.fr/handbrake/releases/1.2.0/HandBrakeCLI-1.2.0-win-x86_64.zip"}},"bin":"HandBrakeCLI.exe","checkver":{"github":"https://github.com/HandBrake/HandBrake"},"autoupdate":{"architecture":{"64bit":"@{url=https://download.handbrake.fr/handbrake/releases/$version/HandBrakeCLI-$version-win-x86_64.zip}"},"hash":{"find":"\u003ctd\u003e([a-fA-F0-9]{64})\u003c/td\u003e","url":"https://handbrake.fr/rotation.php?file=$basename"}}}
+{
+    "homepage": "https://handbrake.fr/",
+    "license": "GPL-2.0",
+    "version": "1.2.0",
+    "architecture": {
+        "64bit": {
+            "hash": "bd12c0b5e6e0ef562e0123cae7de9c6988b1d17e7e8f90f48c88931d9dc4d5a9",
+            "url": "https://download.handbrake.fr/handbrake/releases/1.2.0/HandBrakeCLI-1.2.0-win-x86_64.zip"
+        }
+    },
+    "bin": "HandBrakeCLI.exe",
+    "checkver": {
+        "github": "https://github.com/HandBrake/HandBrake"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": "@{url=https://download.handbrake.fr/handbrake/releases/$version/HandBrakeCLI-$version-win-x86_64.zip}"
+        },
+        "hash": {
+            "find": "<td>([a-fA-F0-9]{64})</td>",
+            "url": "https://handbrake.fr/rotation.php?file=$basename"
+        }
+    }
+}
