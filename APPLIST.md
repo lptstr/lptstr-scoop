@@ -22,7 +22,7 @@
 | anaconda3 | 2018.12 | [https://www.anaconda.com/](https://www.anaconda.com/) |
 | android-sdk | 4333796 | [https://developer.android.com/studio/](https://developer.android.com/studio/) |
 | android-studio | 3.2.1.0 | [https://developer.android.com/studio/](https://developer.android.com/studio/) |
-| anki | 2.1.7 | [https://apps.ankiweb.net/](https://apps.ankiweb.net/) |
+| anki | 2.1.8 | [https://apps.ankiweb.net/](https://apps.ankiweb.net/) |
 | annie | 0.9.0 | [https://github.com/iawia002/annie](https://github.com/iawia002/annie) |
 | ant | 1.10.5 | [https://ant.apache.org/](https://ant.apache.org/) |
 | antimicro | 2.23 | [https://github.com/AntiMicro/antimicro](https://github.com/AntiMicro/antimicro) |
@@ -34,7 +34,7 @@
 | apngasm | 3.0.0 | [https://github.com/apngasm/apngasm](https://github.com/apngasm/apngasm) |
 | appengine-go | 1.9.70 | [https://developers.google.com/appengine/](https://developers.google.com/appengine/) |
 | archi | 4.3.1 | [https://www.archimatetool.com/](https://www.archimatetool.com/) |
-| archwsl | 18120900 | [https://github.com/yuk7/ArchWSL/](https://github.com/yuk7/ArchWSL/) |
+| archwsl | 19010200 | [https://github.com/yuk7/ArchWSL/](https://github.com/yuk7/ArchWSL/) |
 | arduino | 1.8.8 | [https://www.arduino.cc/](https://www.arduino.cc/) |
 | aria2 | 1.34.0-1 | [https://aria2.github.io/](https://aria2.github.io/) |
 | armclient | 1.3 | [https://github.com/projectkudu/ARMClient](https://github.com/projectkudu/ARMClient) |
@@ -751,7 +751,7 @@
 | scala | 2.12.8 | [https://www.scala-lang.org/](https://www.scala-lang.org/) |
 | scallion | 2.1 | [https://github.com/lachesis/scallion](https://github.com/lachesis/scallion) |
 | scholdoc | 0.1.3 | [http://scholdoc.scholarlymarkdown.com/](http://scholdoc.scholarlymarkdown.com/) |
-| scons | 3.0.1 | [https://scons.org/](https://scons.org/) |
+| scons | 3.0.2 | [https://scons.org/](https://scons.org/) |
 | scrcpy | 1.5 | [https://github.com/Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) |
 | screentogif | 2.15.1 | [http://www.screentogif.com/](http://www.screentogif.com/) |
 | scriptcs | 0.17.1 | [http://scriptcs.net/](http://scriptcs.net/) |
@@ -983,4 +983,4 @@
 | zookeeper | 3.4.13 | [https://zookeeper.apache.org/](https://zookeeper.apache.org/) |
 | zstd | 1.3.8 | [http://www.zstd.net/](http://www.zstd.net/) |
 
-This section was last generated on 12/31/2018 15:58:36
+This section was last generated on 01/02/2019 09:15:09
