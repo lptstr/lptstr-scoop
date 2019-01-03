@@ -1,1 +1,31 @@
-{"version":"3.2.6827","license":"GPL-2.0-or-later","homepage":"https://getmusicbee.com/","url":"https://www.mediafire.com/file/nl8iqge26fjt1cu/MusicBeePortable_3_2_Update3.zip#/dl.zip","hash":"sha256:fe4875f540c3e066e8c12c82696da71b940bfa8d88419bbb6f888f589b15a900","pre_install":"(Get-ChildItem \"$dir\\MusicBeePortable_*.exe\" | Rename-Item -NewName \"setup.exe\");","installer":{"file":"setup.exe","args":["/S","/D=$dir"]},"bin":"MusicBee.exe","shortcuts":[["MusicBee.exe","MusicBee"]],"persist":["Library","AppData"],"checkver":{"url":"https://getmusicbee.com/downloads/","re":"MusicBee ([\\d.]+)\u003c/h2\u003e"},"notes":"Currently it\u0027s not possible to make Plugins and Skins persistent"}
+{
+    "version": "3.2.6827",
+    "license": "GPL-2.0-or-later",
+    "homepage": "https://getmusicbee.com/",
+    "url": "https://www.mediafire.com/file/nl8iqge26fjt1cu/MusicBeePortable_3_2_Update3.zip#/dl.zip",
+    "hash": "sha256:fe4875f540c3e066e8c12c82696da71b940bfa8d88419bbb6f888f589b15a900",
+    "pre_install": "(Get-ChildItem \"$dir\\MusicBeePortable_*.exe\" | Rename-Item -NewName \"setup.exe\");",
+    "installer": {
+        "file": "setup.exe",
+        "args": [
+            "/S",
+            "/D=$dir"
+        ]
+    },
+    "bin": "MusicBee.exe",
+    "shortcuts": [
+        [
+            "MusicBee.exe",
+            "MusicBee"
+        ]
+    ],
+    "persist": [
+        "Library",
+        "AppData"
+    ],
+    "checkver": {
+        "url": "https://getmusicbee.com/downloads/",
+        "re": "MusicBee ([\\d.]+)</h2>"
+    },
+    "notes": "Currently it's not possible to make Plugins and Skins persistent"
+}
