@@ -50,7 +50,7 @@
 | autohotkey | 1.1.30.01 | [https://www.autohotkey.com/](https://www.autohotkey.com/) |
 | autoit | 3.3.14.5 | [https://www.autoitscript.com/site/autoit/](https://www.autoitscript.com/site/autoit/) |
 | awake | 1.4.2 | [https://github.com/gdegeneve/Awake](https://github.com/gdegeneve/Awake) |
-| aws | 1.16.81 | [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/) |
+| aws | 1.16.82 | [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/) |
 | axel | 2.4 | [https://github.com/ghuntley/cygwin-axel/](https://github.com/ghuntley/cygwin-axel/) |
 | axis | 1.4 | [https://axis.apache.org/](https://axis.apache.org/) |
 | azure-cli | 2.0.54 | [https://aka.ms/cli](https://aka.ms/cli) |
@@ -59,7 +59,7 @@
 | azuredatastudio-insiders | 1.2.4 | [https://docs.microsoft.com/en-us/sql/azure-data-studio](https://docs.microsoft.com/en-us/sql/azure-data-studio) |
 | azuredatastudio | 1.2.4 | [https://docs.microsoft.com/en-us/sql/azure-data-studio](https://docs.microsoft.com/en-us/sql/azure-data-studio) |
 | baka-mplayer | 2.0.4 | [http://bakamplayer.u8sand.net/](http://bakamplayer.u8sand.net/) |
-| bandizip | 6.18 | [http://www.bandisoft.com/bandizip/](http://www.bandisoft.com/bandizip/) |
+| bandizip | 6.19 | [http://www.bandisoft.com/bandizip/](http://www.bandisoft.com/bandizip/) |
 | baretail | 3.50a | [https://www.baremetalsoft.com/baretail/](https://www.baremetalsoft.com/baretail/) |
 | bat | 0.9.0 | [https://github.com/sharkdp/bat](https://github.com/sharkdp/bat) |
 | bazel | 0.21.0 | [https://bazel.build](https://bazel.build) |
@@ -162,7 +162,7 @@
 | debugviewpp | 1.8.0.34 | [https://github.com/CobaltFusion/DebugViewPP](https://github.com/CobaltFusion/DebugViewPP) |
 | defraggler | 2.22.995 | [https://www.ccleaner.com/defraggler](https://www.ccleaner.com/defraggler) |
 | deluge | 1.3.15 | [http://deluge-torrent.org/](http://deluge-torrent.org/) |
-| deno | 0.2.4 | [https://github.com/denoland/deno](https://github.com/denoland/deno) |
+| deno | 0.2.5 | [https://github.com/denoland/deno](https://github.com/denoland/deno) |
 | dep | 0.5.0 | [https://github.com/golang/dep](https://github.com/golang/dep) |
 | dependencies | 1.9 | [https://github.com/lucasg/Dependencies](https://github.com/lucasg/Dependencies) |
 | depends | 2.2 | [http://www.dependencywalker.com/](http://www.dependencywalker.com/) |
@@ -237,7 +237,7 @@
 | etlas | 1.5.0.0 | [https://github.com/typelead/etlas](https://github.com/typelead/etlas) |
 | eventstore | 4.1.1-hotfix1 | [https://eventstore.org/](https://eventstore.org/) |
 | everything | 1.4.1.924 | [https://www.voidtools.com/](https://www.voidtools.com/) |
-| executor | 0.99.27b | [http://executor.dk/](http://executor.dk/) |
+| executor | 0.99.28b | [http://executor.dk/](http://executor.dk/) |
 | exercism-cli | 3.0.11 | [http://exercism.io/](http://exercism.io/) |
 | exercism | 3.0.11 | [https://github.com/exercism/cli](https://github.com/exercism/cli) |
 | exiftool | 11.23 | [https://sno.phy.queensu.ca/~phil/exiftool/index.html](https://sno.phy.queensu.ca/~phil/exiftool/index.html) |
@@ -248,7 +248,7 @@
 | fastglacier | 3.9.1 | [https://fastglacier.com](https://fastglacier.com) |
 | fciv | 2.05 | [https://support.microsoft.com/en-us/kb/841290](https://support.microsoft.com/en-us/kb/841290) |
 | fd | 7.2.0 | [https://github.com/sharkdp/fd](https://github.com/sharkdp/fd) |
-| ffmpeg-nightly | 20181231-3e461f9 | [https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/) |
+| ffmpeg-nightly | 20190102-54109b1 | [https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/) |
 | ffmpeg | 4.1 | [https://ffmpeg.zeranoe.com/builds/](https://ffmpeg.zeranoe.com/builds/) |
 | fiddler | 5.0.20182.28034 | [https://www.telerik.com/fiddler](https://www.telerik.com/fiddler) |
 | figlet | 1.0-go | [https://github.com/lukesampson/figlet](https://github.com/lukesampson/figlet) |
@@ -268,7 +268,7 @@
 | flux | 4.84 | [https://justgetflux.com/](https://justgetflux.com/) |
 | flyway | 5.2.4 | [https://flywaydb.org/](https://flywaydb.org/) |
 | fmedia | 1.3 | [http://fmedia.firmdev.com/](http://fmedia.firmdev.com/) |
-| fnproject | 0.5.39 | [https://fnproject.io/](https://fnproject.io/) |
+| fnproject | 0.5.40 | [https://fnproject.io/](https://fnproject.io/) |
 | fnr | 1.8.1 | [https://github.com/zzzprojects/findandreplace](https://github.com/zzzprojects/findandreplace) |
 | fontforge | 20170731-r2 | [https://fontforge.github.io](https://fontforge.github.io) |
 | foobar2000-encoders | 2018-10-19 | [https://www.foobar2000.org/encoderpack](https://www.foobar2000.org/encoderpack) |
@@ -279,7 +279,7 @@
 | format-factory | 4.5.5.0 | [http://www.pcfreetime.com/formatfactory/index.php](http://www.pcfreetime.com/formatfactory/index.php) |
 | fossil | 2.7 | [https://www.fossil-scm.org/](https://www.fossil-scm.org/) |
 | foxe | 2.4.2 | [http://www.firstobject.com/dn_editor.htm](http://www.firstobject.com/dn_editor.htm) |
-| foxit-reader | 9.3.0.10826 | [https://www.foxitsoftware.com/](https://www.foxitsoftware.com/) |
+| foxit-reader | 9.4.0.16811 | [https://www.foxitsoftware.com/](https://www.foxitsoftware.com/) |
 | franz | 5.0.0-beta.19 | [http://meetfranz.com](http://meetfranz.com) |
 | freac | 1.0.32 | [https://www.freac.org](https://www.freac.org) |
 | freeclipboardviewer | 3.0 | [http://www.freeclipboardviewer.com/](http://www.freeclipboardviewer.com/) |
@@ -318,7 +318,7 @@
 | gitextensions | 3.00.00 | [https://gitextensions.github.io/](https://gitextensions.github.io/) |
 | github | 1.5.1 | [https://desktop.github.com/](https://desktop.github.com/) |
 | gitignore | 0.2018.08.04 | [https://github.com/lukesampson/psutils](https://github.com/lukesampson/psutils) |
-| gitkraken | 4.1.1 | [https://www.gitkraken.com/](https://www.gitkraken.com/) |
+| gitkraken | 4.2.0 | [https://www.gitkraken.com/](https://www.gitkraken.com/) |
 | gitlab-runner | 11.6.0 | [https://docs.gitlab.com/runner/](https://docs.gitlab.com/runner/) |
 | gitversion | 4.0.0 | [https://gitversion.readthedocs.io/](https://gitversion.readthedocs.io/) |
 | glide | 0.13.2 | [https://glide.sh/](https://glide.sh/) |
@@ -343,8 +343,8 @@
 | gpg | 2.2.12 | [https://www.gnupg.org/](https://www.gnupg.org/) |
 | gpg4win | 3.1.5 | [https://www.gpg4win.org](https://www.gpg4win.org) |
 | gpu-z | 2.16.0 | [https://www.techpowerup.com/gpuz/](https://www.techpowerup.com/gpuz/) |
-| gradle-bin | 5.0 | [https://gradle.org](https://gradle.org) |
-| gradle | 5.0 | [https://gradle.org](https://gradle.org) |
+| gradle-bin | 5.1 | [https://gradle.org](https://gradle.org) |
+| gradle | 5.1 | [https://gradle.org](https://gradle.org) |
 | grafana | 5.4.2 | [https://grafana.com/](https://grafana.com/) |
 | grails | 3.3.9 | [https://grails.org/](https://grails.org/) |
 | graphicsgale | 2.08.21 | [https://graphicsgale.com/us/](https://graphicsgale.com/us/) |
@@ -395,7 +395,7 @@
 | ie11webdriver | 3.14.0 | [http://www.seleniumhq.org/](http://www.seleniumhq.org/) |
 | ilspy | 3.2.0.3856 | [http://ilspy.net/](http://ilspy.net/) |
 | imageglass | 6.0.12.29 | [http://www.imageglass.org/](http://www.imageglass.org/) |
-| imagemagick | 7.0.8-22 | [https://www.imagemagick.org/script/index.php](https://www.imagemagick.org/script/index.php) |
+| imagemagick | 7.0.8-23 | [https://www.imagemagick.org/script/index.php](https://www.imagemagick.org/script/index.php) |
 | imgburn | 2.5.8.0 | [http://www.imgburn.com/](http://www.imgburn.com/) |
 | inadyn-mt | 02.28.10 | [https://sourceforge.net/projects/inadyn-mt/files/inadyn-mt/](https://sourceforge.net/projects/inadyn-mt/files/inadyn-mt/) |
 | inboxer | 1.2.1 | [https://denysdovhan.com/inboxer/](https://denysdovhan.com/inboxer/) |
@@ -454,7 +454,7 @@
 | kubectl | 1.13.1 | [https://kubernetes.io/docs/user-guide/kubectl-overview/](https://kubernetes.io/docs/user-guide/kubectl-overview/) |
 | lame | 3.100 | [https://lame.sourceforge.net/](https://lame.sourceforge.net/) |
 | latex | 2.9.6753 | [https://miktex.org](https://miktex.org) |
-| launchy | 2.9.64 | [https://openningia.github.io/Launchy](https://openningia.github.io/Launchy) |
+| launchy | 2.9.66 | [https://openningia.github.io/Launchy](https://openningia.github.io/Launchy) |
 | lazygit | 0.5 | [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) |
 | lcow | v4.14.35-v0.3.9 | [https://github.com/linuxkit/lcow](https://github.com/linuxkit/lcow) |
 | ldap-admin | 1.8.3 | [http://ldapadmin.org/](http://ldapadmin.org/) |
@@ -510,7 +510,7 @@
 | mill | 0.3.5 | [http://www.lihaoyi.com/mill/](http://www.lihaoyi.com/mill/) |
 | mingit-busybox | 2.20.1.windows.1 | [https://git-for-windows.github.io/](https://git-for-windows.github.io/) |
 | mingit | 2.20.1.windows.1 | [https://git-for-windows.github.io/](https://git-for-windows.github.io/) |
-| miniconda3 | 4.5.11 | [https://conda.io/miniconda.html](https://conda.io/miniconda.html) |
+| miniconda3 | 4.5.12 | [https://conda.io/miniconda.html](https://conda.io/miniconda.html) |
 | minikube | 0.32.0 | [https://kubernetes.io/docs/getting-started-guides/minikube/](https://kubernetes.io/docs/getting-started-guides/minikube/) |
 | minio-client | 2018-12-27T00-37-49Z | [https://minio.io/](https://minio.io/) |
 | minio | 2018-12-27T18-33-08Z | [https://minio.io/](https://minio.io/) |
@@ -563,7 +563,7 @@
 | nginx | 1.15.8 | [https://nginx.org](https://nginx.org) |
 | ngrok | 4VmDzA7iaHb | [https://ngrok.com/](https://ngrok.com/) |
 | nikto | 2.1.5 | [https://projects.giacomodrago.com/nikto-win/](https://projects.giacomodrago.com/nikto-win/) |
-| nim | 0.19.0 | [https://nim-lang.org/](https://nim-lang.org/) |
+| nim | 0.19.2 | [https://nim-lang.org/](https://nim-lang.org/) |
 | nimbleset | 2.2.0.41590 | [http://nimbletext.com/SET/About](http://nimbletext.com/SET/About) |
 | nimbletext | 2.9.1.36018 | [http://nimbletext.com/](http://nimbletext.com/) |
 | ninja | 1.8.2 | [https://ninja-build.org/](https://ninja-build.org/) |
@@ -578,7 +578,7 @@
 | notepad2-mod | 4.2.25.998 | [https://github.com/XhmikosR/notepad2-mod](https://github.com/XhmikosR/notepad2-mod) |
 | notepad2 | 4.2.25 | [http://www.flos-freeware.ch/notepad2.html](http://www.flos-freeware.ch/notepad2.html) |
 | notepadplusplus-pm | 1.4.12 | [https://bruderste.in/npp/pm/](https://bruderste.in/npp/pm/) |
-| notepadplusplus | 7.6.1 | [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) |
+| notepadplusplus | 7.6.2 | [https://notepad-plus-plus.org/](https://notepad-plus-plus.org/) |
 | now-cli | 12.1.14 | [https://zeit.co/now](https://zeit.co/now) |
 | nsis | 3.04 | [http://nsis.sourceforge.net/](http://nsis.sourceforge.net/) |
 | nssm | 2.24 | [https://nssm.cc](https://nssm.cc) |
@@ -627,7 +627,7 @@
 | pci-z | 2.0-2017.07.01 | [https://www.pci-z.com/](https://www.pci-z.com/) |
 | pciutils | 3.5.5 | [https://eternallybored.org/misc/pciutils/](https://eternallybored.org/misc/pciutils/) |
 | pcregrep | 10.20 | [https://pcre.org/](https://pcre.org/) |
-| pdf2djvu | 0.9.8 | [https://jwilk.net/software/pdf2djvu](https://jwilk.net/software/pdf2djvu) |
+| pdf2djvu | 0.9.12 | [https://jwilk.net/software/pdf2djvu](https://jwilk.net/software/pdf2djvu) |
 | pdfsam | 3.3.7 | [https://github.com/torakiki/pdfsam](https://github.com/torakiki/pdfsam) |
 | pdftk | 2.02 | [https://www.pdflabs.com/tools/pdftk-server/](https://www.pdflabs.com/tools/pdftk-server/) |
 | peco | 0.5.3 | [https://github.com/peco/peco/](https://github.com/peco/peco/) |
@@ -720,7 +720,7 @@
 | renderdoc | 1.2 | [https://renderdoc.org](https://renderdoc.org) |
 | reshade | 4.0.2 | [https://reshade.me/](https://reshade.me/) |
 | resharper-clt | 2018.3.1 | [https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt](https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt) |
-| resource-hacker | 5.1.6 | [http://www.angusj.com/resourcehacker/](http://www.angusj.com/resourcehacker/) |
+| resource-hacker | 5.1.7 | [http://www.angusj.com/resourcehacker/](http://www.angusj.com/resourcehacker/) |
 | restic | 0.9.3 | [https://restic.github.io/](https://restic.github.io/) |
 | rethinkdb | 2.3.6 | [https://www.rethinkdb.com/](https://www.rethinkdb.com/) |
 | retroarch | 1.7.5 | [http://www.retroarch.com/](http://www.retroarch.com/) |
@@ -740,7 +740,7 @@
 | rustup | 1.16.0 | [https://github.com/rust-lang-nursery/rustup.rs](https://github.com/rust-lang-nursery/rustup.rs) |
 | rxrepl | 1.5 | [https://sites.google.com/site/regexreplace/](https://sites.google.com/site/regexreplace/) |
 | s | 0.5.14 | [https://github.com/zquestz/s](https://github.com/zquestz/s) |
-| s3deploy | 2.2.0 | []() |
+| s3deploy | 2.3.0 | []() |
 | sabnzbd | 2.3.6 | [https://sabnzbd.org/](https://sabnzbd.org/) |
 | sacad | 2.1.7 | [https://github.com/desbma/sacad](https://github.com/desbma/sacad) |
 | sandman | 1.9.2 | [https://alexanderepstein.github.io/Sandman/](https://alexanderepstein.github.io/Sandman/) |
@@ -763,7 +763,7 @@
 | serve | 0.2.1 | [https://github.com/philippgille/serve](https://github.com/philippgille/serve) |
 | servicebusexplorer | 4.0.110 | [https://github.com/paolosalvatori/ServiceBusExplorer](https://github.com/paolosalvatori/ServiceBusExplorer) |
 | sfk | 1.9.3.4 | [http://stahlworks.com/dev/swiss-file-knife.html](http://stahlworks.com/dev/swiss-file-knife.html) |
-| shadowsocks | 4.1.2 | [https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) |
+| shadowsocks | 4.1.3.1 | [https://github.com/shadowsocks/shadowsocks-windows](https://github.com/shadowsocks/shadowsocks-windows) |
 | shadowsocksr-csharp | 4.9.0 | [https://github.com/shadowsocksrr/shadowsocksr-csharp](https://github.com/shadowsocksrr/shadowsocksr-csharp) |
 | sharex | 12.3.1 | [https://getsharex.com/](https://getsharex.com/) |
 | sharpkeys | 3.8 | [https://github.com/randyrants/sharpkeys](https://github.com/randyrants/sharpkeys) |
@@ -826,12 +826,12 @@
 | swig | 3.0.12 | [http://www.swig.org](http://www.swig.org) |
 | syncany-cli | 0.4.9 | [https://www.syncany.org/](https://www.syncany.org/) |
 | syncbackpro | 8.5.97.0 | [https://www.2brightsparks.com/syncback/sbpro.html](https://www.2brightsparks.com/syncback/sbpro.html) |
-| syncthing | 0.14.54 | [https://syncthing.net/](https://syncthing.net/) |
+| syncthing | 1.0.0 | [https://syncthing.net/](https://syncthing.net/) |
 | synctrayzor | 1.1.22 | [https://github.com/canton7/SyncTrayzor](https://github.com/canton7/SyncTrayzor) |
 | sysinternals | December.18.2018 | [https://docs.microsoft.com/en-us/sysinternals/](https://docs.microsoft.com/en-us/sysinternals/) |
 | taiga | 1.3.1 | [http://taiga.moe/](http://taiga.moe/) |
 | tar | 1.23 | [http://www.mingw.org/wiki/msys](http://www.mingw.org/wiki/msys) |
-| task | 2.2.1 | [https://taskfile.org](https://taskfile.org) |
+| task | 2.3.0 | [https://taskfile.org](https://taskfile.org) |
 | tcc | 0.9.26 | [https://bellard.org/tcc/](https://bellard.org/tcc/) |
 | tcpipmanager | 4.1.1 | [http://tcpipmanager.sourceforge.net](http://tcpipmanager.sourceforge.net) |
 | teamspeak3 | 3.2.3 | [https://www.teamspeak.com/en/](https://www.teamspeak.com/en/) |
@@ -839,7 +839,7 @@
 | telegram | 1.5.4 | [https://telegram.org/](https://telegram.org/) |
 | telnet | msys-inetutils-1.7-1 | [http://www.mingw.org/wiki/msys](http://www.mingw.org/wiki/msys) |
 | terminals | 4.0.1 | [https://github.com/Terminals-Origin/Terminals](https://github.com/Terminals-Origin/Terminals) |
-| terminus | 1.0.67 | [https://eugeny.github.io/terminus/](https://eugeny.github.io/terminus/) |
+| terminus | 1.0.68 | [https://eugeny.github.io/terminus/](https://eugeny.github.io/terminus/) |
 | terraform | 0.11.11 | [https://www.terraform.io](https://www.terraform.io) |
 | terragrunt | 0.17.4 | [https://github.com/gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) |
 | tesseract | 4.0.0.20181030 | [https://github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mannheim/tesseract/wiki) |
@@ -893,7 +893,7 @@
 | vcredist2017 | 14.10.25008 | [https://www.visualstudio.com/de/downloads/](https://www.visualstudio.com/de/downloads/) |
 | vcxsrv | 1.20.1.4 | [https://vcxsrv.sourceforge.io/](https://vcxsrv.sourceforge.io/) |
 | vifm | 0.10 | [https://vifm.info/](https://vifm.info/) |
-| vim | 8.1.0664 | [http://www.vim.org](http://www.vim.org) |
+| vim | 8.1.0682 | [http://www.vim.org](http://www.vim.org) |
 | vimtutor | 0.2018.08.04 | [https://github.com/lukesampson/psutils](https://github.com/lukesampson/psutils) |
 | visual-arm-emulator | 1.27 | [https://salmanarif.bitbucket.io/visual/index.html](https://salmanarif.bitbucket.io/visual/index.html) |
 | visualc | 16.00.30319.01 | [https://www.visualstudio.com](https://www.visualstudio.com) |
@@ -906,7 +906,7 @@
 | vscode-insiders | nightly | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
 | vscode-portable | 1.30.1 | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
 | vscode | 1.30.1 | [https://code.visualstudio.com/](https://code.visualstudio.com/) |
-| vswhere | 2.5.2 | [https://github.com/Microsoft/vswhere](https://github.com/Microsoft/vswhere) |
+| vswhere | 2.5.9 | [https://github.com/Microsoft/vswhere](https://github.com/Microsoft/vswhere) |
 | warp | 0.3.0 | [https://github.com/dgiagio/warp](https://github.com/dgiagio/warp) |
 | watchexec | 1.9.2 | [https://github.com/mattgreen/watchexec](https://github.com/mattgreen/watchexec) |
 | watchman-nightly | nightly | [https://facebook.github.io/watchman/](https://facebook.github.io/watchman/) |
@@ -967,7 +967,7 @@
 | yasm | 1.3.0 | [http://yasm.tortall.net/](http://yasm.tortall.net/) |
 | yatqa | 3.9.5 | [http://yat.qa/](http://yat.qa/) |
 | youtube-dl-gui | 0.4 | [https://github.com/MrS0m30n3/youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) |
-| youtube-dl | 2018.12.31 | [https://rg3.github.io/youtube-dl/](https://rg3.github.io/youtube-dl/) |
+| youtube-dl | 2019.01.02 | [https://rg3.github.io/youtube-dl/](https://rg3.github.io/youtube-dl/) |
 | yubico-piv-tool | 1.6.2 | [https://developers.yubico.com/yubico-piv-tool/](https://developers.yubico.com/yubico-piv-tool/) |
 | yubikey-manager-qt | 0.5.2 | [https://developers.yubico.com/yubikey-manager-qt/](https://developers.yubico.com/yubikey-manager-qt/) |
 | yubikey-personalization-gui | 3.1.25 | [https://developers.yubico.com/yubikey-personalization-gui/](https://developers.yubico.com/yubikey-personalization-gui/) |
@@ -983,4 +983,8 @@
 | zookeeper | 3.4.13 | [https://zookeeper.apache.org/](https://zookeeper.apache.org/) |
 | zstd | 1.3.8 | [http://www.zstd.net/](http://www.zstd.net/) |
 
+<<<<<<< HEAD
 This section was last generated on 01/02/2019 09:15:09
+=======
+This section was last generated on 01/03/2019 09:07:37
+>>>>>>> update-manifest
