@@ -1,1 +1,54 @@
-{"version":"57.0.3098.91","description":"Fast, secure, easy-to-use browser.","homepage":"https://www.opera.com/","license":"Freeware","architecture":{"64bit":{"url":"https://download1.operacdn.com/pub/opera/desktop/57.0.3098.91/win/Opera_57.0.3098.91_Setup_x64.exe","hash":"2e7eec392f03d7c3010e4b4258b1f427c27510676a9c7979796d92dee170149c"},"32bit":{"url":"https://download1.operacdn.com/pub/opera/desktop/57.0.3098.91/win/Opera_57.0.3098.91_Setup.exe","hash":"3d7add948f85495e20022af3d39f0c790b141b4146e03defb59482d9160f8860"}},"installer":{"args":["/silent","/installfolder=\"$dir\"","/copyonly=1","/desktopshortcut=0","/startmenushortcut=0","/quicklaunchshortcut=0","/enable-stats=0","/enable-installer-stats=0","/launchbrowser=0"]},"uninstaller":{"file":"launcher.exe","args":["/uninstall","/silent"]},"persist":"profile","shortcuts":[["launcher.exe","Opera"]],"checkver":{"url":"http://get.opera.com/ftp/pub/opera/desktop/","regex":"([\\d+\\.]+)/","reverse":true},"autoupdate":{"architecture":{"64bit":"@{url=https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup_x64.exe}","32bit":"@{url=https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup.exe}"}}}
+{
+    "version": "57.0.3098.91",
+    "description": "Fast, secure, easy-to-use browser.",
+    "homepage": "https://www.opera.com/",
+    "license": "Freeware",
+    "architecture": {
+        "64bit": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/57.0.3098.91/win/Opera_57.0.3098.91_Setup_x64.exe",
+            "hash": "2e7eec392f03d7c3010e4b4258b1f427c27510676a9c7979796d92dee170149c"
+        },
+        "32bit": {
+            "url": "https://download1.operacdn.com/pub/opera/desktop/57.0.3098.91/win/Opera_57.0.3098.91_Setup.exe",
+            "hash": "3d7add948f85495e20022af3d39f0c790b141b4146e03defb59482d9160f8860"
+        }
+    },
+    "installer": {
+        "args": [
+            "/silent",
+            "/installfolder=\"$dir\"",
+            "/copyonly=1",
+            "/desktopshortcut=0",
+            "/startmenushortcut=0",
+            "/quicklaunchshortcut=0",
+            "/enable-stats=0",
+            "/enable-installer-stats=0",
+            "/launchbrowser=0"
+        ]
+    },
+    "uninstaller": {
+        "file": "launcher.exe",
+        "args": [
+            "/uninstall",
+            "/silent"
+        ]
+    },
+    "persist": "profile",
+    "shortcuts": [
+        [
+            "launcher.exe",
+            "Opera"
+        ]
+    ],
+    "checkver": {
+        "url": "http://get.opera.com/ftp/pub/opera/desktop/",
+        "regex": "([\\d+\\.]+)/",
+        "reverse": true
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": "@{url=https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup_x64.exe}",
+            "32bit": "@{url=https://download1.operacdn.com/pub/opera/desktop/$version/win/Opera_$version_Setup.exe}"
+        }
+    }
+}
