@@ -1,1 +1,16 @@
-{"version":"5.18.0.225","homepage":"http://www.mono-project.com/","license":"MIT","url":"https://download.mono-project.com/archive/5.18.0/windows-installer/mono-5.18.0.225-gtksharp-2.12.45-win32-0.msi","hash":"e0dcb04fa4bc2f5538b6307eb2afae5e599ed38a5e2d78b537e6eb8d9572d3c0","extract_dir":"Mono","env_add_path":"bin","checkver":{"url":"http://www.mono-project.com/download/stable/","re":"(?\u003cshort\u003e[\\d.]+)/windows-installer/(?\u003cfile\u003emono-(?\u003cversion\u003e[\\d.]+).*win32.*).msi"},"autoupdate":{"url":"https://download.mono-project.com/archive/$matchShort/windows-installer/$matchFile.msi"}}
+{
+    "version": "5.18.0.225",
+    "homepage": "http://www.mono-project.com/",
+    "license": "MIT",
+    "url": "https://download.mono-project.com/archive/5.18.0/windows-installer/mono-5.18.0.225-gtksharp-2.12.45-win32-0.msi",
+    "hash": "e0dcb04fa4bc2f5538b6307eb2afae5e599ed38a5e2d78b537e6eb8d9572d3c0",
+    "extract_dir": "Mono",
+    "env_add_path": "bin",
+    "checkver": {
+        "url": "http://www.mono-project.com/download/stable/",
+        "re": "(?<short>[\\d.]+)/windows-installer/(?<file>mono-(?<version>[\\d.]+).*win32.*).msi"
+    },
+    "autoupdate": {
+        "url": "https://download.mono-project.com/archive/$matchShort/windows-installer/$matchFile.msi"
+    }
+}
