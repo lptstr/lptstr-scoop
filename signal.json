@@ -1,1 +1,25 @@
-{"homepage":"https://signal.org/","license":"GPL-3.0-only","version":"1.19.0","hash":"5abaa6277c8a1beecc1cb217b73a08b6cd06a24633a2e458d2d9980ae0c38f80","url":"https://updates.signal.org/desktop/signal-desktop-win-1.19.0.exe#/dl.7z","checkver":{"url":"https://updates.signal.org/desktop/latest.yml","re":"version:\\s([\\d.]+)"},"pre_install":"extract_7zip \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"","shortcuts":[["signal.exe","Signal"]],"autoupdate":{"url":"https://updates.signal.org/desktop/signal-desktop-win-$version.exe#/dl.7z","hash":{"url":"$baseurl/latest.yml","find":"sha2:\\s([a-fA-F0-9]{64})"}}}
+{
+    "homepage": "https://signal.org/",
+    "license": "GPL-3.0-only",
+    "version": "1.19.0",
+    "hash": "5abaa6277c8a1beecc1cb217b73a08b6cd06a24633a2e458d2d9980ae0c38f80",
+    "url": "https://updates.signal.org/desktop/signal-desktop-win-1.19.0.exe#/dl.7z",
+    "checkver": {
+        "url": "https://updates.signal.org/desktop/latest.yml",
+        "re": "version:\\s([\\d.]+)"
+    },
+    "pre_install": "extract_7zip \"$dir\\`$PLUGINSDIR\\app-64.7z\" \"$dir\"",
+    "shortcuts": [
+        [
+            "signal.exe",
+            "Signal"
+        ]
+    ],
+    "autoupdate": {
+        "url": "https://updates.signal.org/desktop/signal-desktop-win-$version.exe#/dl.7z",
+        "hash": {
+            "url": "$baseurl/latest.yml",
+            "find": "sha2:\\s([a-fA-F0-9]{64})"
+        }
+    }
+}
