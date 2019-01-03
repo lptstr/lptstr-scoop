@@ -1,1 +1,22 @@
-{"homepage":"http://pychess.org/","description":"A chess client for Linux and Windows","license":"GPL-3.0","version":"0.99.3","url":"https://github.com/pychess/pychess/releases/download/0.99.3/pychess-0.99.3-win32.msi","hash":"sha256:f9f85e4b3fd92b33afbd21b19387610c9097f764f0958f565d6471098c43794f","bin":"pychess.exe","shortcuts":[["pychess.exe","PyChess"]],"checkver":{"url":"https://github.com/pychess/pychess/releases","re":"github"},"autoupdate":{"url":"https://github.com/pychess/pychess/releases/download/$version/pychess-$version-win32.msi"}}
+{
+    "homepage": "http://pychess.org/",
+    "description": "A chess client for Linux and Windows",
+    "license": "GPL-3.0",
+    "version": "0.99.3",
+    "url": "https://github.com/pychess/pychess/releases/download/0.99.3/pychess-0.99.3-win32.msi",
+    "hash": "sha256:f9f85e4b3fd92b33afbd21b19387610c9097f764f0958f565d6471098c43794f",
+    "bin": "pychess.exe",
+    "shortcuts": [
+        [
+            "pychess.exe",
+            "PyChess"
+        ]
+    ],
+    "checkver": {
+        "url": "https://github.com/pychess/pychess/releases",
+        "re": "github"
+    },
+    "autoupdate": {
+        "url": "https://github.com/pychess/pychess/releases/download/$version/pychess-$version-win32.msi"
+    }
+}
