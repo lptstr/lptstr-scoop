@@ -1,1 +1,23 @@
-{"homepage":"http://www.screentogif.com/","version":"2.15.1","license":"MS-PL","url":"https://github.com/NickeManarin/ScreenToGif/releases/download/2.15.1/ScreenToGif.2.15.1.Portable.zip","hash":"02a81dd70f0bb7e6d5495dc67e7127ce5b7f44299dc3188544222ada67cdb72e","bin":"ScreenToGif.exe","shortcuts":[["ScreenToGif.exe","ScreenToGif"]],"suggest":{"FFmpeg":"ffmpeg"},"checkver":{"github":"https://github.com/NickeManarin/ScreenToGif"},"autoupdate":{"url":"https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.zip"}}
+{
+    "homepage": "http://www.screentogif.com/",
+    "version": "2.15.1",
+    "license": "MS-PL",
+    "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/2.15.1/ScreenToGif.2.15.1.Portable.zip",
+    "hash": "02a81dd70f0bb7e6d5495dc67e7127ce5b7f44299dc3188544222ada67cdb72e",
+    "bin": "ScreenToGif.exe",
+    "shortcuts": [
+        [
+            "ScreenToGif.exe",
+            "ScreenToGif"
+        ]
+    ],
+    "suggest": {
+        "FFmpeg": "ffmpeg"
+    },
+    "checkver": {
+        "github": "https://github.com/NickeManarin/ScreenToGif"
+    },
+    "autoupdate": {
+        "url": "https://github.com/NickeManarin/ScreenToGif/releases/download/$version/ScreenToGif.$version.Portable.zip"
+    }
+}
