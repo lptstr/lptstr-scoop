@@ -241,13 +241,7 @@ function normalize_values([psobject] $json) {
 # End copyrighted file
 
 
-function parse_json($path) {
-    if(!(Test-Path $path)) { 
-        return $null 
-    }
-    Get-Content $path -raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop
-}
-
+function parse_json($path) {    if(!(Test-Path $path)) {         return $null     }    Get-Content $path -raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop}
 
 Set-Location $HOME
 Set-Location scoop/proj/open-scoop/bin
@@ -258,13 +252,10 @@ if (!$NoUpdate) {
 	$files = Get-ChildItem ../.\*.json
 	$i = 1;
 	Get-ChildItem ../.\*.json | Foreach-Object {
-	  $basename = $_.BaseName
-	  $name = $_.Name
-	  Write-Progress -Activity "Updating application manifests" -status "Scanning $name" -percentComplete ($i / $files.count * 100)
-	  $out = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u | Out-String
-
-	  $doo = (Get-Content ../$name) | ConvertFrom-Json | ConvertTo-Json -Compress
-	  Set-Content -Path ../$name -Value $doo 
+	  $basename = $_.BaseName	  
+	$name = $_.Name
+	  Write-Progress -Activity "Updating application manifests" -status "Scanning $name" -percentComplete ($i / $files.count * 100)	  
+	$out = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u | Out-String
 	  git commit -q -a -m "Auto-updated $basename" > log.txt
 	  $i++
 	}
@@ -303,17 +294,17 @@ git merge update-manifest
 # Format each file
 $c = 1
 $manifests = Get-ChildItem ../.\*.json
-Get-ChildItem ../.\*.json | ForEach-Object {
-   $name = $_.Namee
+Get-ChildItem ../.\*.json | ForEach-Object {
+   $name = $_.Namee
     $basename = $_.BaseName
     $json = parse_json "$_" | ConvertToPrettyJson
-    Write-Progress -Activity "Formatting JSON in application manifests" -status "Formatting $_" -percentComplete ($c / $manifests.count * 100)
-    [System.IO.File]::WriteAllLines("$_", $json)
-    git commit -q -a -m "Automatically formated JSON in $basename's manifest" > log.txt
-    Write-Output "Formatted $_"
-    $c++
-}
+    Write-Progress -Activity "Formatting JSON in application manifests" -status "Formatting $_" -percentComplete ($c / $manifests.count * 100)
 
+
+    [System.IO.File]::WriteAllLines("$_", $json)
+    git commit -q -a -m "Automatically formated JSON in $basename's manifest" > log.txt    Write-Output "Formatted $_"
+    $c++
+}
 git checkout master
 git merge format-manifest
 git merge update-manifest
