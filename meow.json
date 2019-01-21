@@ -1,10 +1,10 @@
 {
-    "version": "0.1.2",
+    "version": "1.2.0",
     "homepage": "https://github.com/kiedtl/meow",
     "license": "AGPL-v3.0",
     "description": "A minimalistic lolcat clone for Windows that actually works!",
     "url": "https://github.com/Kiedtl/Meow/releases/download/v1.2.0/meow-master-v1.2.0.zip",
-    "hash": "c65cdfbf43b15f65742831f812003a92abeaa5d416374d5d75a53388d0b59148",
+    "hash": "33b10ce7940ad9b22bc5d392c350538d7f958c0eea0626c89dc4d7495b745200",
     "extract_dir": "meow-master",
     "bin": "meow.ps1",
     "checkver": "github",
