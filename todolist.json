@@ -5,9 +5,9 @@
         "identifier": "EPL-1.0",
         "url": "https://opensource.org/licenses/eclipse-1.0.php"
     },
-    "version": "7.1.5.0",
+    "version": "7.2.3.0",
     "url": "http://abstractspoon.pbwiki.com/f/todolist_exe.zip",
-    "hash": "ce1946080c39061e577d1b539fb24c3c8ee88c8f32249ce78d36acd7fd064ce6",
+    "hash": "847194fa17db731d582219886622f8332e5bc646ddb818cea3bebd8c46ebee47",
     "pre_install": [
         "$app_ini = \"ToDoList.ini\"",
         "if(!(Test-Path \"$persist_dir\\$app_ini\")) { ",
