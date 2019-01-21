@@ -1,1 +1,28 @@
-{"homepage":"https://github.com/0xd4d/dnSpy","version":"5.0.11","license":"GPL-3.0-only","url":"https://github.com/0xd4d/dnSpy/releases/download/v5.0.11/dnSpy.zip","hash":"e61bbca2e920216cc50e1fb5835e8501d29b3c335e0eb59975f78ca55a9e1de4","bin":["dnSpy.Console.exe","dnSpy-x86.exe","dnSpy.exe"],"shortcuts":[["dnSpy.exe","dnSpy"],["dnSpy-x86.exe","dnSpy (x86)"]],"checkver":{"github":"https://github.com/0xd4d/dnSpy"},"autoupdate":{"url":"https://github.com/0xd4d/dnSpy/releases/download/v$version/dnSpy.zip"}}
+{
+    "homepage": "https://github.com/0xd4d/dnSpy",
+    "version": "5.0.11",
+    "license": "GPL-3.0-only",
+    "url": "https://github.com/0xd4d/dnSpy/releases/download/v5.0.11/dnSpy.zip",
+    "hash": "e61bbca2e920216cc50e1fb5835e8501d29b3c335e0eb59975f78ca55a9e1de4",
+    "bin": [
+        "dnSpy.Console.exe",
+        "dnSpy-x86.exe",
+        "dnSpy.exe"
+    ],
+    "shortcuts": [
+        [
+            "dnSpy.exe",
+            "dnSpy"
+        ],
+        [
+            "dnSpy-x86.exe",
+            "dnSpy (x86)"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/0xd4d/dnSpy"
+    },
+    "autoupdate": {
+        "url": "https://github.com/0xd4d/dnSpy/releases/download/v$version/dnSpy.zip"
+    }
+}

@@ -1,1 +1,23 @@
-{"homepage":"http://jdownloader.org/","description":"JDownloader is a free, open-source download management tool","version":"nightly","url":["http://installer.jdownloader.org/JDownloader.jar","http://jdownloader.org/lib/tpl/arctic/images/favicon.ico#/icon.ico"],"suggest":{"JRE":"java/oraclejre8"},"persist":"cfg","bin":"JDownloader.bat","pre_install":"Set-Content \"$dir\\JDownloader.bat\" (@(\u0027@echo off\u0027, \u0027start javaw.exe -jar JDownloader.jar\u0027) -join \"`r`n\") -Encoding Ascii","shortcuts":[["JDownloader.bat","JDownloader","","icon.ico"]]}
+{
+    "homepage": "http://jdownloader.org/",
+    "description": "JDownloader is a free, open-source download management tool",
+    "version": "nightly",
+    "url": [
+        "http://installer.jdownloader.org/JDownloader.jar",
+        "http://jdownloader.org/lib/tpl/arctic/images/favicon.ico#/icon.ico"
+    ],
+    "suggest": {
+        "JRE": "java/oraclejre8"
+    },
+    "persist": "cfg",
+    "bin": "JDownloader.bat",
+    "pre_install": "Set-Content \"$dir\\JDownloader.bat\" (@('@echo off', 'start javaw.exe -jar JDownloader.jar') -join \"`r`n\") -Encoding Ascii",
+    "shortcuts": [
+        [
+            "JDownloader.bat",
+            "JDownloader",
+            "",
+            "icon.ico"
+        ]
+    ]
+}

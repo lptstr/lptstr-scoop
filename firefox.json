@@ -1,1 +1,34 @@
-{"description":"Popular open source web browser. Cross-platform and available in many languages.","homepage":"https://www.mozilla.org/en-US/firefox/new/","version":"64.0","license":"MPL-2.0","architecture":{"64bit":{"url":"https://download.mozilla.org/?product=firefox-64.0-SSL\u0026os=win64\u0026lang=en-US#/firefox.7z","hash":"509b75c6fcf4a201b13c2ca6f84fcdeaf0ea6a5ba3cca7b9039d2da8a41740de"},"32bit":{"url":"https://download.mozilla.org/?product=firefox-64.0-SSL\u0026os=win\u0026lang=en-US#/firefox.7z","hash":"0a45815c33f5ac235686ca8581cef617a51d10b119186bd291e1cfb8bc43e4c0"}},"extract_dir":"core","bin":"firefox.exe","shortcuts":[["firefox.exe","Mozilla Firefox"]],"checkver":{"url":"https://www.mozilla.org/en-US/firefox/all/","re":"data-latest-firefox=\"([\\d.]+)\""},"autoupdate":{"architecture":{"64bit":"@{url=https://download.mozilla.org/?product=firefox-$version-SSL\u0026os=win64\u0026lang=en-US#/firefox.7z; hash=}","32bit":"@{url=https://download.mozilla.org/?product=firefox-$version-SSL\u0026os=win\u0026lang=en-US#/firefox.7z; hash=}"}}}
+{
+    "description": "Popular open source web browser. Cross-platform and available in many languages.",
+    "homepage": "https://www.mozilla.org/en-US/firefox/new/",
+    "version": "64.0",
+    "license": "MPL-2.0",
+    "architecture": {
+        "64bit": {
+            "url": "https://download.mozilla.org/?product=firefox-64.0-SSL&os=win64&lang=en-US#/firefox.7z",
+            "hash": "509b75c6fcf4a201b13c2ca6f84fcdeaf0ea6a5ba3cca7b9039d2da8a41740de"
+        },
+        "32bit": {
+            "url": "https://download.mozilla.org/?product=firefox-64.0-SSL&os=win&lang=en-US#/firefox.7z",
+            "hash": "0a45815c33f5ac235686ca8581cef617a51d10b119186bd291e1cfb8bc43e4c0"
+        }
+    },
+    "extract_dir": "core",
+    "bin": "firefox.exe",
+    "shortcuts": [
+        [
+            "firefox.exe",
+            "Mozilla Firefox"
+        ]
+    ],
+    "checkver": {
+        "url": "https://www.mozilla.org/en-US/firefox/all/",
+        "re": "data-latest-firefox=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": "@{url=https://download.mozilla.org/?product=firefox-$version-SSL&os=win64&lang=en-US#/firefox.7z; hash=}",
+            "32bit": "@{url=https://download.mozilla.org/?product=firefox-$version-SSL&os=win&lang=en-US#/firefox.7z; hash=}"
+        }
+    }
+}

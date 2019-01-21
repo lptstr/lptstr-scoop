@@ -1,1 +1,35 @@
-{"homepage":"http://www.sweethome3d.com/","license":"GPL-2.0-or-later","version":"6.0","extract_dir":"SweetHome3D-6.0-portable","persist":["data\\preferences.xml","data\\plugins"],"architecture":{"64bit":{"url":"https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.0/SweetHome3D-6.0-portable.7z","hash":"sha1:339ceef5b79dcc85e2dfb29c2f9f67d108b94ef0","bin":"System.Object[]","shortcuts":"System.Object[]"},"32bit":{"url":"https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.0/SweetHome3D-6.0-portable.7z","hash":"sha1:339ceef5b79dcc85e2dfb29c2f9f67d108b94ef0","bin":"System.Object[]","shortcuts":"System.Object[]"}},"checkver":{"url":"http://www.sweethome3d.com/SweetHome3DUpdates.xml","re":"id=\"SweetHome3D#Portable\"\\s+version=\"([\\d.]+)\""},"autoupdate":{"architecture":{"64bit":"@{url=https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z}","32bit":"@{url=https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z}"},"extract_dir":"SweetHome3D-$version-portable"}}
+{
+    "homepage": "http://www.sweethome3d.com/",
+    "license": "GPL-2.0-or-later",
+    "version": "6.0",
+    "extract_dir": "SweetHome3D-6.0-portable",
+    "persist": [
+        "data\\preferences.xml",
+        "data\\plugins"
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.0/SweetHome3D-6.0-portable.7z",
+            "hash": "sha1:339ceef5b79dcc85e2dfb29c2f9f67d108b94ef0",
+            "bin": "System.Object[]",
+            "shortcuts": "System.Object[]"
+        },
+        "32bit": {
+            "url": "https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-6.0/SweetHome3D-6.0-portable.7z",
+            "hash": "sha1:339ceef5b79dcc85e2dfb29c2f9f67d108b94ef0",
+            "bin": "System.Object[]",
+            "shortcuts": "System.Object[]"
+        }
+    },
+    "checkver": {
+        "url": "http://www.sweethome3d.com/SweetHome3DUpdates.xml",
+        "re": "id=\"SweetHome3D#Portable\"\\s+version=\"([\\d.]+)\""
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": "@{url=https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z}",
+            "32bit": "@{url=https://downloads.sourceforge.net/project/sweethome3d/SweetHome3D/SweetHome3D-$version/SweetHome3D-$version-portable.7z}"
+        },
+        "extract_dir": "SweetHome3D-$version-portable"
+    }
+}

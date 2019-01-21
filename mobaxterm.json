@@ -1,1 +1,37 @@
-{"version":"11.0","description":"Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.","homepage":"https://mobaxterm.mobatek.net/","url":"https://download.mobatek.net/1102018093083521/MobaXterm_Portable_v11.0.zip","hash":"856f528f8c418ae2b1873066c0d9c1d8814ef080411cffcdce6680ee9c7043fc","pre_install":["    # Rename executable","$ex = (Get-ChildItem \"$dir\" \u0027mobaxterm*.exe\u0027)[0]","Rename-Item \"$dir\\$ex\" \"$dir\\MobaXterm.exe\"","    # Create files for persisting","function PersistsFile([String] $file) {","    if (!(Test-Path \"$persist_dir\\$file\")) {","        New-Item \"$dir\\$file\" -Type File | Out-Null","    }","}","@(\u0027MobaXterm backup.zip\u0027, \u0027MobaXterm.ini\u0027) | ForEach-Object { PersistsFile $_ }"],"persist":["MobaXterm.ini","MobaXterm backup.zip"],"bin":"MobaXterm.exe","shortcuts":[["MobaXterm.exe","MobaXterm Personal"]],"checkver":{"url":"https://mobaxterm.mobatek.net/download-home-edition.html","regex":"//download.mobatek.net/(?\u003crandom\u003e[\\d]+)/MobaXterm_Portable_v([\\d\\.]+)\\.zip"},"autoupdate":{"url":"https://download.mobatek.net/$matchRandom/MobaXterm_Portable_v$version.zip"}}
+{
+    "version": "11.0",
+    "description": "Enhanced terminal for Windows with X11 server, tabbed SSH client, network tools and much more.",
+    "homepage": "https://mobaxterm.mobatek.net/",
+    "url": "https://download.mobatek.net/1102018093083521/MobaXterm_Portable_v11.0.zip",
+    "hash": "856f528f8c418ae2b1873066c0d9c1d8814ef080411cffcdce6680ee9c7043fc",
+    "pre_install": [
+        "    # Rename executable",
+        "$ex = (Get-ChildItem \"$dir\" 'mobaxterm*.exe')[0]",
+        "Rename-Item \"$dir\\$ex\" \"$dir\\MobaXterm.exe\"",
+        "    # Create files for persisting",
+        "function PersistsFile([String] $file) {",
+        "    if (!(Test-Path \"$persist_dir\\$file\")) {",
+        "        New-Item \"$dir\\$file\" -Type File | Out-Null",
+        "    }",
+        "}",
+        "@('MobaXterm backup.zip', 'MobaXterm.ini') | ForEach-Object { PersistsFile $_ }"
+    ],
+    "persist": [
+        "MobaXterm.ini",
+        "MobaXterm backup.zip"
+    ],
+    "bin": "MobaXterm.exe",
+    "shortcuts": [
+        [
+            "MobaXterm.exe",
+            "MobaXterm Personal"
+        ]
+    ],
+    "checkver": {
+        "url": "https://mobaxterm.mobatek.net/download-home-edition.html",
+        "regex": "//download.mobatek.net/(?<random>[\\d]+)/MobaXterm_Portable_v([\\d\\.]+)\\.zip"
+    },
+    "autoupdate": {
+        "url": "https://download.mobatek.net/$matchRandom/MobaXterm_Portable_v$version.zip"
+    }
+}

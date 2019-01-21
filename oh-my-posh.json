@@ -1,1 +1,21 @@
-{"version":"2.0.230","license":"MIT","url":"https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/2.0.230/oh-my-posh.zip","homepage":"https://github.com/JanDeDobbeleer/oh-my-posh","hash":"c6bfd914afb035fdf92c66f175518707a81eaa37695ca8b48bc00cbf1b25fb1d","depends":"extras/posh-git","psmodule":{"name":"oh-my-posh"},"checkver":{"github":"https://github.com/JanDeDobbeleer/oh-my-posh"},"autoupdate":{"url":"https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/$version/oh-my-posh.zip"},"notes":["Oh-My-Posh must be manually enabled (add to $Profile to make it permanent):","Import-Module oh-my-posh"]}
+{
+    "version": "2.0.230",
+    "license": "MIT",
+    "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/2.0.230/oh-my-posh.zip",
+    "homepage": "https://github.com/JanDeDobbeleer/oh-my-posh",
+    "hash": "c6bfd914afb035fdf92c66f175518707a81eaa37695ca8b48bc00cbf1b25fb1d",
+    "depends": "extras/posh-git",
+    "psmodule": {
+        "name": "oh-my-posh"
+    },
+    "checkver": {
+        "github": "https://github.com/JanDeDobbeleer/oh-my-posh"
+    },
+    "autoupdate": {
+        "url": "https://github.com/JanDeDobbeleer/oh-my-posh/releases/download/$version/oh-my-posh.zip"
+    },
+    "notes": [
+        "Oh-My-Posh must be manually enabled (add to $Profile to make it permanent):",
+        "Import-Module oh-my-posh"
+    ]
+}

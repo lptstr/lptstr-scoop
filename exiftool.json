@@ -1,1 +1,20 @@
-{"homepage":"https://sno.phy.queensu.ca/~phil/exiftool/index.html","version":"11.23","license":{"identifier":"Artistic-1.0-Perl|GPL-1.0-only","url":"https://dev.perl.org/licenses/"},"url":"https://downloads.sourceforge.net/project/exiftool/exiftool-11.23.zip","hash":"sha1:479fe2532392678063ad30a1cea72c67b433c01e","bin":[["exiftool(-k).exe","exiftool"]],"checkver":"exiftool-([\\d.]+).zip","autoupdate":{"url":"https://downloads.sourceforge.net/project/exiftool/exiftool-$version.zip"}}
+{
+    "homepage": "https://sno.phy.queensu.ca/~phil/exiftool/index.html",
+    "version": "11.23",
+    "license": {
+        "identifier": "Artistic-1.0-Perl|GPL-1.0-only",
+        "url": "https://dev.perl.org/licenses/"
+    },
+    "url": "https://downloads.sourceforge.net/project/exiftool/exiftool-11.23.zip",
+    "hash": "sha1:479fe2532392678063ad30a1cea72c67b433c01e",
+    "bin": [
+        [
+            "exiftool(-k).exe",
+            "exiftool"
+        ]
+    ],
+    "checkver": "exiftool-([\\d.]+).zip",
+    "autoupdate": {
+        "url": "https://downloads.sourceforge.net/project/exiftool/exiftool-$version.zip"
+    }
+}
