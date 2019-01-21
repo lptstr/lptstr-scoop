@@ -5,9 +5,9 @@
         "identifier": "Apache-2.0",
         "url": "https://raw.githubusercontent.com/jwilm/alacritty/master/LICENSE"
     },
-    "version": "0.2.5",
-    "url": "https://github.com/jwilm/alacritty/releases/download/v0.2.5/Alacritty-v0.2.5.exe#/alacritty.exe",
-    "hash": "8386fabe3a5f3d51676d54d9ae735060cf655b987a0952dd430b5eb8fb4d6268",
+    "version": "0.2.6",
+    "url": "https://github.com/jwilm/alacritty/releases/download/v0.2.6/Alacritty-v0.2.6.exe#/alacritty.exe",
+    "hash": "2c8dcdda275f2e954085086b23cc130548f2eb141a1ccd566f5682fa6d35e76b",
     "bin": "alacritty.exe",
     "shortcuts": [
         [
