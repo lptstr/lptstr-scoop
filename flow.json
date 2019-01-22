@@ -1,1 +1,15 @@
-{"version":"0.89.0","license":"MIT","url":"https://github.com/facebook/flow/releases/download/v0.89.0/flow-win64-v0.89.0.zip","homepage":"https://flowtype.org/","hash":"fef0265c16696c60e3bb78c70fa7b1148a5c09617f7929a42c001c84aef0064f","bin":"flow.exe","extract_dir":"flow","checkver":{"github":"https://github.com/facebook/flow"},"autoupdate":{"url":"https://github.com/facebook/flow/releases/download/v$version/flow-win64-v$version.zip"}}
+{
+    "version": "0.91.0",
+    "license": "MIT",
+    "url": "https://github.com/facebook/flow/releases/download/v0.91.0/flow-win64-v0.91.0.zip",
+    "homepage": "https://flowtype.org/",
+    "hash": "3456ca52a956f4660fb271bbe980e4e4dd80cc62f1a6b69f09270207c6670995",
+    "bin": "flow.exe",
+    "extract_dir": "flow",
+    "checkver": {
+        "github": "https://github.com/facebook/flow"
+    },
+    "autoupdate": {
+        "url": "https://github.com/facebook/flow/releases/download/v$version/flow-win64-v$version.zip"
+    }
+}
