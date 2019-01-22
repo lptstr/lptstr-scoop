@@ -14,7 +14,11 @@
 | ag | 2.2.0-4-g1b06a9f | [https://geoff.greer.fm/ag/](https://geoff.greer.fm/ag/) |
 | ahoy | 2.0.0 | [http://ahoycli.com](http://ahoycli.com) |
 | aida64extreme | 5.99 | [https://www.aida64.com](https://www.aida64.com) |
+<<<<<<< HEAD
 | alacritty | 0.2.6 | [https://github.com/jwilm/alacritty/](https://github.com/jwilm/alacritty/) |
+=======
+| alacritty | 0.2.3 | [https://github.com/jwilm/alacritty/releases](https://github.com/jwilm/alacritty/releases) |
+>>>>>>> update-manifest
 | allure | 2.9.0 | [https://github.com/allure-framework/allure2](https://github.com/allure-framework/allure2) |
 | altools | 1.0 | [https://www.microsoft.com/en-us/download/details.aspx?id=18465](https://www.microsoft.com/en-us/download/details.aspx?id=18465) |
 | ammonite | 1.6.2 | [http://ammonite.io](http://ammonite.io) |
@@ -49,7 +53,11 @@
 | autohotkey | 1.1.30.01 | [https://www.autohotkey.com/](https://www.autohotkey.com/) |
 | autoit | 3.3.14.5 | [https://www.autoitscript.com/site/autoit/](https://www.autoitscript.com/site/autoit/) |
 | awake | 1.4.2 | [https://github.com/gdegeneve/Awake](https://github.com/gdegeneve/Awake) |
+<<<<<<< HEAD
 | aws | 1.4.2 | [https://github.com/gdegeneve/Awake](https://github.com/gdegeneve/Awake) |
+=======
+| aws | 1.16.93 | [https://aws.amazon.com/cli/](https://aws.amazon.com/cli/) |
+>>>>>>> update-manifest
 | axel | 2.4 | [https://github.com/ghuntley/cygwin-axel/](https://github.com/ghuntley/cygwin-axel/) |
 | axis | 1.4 | [https://axis.apache.org/](https://axis.apache.org/) |
 | azure-cli | 2.0.55 | [https://aka.ms/cli](https://aka.ms/cli) |
@@ -119,7 +127,7 @@
 | cmder | 1.3.11 | [http://cmder.net](http://cmder.net) |
 | cmdow | 1.4.8 | [https://ritchielawrence.github.io/cmdow/](https://ritchielawrence.github.io/cmdow/) |
 | cobalt | 0.15.0 | [https://cobalt-org.github.io/](https://cobalt-org.github.io/) |
-| cockroachdb | 2.1.3 | [https://www.cockroachlabs.com/](https://www.cockroachlabs.com/) |
+| cockroachdb | 2.1.4 | [https://www.cockroachlabs.com/](https://www.cockroachlabs.com/) |
 | codetrack | 1.0.3.3 | [http://www.getcodetrack.com](http://www.getcodetrack.com) |
 | colortool | 1810.02002 | [https://github.com/Microsoft/Console/tree/master/tools/ColorTool](https://github.com/Microsoft/Console/tree/master/tools/ColorTool) |
 | composer | 1.8.0 | [https://getcomposer.org/](https://getcomposer.org/) |
@@ -240,7 +248,11 @@
 | executor | 1.4.1.924 | [https://www.voidtools.com/](https://www.voidtools.com/) |
 | exercism-cli | 3.0.11 | [http://exercism.io/](http://exercism.io/) |
 | exercism | 3.0.11 | [https://github.com/exercism/cli](https://github.com/exercism/cli) |
+<<<<<<< HEAD
 | exiftool | 11.25 | [https://sno.phy.queensu.ca/~phil/exiftool/index.html](https://sno.phy.queensu.ca/~phil/exiftool/index.html) |
+=======
+| exiftool | 11.26 | [https://sno.phy.queensu.ca/~phil/exiftool/index.html](https://sno.phy.queensu.ca/~phil/exiftool/index.html) |
+>>>>>>> update-manifest
 | faas-cli | 0.8.1 | [https://www.openfaas.com/](https://www.openfaas.com/) |
 | falcon-sql-client | 4.1.0 | [https://plot.ly/free-sql-client-download](https://plot.ly/free-sql-client-download) |
 | far | 30b5300 | [https://farmanager.com/](https://farmanager.com/) |
@@ -304,7 +316,7 @@
 | gifcam | 5.5 | [http://blog.bahraniapps.com/gifcam/](http://blog.bahraniapps.com/gifcam/) |
 | gifsicle | 1.89 | [http://www.lcdf.org/gifsicle/](http://www.lcdf.org/gifsicle/) |
 | gimp | 2.10.8 | [https://www.gimp.org/](https://www.gimp.org/) |
-| git-annex | 7.20181211 | [http://git-annex.branchable.com/](http://git-annex.branchable.com/) |
+| git-annex | 7.20190122 | [http://git-annex.branchable.com/](http://git-annex.branchable.com/) |
 | git-crypt | 0.6.0-701fb8e | [https://www.agwa.name/projects/git-crypt/](https://www.agwa.name/projects/git-crypt/) |
 | git-istage | 0.2.61 | [https://github.com/terrajobst/git-istage](https://github.com/terrajobst/git-istage) |
 | git-lfs | 2.6.1 | [https://git-lfs.github.com/](https://git-lfs.github.com/) |
@@ -343,8 +355,13 @@
 | gpg | 2.2.12 | [https://www.gnupg.org/](https://www.gnupg.org/) |
 | gpg4win | 3.1.5 | [https://www.gpg4win.org](https://www.gpg4win.org) |
 | gpu-z | 2.16.0 | [https://www.techpowerup.com/gpuz/](https://www.techpowerup.com/gpuz/) |
+<<<<<<< HEAD
 | gradle-bin | 2.16.0 | [https://www.techpowerup.com/gpuz/](https://www.techpowerup.com/gpuz/) |
 | gradle | 2.16.0 | [https://www.techpowerup.com/gpuz/](https://www.techpowerup.com/gpuz/) |
+=======
+| gradle-bin | 5.1.1 | [https://gradle.org](https://gradle.org) |
+| gradle | 5.1.1 | [https://gradle.org](https://gradle.org) |
+>>>>>>> update-manifest
 | grafana | 5.4.2 | [https://grafana.com/](https://grafana.com/) |
 | grails | 3.3.9 | [https://grails.org/](https://grails.org/) |
 | graphicsgale | 2.08.21 | [https://graphicsgale.com/us/](https://graphicsgale.com/us/) |
@@ -454,7 +471,11 @@
 | kubectl | 1.13.1 | [https://kubernetes.io/docs/user-guide/kubectl-overview/](https://kubernetes.io/docs/user-guide/kubectl-overview/) |
 | lame | 3.100 | [https://lame.sourceforge.net/](https://lame.sourceforge.net/) |
 | latex | 2.9.6942 | [https://miktex.org](https://miktex.org) |
+<<<<<<< HEAD
 | launchy | 2.9.6942 | [https://miktex.org](https://miktex.org) |
+=======
+| launchy | 2.9.66 | [https://openningia.github.io/Launchy](https://openningia.github.io/Launchy) |
+>>>>>>> update-manifest
 | lazygit | 0.6 | [https://github.com/jesseduffield/lazygit](https://github.com/jesseduffield/lazygit) |
 | lcow | v4.14.35-v0.3.9 | [https://github.com/linuxkit/lcow](https://github.com/linuxkit/lcow) |
 | ldap-admin | 1.8.3 | [http://ldapadmin.org/](http://ldapadmin.org/) |
@@ -636,7 +657,11 @@
 | pentaho-data-integration | 8.2.0.0-342 | [https://pentaho.sourceforge.io/](https://pentaho.sourceforge.io/) |
 | perl | 5.28.1.1 | [http://strawberryperl.com](http://strawberryperl.com) |
 | persepolis | 3.1.0 | [https://persepolisdm.github.io/](https://persepolisdm.github.io/) |
+<<<<<<< HEAD
 | pester | 4.5.0 | [https://github.com/pester/Pester](https://github.com/pester/Pester) |
+=======
+| pester | 4.6.0 | [https://github.com/pester/Pester](https://github.com/pester/Pester) |
+>>>>>>> update-manifest
 | phantomjs | 2.1.1 | [http://phantomjs.org/](http://phantomjs.org/) |
 | php-nts-xdebug | 2.6.1-7.2 | [https://xdebug.org/](https://xdebug.org/) |
 | php-nts | 7.2.13 | [http://windows.php.net](http://windows.php.net) |
@@ -719,7 +744,7 @@
 | red | 0.6.4 | [http://www.red-lang.org](http://www.red-lang.org) |
 | redis | 3.2.100 | [https://redis.io](https://redis.io) |
 | renderdoc | 1.2 | [https://renderdoc.org](https://renderdoc.org) |
-| reshade | 4.0.2 | [https://reshade.me/](https://reshade.me/) |
+| reshade | 4.1.0 | [https://reshade.me/](https://reshade.me/) |
 | resharper-clt | 2018.3.1 | [https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt](https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt) |
 | resource-hacker | 2018.3.1 | [https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt](https://www.jetbrains.com/resharper/download/index.html#section=resharper-clt) |
 | restic | 0.9.3 | [https://restic.github.io/](https://restic.github.io/) |
@@ -782,7 +807,7 @@
 | snaketail | 1.9.4 | [http://snakenest.com/snaketail/](http://snakenest.com/snaketail/) |
 | snipaste | 1.16.2 | [https://www.snipaste.com/](https://www.snipaste.com/) |
 | soapui | 5.4.0 | [https://www.soapui.org/](https://www.soapui.org/) |
-| solidity | 0.5.2 | [https://solidity.readthedocs.io](https://solidity.readthedocs.io) |
+| solidity | 0.5.3 | [https://solidity.readthedocs.io](https://solidity.readthedocs.io) |
 | sonarqube | 7.5 | [https://www.sonarqube.org](https://www.sonarqube.org) |
 | soulseekqt | 2017-2-20 | [http://www.slsknet.org/news/node/1](http://www.slsknet.org/news/node/1) |
 | sourcetree | 3.0.15 | [https://www.sourcetreeapp.com/](https://www.sourcetreeapp.com/) |
@@ -837,10 +862,14 @@
 | tcpipmanager | 4.1.1 | [http://tcpipmanager.sourceforge.net](http://tcpipmanager.sourceforge.net) |
 | teamspeak3 | 3.2.3 | [https://www.teamspeak.com/en/](https://www.teamspeak.com/en/) |
 | teamviewer | 14.1.3399 | [https://www.teamviewer.com](https://www.teamviewer.com) |
-| telegram | 1.5.4 | [https://telegram.org/](https://telegram.org/) |
+| telegram | 1.5.8 | [https://telegram.org/](https://telegram.org/) |
 | telnet | msys-inetutils-1.7-1 | [http://www.mingw.org/wiki/msys](http://www.mingw.org/wiki/msys) |
 | terminals | 4.0.1 | [https://github.com/Terminals-Origin/Terminals](https://github.com/Terminals-Origin/Terminals) |
+<<<<<<< HEAD
 | terminus | 4.0.1 | [https://github.com/Terminals-Origin/Terminals](https://github.com/Terminals-Origin/Terminals) |
+=======
+| terminus | 1.0.69 | [https://eugeny.github.io/terminus/](https://eugeny.github.io/terminus/) |
+>>>>>>> update-manifest
 | terraform | 0.11.11 | [https://www.terraform.io](https://www.terraform.io) |
 | terragrunt | 0.17.4 | [https://github.com/gruntwork-io/terragrunt](https://github.com/gruntwork-io/terragrunt) |
 | tesseract | 4.0.0.20181030 | [https://github.com/UB-Mannheim/tesseract/wiki](https://github.com/UB-Mannheim/tesseract/wiki) |
@@ -968,7 +997,11 @@
 | yasm | 1.3.0 | [http://yasm.tortall.net/](http://yasm.tortall.net/) |
 | yatqa | 3.9.5 | [http://yat.qa/](http://yat.qa/) |
 | youtube-dl-gui | 0.4 | [https://github.com/MrS0m30n3/youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) |
+<<<<<<< HEAD
 | youtube-dl | 0.4 | [https://github.com/MrS0m30n3/youtube-dl-gui](https://github.com/MrS0m30n3/youtube-dl-gui) |
+=======
+| youtube-dl | 2019.01.23 | [https://rg3.github.io/youtube-dl/](https://rg3.github.io/youtube-dl/) |
+>>>>>>> update-manifest
 | yubico-piv-tool | 1.6.2 | [https://developers.yubico.com/yubico-piv-tool/](https://developers.yubico.com/yubico-piv-tool/) |
 | yubikey-manager-qt | 0.5.2 | [https://developers.yubico.com/yubikey-manager-qt/](https://developers.yubico.com/yubikey-manager-qt/) |
 | yubikey-personalization-gui | 3.1.25 | [https://developers.yubico.com/yubikey-personalization-gui/](https://developers.yubico.com/yubikey-personalization-gui/) |
@@ -984,4 +1017,8 @@
 | zookeeper | 3.4.13 | [https://zookeeper.apache.org/](https://zookeeper.apache.org/) |
 | zstd | 1.3.8 | [http://www.zstd.net/](http://www.zstd.net/) |
 
+<<<<<<< HEAD
 This section was last generated on 01/21/2019 10:19:15
+=======
+This section was last generated on 01/22/2019 18:27:47
+>>>>>>> update-manifest
