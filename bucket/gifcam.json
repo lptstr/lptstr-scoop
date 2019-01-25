@@ -1,0 +1,17 @@
+{
+    "homepage": "http://blog.bahraniapps.com/gifcam/",
+    "version": "5.5",
+    "url": "http://www.bahraniapps.com/apps/gifcam/GifCam.zip",
+    "hash": "e29019e1c9e34d85c6d44b06fd1c9ab177ce8c7b746856c8c0f0a671e379fbdb",
+    "bin": "GifCam.exe",
+    "shortcuts": [
+        [
+            "GifCam.exe",
+            "GifCam"
+        ]
+    ],
+    "checkver": "GifCam\\.zip.*Version[^\\d]*([\\d.]+)",
+    "autoupdate": {
+        "url": "http://www.bahraniapps.com/apps/gifcam/GifCam.zip"
+    }
+}
