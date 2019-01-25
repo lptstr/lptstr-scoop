@@ -5,6 +5,7 @@
 
 | Name | Version | Homepage |
 | ---- | ------- | -------- |
+<<<<<<< HEAD
 | 3rvx | 2.9.2 | [https://3rvx.com/](https://3rvx.com/) |
 | 7zip | 18.05 | [http://www.7-zip.org/](http://www.7-zip.org/) |
 | ack | 2.24 | [https://beyondgrep.com/](https://beyondgrep.com/) |
@@ -1021,4 +1022,8 @@
 This section was last generated on 01/21/2019 10:19:15
 =======
 This section was last generated on 01/22/2019 18:27:47
+>>>>>>> update-manifest
+=======
+
+This section was last generated on 01/25/2019 12:47:03
 >>>>>>> update-manifest
