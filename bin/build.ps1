@@ -25,13 +25,13 @@ param (
 )
 
 $USER = $env:USERNAME
-$OPENSCOOPDIR = "C:\Users\$USER\scoop\proj\open-scoop"
+$OPENSCOOPDIR = "E:\Apps\Repos\LPTSTR\open-scoop\bucket"
 $SCOOP = scoop which scoop
 if ( !$env:SCOOP_HOME ) { 
   $env:SCOOP_HOME = resolve-path (split-path (split-path (scoop which scoop))) 
 }
 $checkver = "C:\\Users\\$USER\\scoop\\apps\\scoop\\current\\bin\\checkver.ps1"
-$dir = "C:\\Users\\$USER\\scoop\\proj\\open-scoop" 
+$dir = "E:\Apps\Repos\LPTSTR\open-scoop\bucket" 
 $DATETIME = Get-Date
 
 # Checkout update-manifest branch
@@ -243,19 +243,19 @@ function normalize_values([psobject] $json) {
 
 function parse_json($path) {    if(!(Test-Path $path)) {         return $null     }    Get-Content $path -raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop}
 
-Set-Location $HOME
-Set-Location scoop/proj/open-scoop/bin
+chdir e:
+cd apps/repos/lptstr/open-scoop/bucket
 
 git pull > log.txt
 
 if (!$NoUpdate) {
-	$files = Get-ChildItem ../.\*.json
+	$files = Get-ChildItem .\*.json
 	$i = 1;
-	Get-ChildItem ../.\*.json | Foreach-Object {
+	Get-ChildItem .\*.json | Foreach-Object {
 	  $basename = $_.BaseName	  
 	$name = $_.Name
 	  Write-Progress -Activity "Updating application manifests" -status "Scanning $name" -percentComplete ($i / $files.count * 100)	  
-	$out = ../../../apps/scoop/current/bin/checkver.ps1 -dir $dir -App $basename -u | Out-String
+	$out = & "C:\users\$User/scoop/apps/scoop/current/bin/checkver.ps1" -dir $dir -App $basename -u | Out-String
 	  git commit -q -a -m "Auto-updated $basename" > log.txt
 	  $i++
 	}
@@ -269,7 +269,7 @@ if (!$NoUpdate) {
 	Add-Content -Path "../APPLIST.md" -Value "| Name | Version | Homepage |`r`n" -NoNewline
 	Add-Content -Path "../APPLIST.md" -Value "| ---- | ------- | -------- |`r`n" -NoNewline
 	
-	Get-ChildItem ../.\*.json | Foreach-Object {
+	Get-ChildItem .\*.json | Foreach-Object {
 		$appname = $_.BaseName
 		$appdata = Get-Content $_ | ConvertFrom-JSON
 		$homepage = $appdata.homepage
@@ -293,8 +293,8 @@ git merge update-manifest
 
 # Format each file
 $c = 1
-$manifests = Get-ChildItem ../.\*.json
-Get-ChildItem ../.\*.json | ForEach-Object {
+$manifests = Get-ChildItem .\*.json
+Get-ChildItem .\*.json | ForEach-Object {
    $name = $_.Namee
     $basename = $_.BaseName
     $json = parse_json "$_" | ConvertToPrettyJson
@@ -302,7 +302,8 @@ Get-ChildItem ../.\*.json | ForEach-Object {
 
 
     [System.IO.File]::WriteAllLines("$_", $json)
-    git commit -q -a -m "Automatically formated JSON in $basename's manifest" > log.txt    Write-Output "Formatted $_"
+    git commit -aqm "Automatically formated JSON in $basename's manifest" | out-null
+    Write-Output "Formatted $_"
     $c++
 }
 git checkout master
