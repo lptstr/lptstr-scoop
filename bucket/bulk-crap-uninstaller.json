@@ -1,0 +1,24 @@
+{
+    "homepage": "http://klocmansoftware.weebly.com/",
+    "description": "FOSS software uninstaller.",
+    "license": "Apache-2.0",
+    "version": "4.12.2",
+    "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v4.12.2/BCUninstaller_4.12.2_portable.zip",
+    "hash": "00d61aab87fe4cdd62ea5cfae684199908af734aa1dbd0a53d488b81334b2a0d",
+    "shortcuts": [
+        [
+            "BCUninstaller.exe",
+            "Bulk Crap Uninstaller"
+        ]
+    ],
+    "persist": [
+        "BCUninstaller.exe.config",
+        "BCUninstaller.settings"
+    ],
+    "checkver": {
+        "github": "https://github.com/Klocman/Bulk-Crap-Uninstaller"
+    },
+    "autoupdate": {
+        "url": "https://github.com/Klocman/Bulk-Crap-Uninstaller/releases/download/v$version/BCUninstaller_$version_portable.zip"
+    }
+}
