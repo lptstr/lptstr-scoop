@@ -244,7 +244,7 @@ function normalize_values([psobject] $json) {
 function parse_json($path) {    if(!(Test-Path $path)) {         return $null     }    Get-Content $path -raw -Encoding UTF8 | ConvertFrom-Json -ErrorAction Stop}
 
 chdir e:
-cd apps/repos/lptstr/open-scoop/bucket
+cd /apps/repos/lptstr/open-scoop/bucket
 
 git pull > log.txt
 
