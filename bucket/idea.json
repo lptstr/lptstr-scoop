@@ -1,0 +1,28 @@
+{
+    "version": "2018.3.3",
+    "homepage": "https://www.jetbrains.com/idea/",
+    "url": "https://download.jetbrains.com/idea/ideaIC-2018.3.3.win.zip",
+    "hash": "a3ee82a1f8f5ab5234634b812a425a53e7bc2af6fd97916a6394d7c26376bc8f",
+    "env_add_path": "bin",
+    "notes": "Please restart your command line for changes to take effect.",
+    "architecture": {
+        "64bit": {
+            "bin": "bin\\idea64.exe",
+            "shortcuts": "System.Object[]"
+        },
+        "32bit": {
+            "bin": "bin\\idea.exe",
+            "shortcuts": "System.Object[]"
+        }
+    },
+    "checkver": {
+        "url": "https://data.services.jetbrains.com/products/releases?code=IIC&latest=true&type=release",
+        "jp": "$..version"
+    },
+    "autoupdate": {
+        "url": "https://download.jetbrains.com/idea/ideaIC-$version.win.zip",
+        "hash": {
+            "url": "$url.sha256"
+        }
+    }
+}
