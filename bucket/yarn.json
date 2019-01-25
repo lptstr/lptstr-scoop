@@ -1,0 +1,36 @@
+{
+    "homepage": "https://yarnpkg.com/",
+    "description": "Dependency manager",
+    "license": "BSD-2-Clause",
+    "version": "1.13.0",
+    "suggest": {
+        "Node.js": [
+            "nodejs",
+            "nodejs-lts"
+        ],
+        "NVM": "nvm"
+    },
+    "url": "https://yarnpkg.com/downloads/1.13.0/yarn-1.13.0.msi",
+    "hash": "e3da89d8ea6b200908e1a47ed95a474e0acd5437b719590f497f52c1a9d32730",
+    "persist": [
+        "cache",
+        "bin",
+        "mirror"
+    ],
+    "post_install": [
+        "yarn config set cache-folder \"$dir\\cache\"",
+        "yarn config set yarn-offline-mirror \"$dir\\mirror\"",
+        "yarn config set prefix \"$dir\""
+    ],
+    "env_add_path": [
+        "bin",
+        "Yarn\\bin"
+    ],
+    "checkver": {
+        "url": "https://yarnpkg.com/latest-version",
+        "re": "([\\d.]+)"
+    },
+    "autoupdate": {
+        "url": "https://yarnpkg.com/downloads/$version/yarn-$version.msi"
+    }
+}
