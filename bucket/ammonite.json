@@ -1,0 +1,20 @@
+{
+    "version": "1.6.2",
+    "license": "MIT",
+    "url": "https://github.com/lihaoyi/Ammonite/releases/download/1.6.2/2.12-1.6.2#/amm.bat",
+    "bin": "amm.bat",
+    "homepage": "http://ammonite.io",
+    "hash": "148a4057b61fa6ef4c7577a68ffa59321d305fd6ee124a4f1a0d116af30fa22a",
+    "checkver": {
+        "github": "https://github.com/lihaoyi/Ammonite"
+    },
+    "autoupdate": {
+        "url": "https://github.com/lihaoyi/Ammonite/releases/download/$version/2.12-$version#/amm.bat"
+    },
+    "suggest": {
+        "JDK": [
+            "java/oraclejdk",
+            "java/openjdk"
+        ]
+    }
+}
