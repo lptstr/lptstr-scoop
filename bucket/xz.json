@@ -10,10 +10,20 @@
     "hash": "9a5163623f435b6fa0844b6b884babd6bf4f8d876ae2d8134deeb296afd49c61",
     "architecture": {
         "64bit": {
-            "bin": "bin_x86-64\\lzmadec.exe bin_x86-64\\lzmainfo.exe bin_x86-64\\xz.exe bin_x86-64\\xzdec.exe"
+            "bin": [
+                "bin_x86-64\\lzmadec.exe",
+                "bin_x86-64\\lzmainfo.exe",
+                "bin_x86-64\\xz.exe",
+                "bin_x86-64\\xzdec.exe"
+            ]
         },
         "32bit": {
-            "bin": "bin_i686\\lzmadec.exe bin_i686\\lzmainfo.exe bin_i686\\xz.exe bin_i686\\xzdec.exe"
+            "bin": [
+                "bin_i686\\lzmadec.exe",
+                "bin_i686\\lzmainfo.exe",
+                "bin_i686\\xz.exe",
+                "bin_i686\\xzdec.exe"
+            ]
         }
     },
     "checkver": "<h3>Stable<\\/h3>\\s+<p>\\s+([\\d.]+) was released",
