@@ -15,7 +15,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/kubernetes/kompose/releases/download/v$version/kompose-windows-amd64.exe#/kompose.exe}"
+            "64bit": {
+                "url": "https://github.com/kubernetes/kompose/releases/download/v$version/kompose-windows-amd64.exe#/kompose.exe"
+            }
         },
         "hash": {
             "url": "https://github.com/kubernetes/kompose/releases/tag/v$version",
