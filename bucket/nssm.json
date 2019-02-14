@@ -25,8 +25,12 @@
     "autoupdate": {
         "url": "https://nssm.cc/release/nssm-$version.zip",
         "architecture": {
-            "64bit": "@{extract_dir=nssm-$version/win64}",
-            "32bit": "@{extract_dir=nssm-$version/win32}"
+            "64bit": {
+                "extract_dir": "nssm-$version/win64"
+            },
+            "32bit": {
+                "extract_dir": "nssm-$version/win32"
+            }
         }
     },
     "notes": [
