@@ -20,8 +20,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-amd64.zip}",
-            "32bit": "@{url=https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-386.zip}"
+            "64bit": {
+                "url": "https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/Masterminds/glide/releases/download/v$version/glide-v$version-windows-386.zip"
+            }
         }
     }
 }
