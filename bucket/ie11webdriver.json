@@ -18,8 +18,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://selenium-release.storage.googleapis.com/$majorVersion.$minorVersion/IEDriverServer_x64_$version.zip}",
-            "32bit": "@{url=https://selenium-release.storage.googleapis.com/$majorVersion.$minorVersion/IEDriverServer_Win32_$version.zip}"
+            "64bit": {
+                "url": "https://selenium-release.storage.googleapis.com/$majorVersion.$minorVersion/IEDriverServer_x64_$version.zip"
+            },
+            "32bit": {
+                "url": "https://selenium-release.storage.googleapis.com/$majorVersion.$minorVersion/IEDriverServer_Win32_$version.zip"
+            }
         }
     }
 }
