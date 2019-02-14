@@ -7,11 +7,23 @@
     "architecture": {
         "64bit": {
             "extract_dir": "qaac_2.68\\x64",
-            "bin": "System.Object[] System.Object[]"
+            "bin": [
+                [
+                    "qaac64.exe",
+                    "qaac"
+                ],
+                [
+                    "refalac64.exe",
+                    "refalac"
+                ]
+            ]
         },
         "32bit": {
             "extract_dir": "qaac_2.68\\x86",
-            "bin": "qaac.exe refalac.exe"
+            "bin": [
+                "qaac.exe",
+                "refalac.exe"
+            ]
         }
     },
     "checkver": {
@@ -20,8 +32,12 @@
     "autoupdate": {
         "url": "https://github.com/nu774/qaac/releases/download/v$version/qaac_$version.zip",
         "architecture": {
-            "64bit": "@{extract_dir=qaac_$version\\x64}",
-            "32bit": "@{extract_dir=qaac_$version\\x86}"
+            "64bit": {
+                "extract_dir": "qaac_$version\\x64"
+            },
+            "32bit": {
+                "extract_dir": "qaac_$version\\x86"
+            }
         }
     }
 }
