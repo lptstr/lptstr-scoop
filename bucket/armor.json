@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/labstack/armor/releases/download/v$version/armor_$version_windows_32-bit.zip}",
-            "64bit": "@{url=https://github.com/labstack/armor/releases/download/v$version/armor_$version_windows_64-bit.zip}"
+            "32bit": {
+                "url": "https://github.com/labstack/armor/releases/download/v$version/armor_$version_windows_32-bit.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/labstack/armor/releases/download/v$version/armor_$version_windows_64-bit.zip"
+            }
         },
         "hash": {
             "url": "https://github.com/labstack/armor/releases/download/v$version/armor_checksum.txt"
