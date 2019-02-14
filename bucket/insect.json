@@ -17,8 +17,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/sharkdp/insect/releases/download/v5.0.0/insect-windows-x64.exe#/insect.exe}",
-            "32bit": "@{url=https://github.com/sharkdp/insect/releases/download/v5.0.0/insect-windows-x86.exe#/insect.exe}"
+            "64bit": {
+                "url": "https://github.com/sharkdp/insect/releases/download/v5.0.0/insect-windows-x64.exe#/insect.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/sharkdp/insect/releases/download/v5.0.0/insect-windows-x86.exe#/insect.exe"
+            }
         }
     }
 }
