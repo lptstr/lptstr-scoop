@@ -24,8 +24,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.puppetlabs.com/windows/puppet5/puppet-agent-$version-x64.msi}",
-            "32bit": "@{url=https://downloads.puppetlabs.com/windows/puppet5/puppet-agent-$version-x86.msi}"
+            "64bit": {
+                "url": "https://downloads.puppetlabs.com/windows/puppet5/puppet-agent-$version-x64.msi"
+            },
+            "32bit": {
+                "url": "https://downloads.puppetlabs.com/windows/puppet5/puppet-agent-$version-x86.msi"
+            }
         }
     }
 }
