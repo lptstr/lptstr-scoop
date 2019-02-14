@@ -32,8 +32,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip}",
-            "32bit": "@{url=http://www.nasm.us/pub/nasm/releasebuilds/$version/win32/nasm-$version-win32.zip}"
+            "64bit": {
+                "url": "http://www.nasm.us/pub/nasm/releasebuilds/$version/win64/nasm-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "http://www.nasm.us/pub/nasm/releasebuilds/$version/win32/nasm-$version-win32.zip"
+            }
         },
         "extract_dir": "nasm-$version"
     }
