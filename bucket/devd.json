@@ -1,5 +1,6 @@
 {
     "homepage": "https://corte.si/posts/devd/intro/index.html",
+    "description": "A small, self-contained, command-line-only HTTP server for developers",
     "license": "MIT",
     "version": "0.9",
     "url": "https://github.com/cortesi/devd/releases/download/v0.9/devd-0.9-windows64.zip",
