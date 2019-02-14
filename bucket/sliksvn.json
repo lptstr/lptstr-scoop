@@ -31,8 +31,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://sliksvn.com/pub/Slik-Subversion-$version-x64.msi}",
-            "32bit": "@{url=https://sliksvn.com/pub/Slik-Subversion-$version-win32.msi}"
+            "64bit": {
+                "url": "https://sliksvn.com/pub/Slik-Subversion-$version-x64.msi"
+            },
+            "32bit": {
+                "url": "https://sliksvn.com/pub/Slik-Subversion-$version-win32.msi"
+            }
         }
     }
 }
