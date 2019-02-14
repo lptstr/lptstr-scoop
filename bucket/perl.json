@@ -26,8 +26,12 @@
     "checkver": "Recommended version:</b></p>\\s*<a href=\"\\/download\\/([^\\/]+)\\/strawberry-perl-[\\d.]+-64bit.msi",
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=http://strawberryperl.com/download/$version/strawberry-perl-$version-32bit-portable.zip}",
-            "64bit": "@{url=http://strawberryperl.com/download/$version/strawberry-perl-$version-64bit-portable.zip}"
+            "32bit": {
+                "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-32bit-portable.zip"
+            },
+            "64bit": {
+                "url": "http://strawberryperl.com/download/$version/strawberry-perl-$version-64bit-portable.zip"
+            }
         }
     }
 }
