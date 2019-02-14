@@ -17,8 +17,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/exercism/cli/releases/download/v$version/exercism-windows-64bit.zip}",
-            "32bit": "@{url=https://github.com/exercism/cli/releases/download/v$version/exercism-windows-32bit.zip}"
+            "64bit": {
+                "url": "https://github.com/exercism/cli/releases/download/v$version/exercism-windows-64bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/exercism/cli/releases/download/v$version/exercism-windows-32bit.zip"
+            }
         }
     }
 }
