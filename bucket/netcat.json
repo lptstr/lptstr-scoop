@@ -4,7 +4,12 @@
             "bin": "nc.exe"
         },
         "64bit": {
-            "bin": "System.Object[]"
+            "bin": [
+                [
+                    "nc64.exe",
+                    "nc"
+                ]
+            ]
         }
     },
     "autoupdate": {
