@@ -1,15 +1,16 @@
 {
     "homepage": "https://frippery.org/busybox",
-    "version": "2501-g858091c25",
+    "description": "BusyBox is a single binary that contains many common Unix tools",
+    "version": "2962-g9aae70405",
     "license": "GPL-2.0",
     "architecture": {
         "32bit": {
-            "url": "https://frippery.org/files/busybox/busybox-w32-FRP-2501-g858091c25.exe#/busybox.exe",
-            "hash": "d5de9bc63071262334bd526199e33e173e73305542e132cc0ef3445079442143"
+            "url": "https://frippery.org/files/busybox/busybox-w32-FRP-2962-g9aae70405.exe#/busybox.exe",
+            "hash": "af193b369c0360d7b70f975665a453018e3d9c0458af0d252d271c8b8a30e6b5"
         },
         "64bit": {
-            "url": "https://frippery.org/files/busybox/busybox-w64-FRP-2501-g858091c25.exe#/busybox.exe",
-            "hash": "c4924f8ad87b94f63699544dcbedc9213f6b1ffeef4ebe86a91628d211d4cf6c"
+            "url": "https://frippery.org/files/busybox/busybox-w64-FRP-2962-g9aae70405.exe#/busybox.exe",
+            "hash": "adb2360905f737cb7e58c915056f18f7b1e0843e99474ed5ce6f4bde042943ef"
         }
     },
     "checkver": {
@@ -18,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://frippery.org/files/busybox/busybox-w32-FRP-$version.exe#/busybox.exe}",
-            "64bit": "@{url=https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe}"
+            "32bit": {
+                "url": "https://frippery.org/files/busybox/busybox-w32-FRP-$version.exe#/busybox.exe"
+            },
+            "64bit": {
+                "url": "https://frippery.org/files/busybox/busybox-w64-FRP-$version.exe#/busybox.exe"
+            }
         }
     },
     "post_install": [
