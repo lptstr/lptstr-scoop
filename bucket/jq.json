@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/stedolan/jq/releases/download/jq-$version/jq-win32.exe#/jq.exe}",
-            "64bit": "@{url=https://github.com/stedolan/jq/releases/download/jq-$version/jq-win64.exe#/jq.exe}"
+            "32bit": {
+                "url": "https://github.com/stedolan/jq/releases/download/jq-$version/jq-win32.exe#/jq.exe"
+            },
+            "64bit": {
+                "url": "https://github.com/stedolan/jq/releases/download/jq-$version/jq-win64.exe#/jq.exe"
+            }
         }
     }
 }
