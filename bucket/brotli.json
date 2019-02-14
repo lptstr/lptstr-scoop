@@ -25,8 +25,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://curl.haxx.se/windows/dl-$matchCurl/brotli-$version-win64-mingw.tar.xz; extract_dir=brotli-$matchHead-win64-mingw}",
-            "32bit": "@{url=https://curl.haxx.se/windows/dl-$matchCurl/brotli-$version-win32-mingw.tar.xz; extract_dir=brotli-$matchHead-win32-mingw}"
+            "64bit": {
+                "url": "https://curl.haxx.se/windows/dl-$matchCurl/brotli-$version-win64-mingw.tar.xz",
+                "extract_dir": "brotli-$matchHead-win64-mingw"
+            },
+            "32bit": {
+                "url": "https://curl.haxx.se/windows/dl-$matchCurl/brotli-$version-win32-mingw.tar.xz",
+                "extract_dir": "brotli-$matchHead-win32-mingw"
+            }
         },
         "hash": {
             "url": "$baseurl/hashes.txt",
