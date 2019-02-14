@@ -13,8 +13,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{extract_dir=pciutils-$version-win32; url=https://eternallybored.org/misc/pciutils/releases/pciutils-$version-win32.zip}",
-            "64bit": "@{extract_dir=pciutils-$version-win64; url=https://eternallybored.org/misc/pciutils/releases/pciutils-$version-win64.zip}"
+            "32bit": {
+                "extract_dir": "pciutils-$version-win32",
+                "url": "https://eternallybored.org/misc/pciutils/releases/pciutils-$version-win32.zip"
+            },
+            "64bit": {
+                "extract_dir": "pciutils-$version-win64",
+                "url": "https://eternallybored.org/misc/pciutils/releases/pciutils-$version-win64.zip"
+            }
         }
     },
     "bin": [
