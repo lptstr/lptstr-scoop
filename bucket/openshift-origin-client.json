@@ -16,7 +16,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/openshift/origin/releases/download/v$version/openshift-origin-client-tools-v$version-$matchCommit-windows.zip}"
+            "64bit": {
+                "url": "https://github.com/openshift/origin/releases/download/v$version/openshift-origin-client-tools-v$version-$matchCommit-windows.zip"
+            }
         },
         "hash": {
             "url": "$baseurl/CHECKSUM"
