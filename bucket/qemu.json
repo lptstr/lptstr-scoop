@@ -50,8 +50,6 @@
         "qemu-system-ppc.exe",
         "qemu-system-ppc64.exe",
         "qemu-system-ppc64w.exe",
-        "qemu-system-ppcemb.exe",
-        "qemu-system-ppcembw.exe",
         "qemu-system-ppcw.exe",
         "qemu-system-s390x.exe",
         "qemu-system-s390xw.exe",
@@ -79,8 +77,18 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z; hash=}",
-            "32bit": "@{url=https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z; hash=}"
+            "64bit": {
+                "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
+                "hash": {
+                    "url": "https://qemu.weilnetz.de/w64/qemu-w64-setup-$matchYear$matchMonth$matchDay.sha512"
+                }
+            },
+            "32bit": {
+                "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.exe#/dl.7z",
+                "hash": {
+                    "url": "https://qemu.weilnetz.de/w32/qemu-w32-setup-$matchYear$matchMonth$matchDay.sha512"
+                }
+            }
         }
     }
 }
