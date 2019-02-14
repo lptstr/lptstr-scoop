@@ -22,8 +22,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://iperf.fr/download/windows/iperf-$version-win64.zip; extract_dir=iperf-$version-win64}",
-            "32bit": "@{url=https://iperf.fr/download/windows/iperf-$version-win32.zip; extract_dir=iperf-$version-win64}"
+            "64bit": {
+                "url": "https://iperf.fr/download/windows/iperf-$version-win64.zip",
+                "extract_dir": "iperf-$version-win64"
+            },
+            "32bit": {
+                "url": "https://iperf.fr/download/windows/iperf-$version-win32.zip",
+                "extract_dir": "iperf-$version-win64"
+            }
         },
         "hash": {
             "url": "https://iperf.fr/download/windows/sha256sum.txt"
