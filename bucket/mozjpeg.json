@@ -37,8 +37,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/garyzyg/mozjpeg-windows/releases/download/$version/mozjpeg-x86.zip}",
-            "64bit": "@{url=https://github.com/garyzyg/mozjpeg-windows/releases/download/$version/mozjpeg-x64.zip}"
+            "32bit": {
+                "url": "https://github.com/garyzyg/mozjpeg-windows/releases/download/$version/mozjpeg-x86.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/garyzyg/mozjpeg-windows/releases/download/$version/mozjpeg-x64.zip"
+            }
         }
     }
 }
