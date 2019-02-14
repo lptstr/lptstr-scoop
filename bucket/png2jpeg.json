@@ -22,8 +22,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/png2jpeg/win64/png2jpeg-$version-win64.zip; extract_dir=png2jpeg-$version-win64}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/png2jpeg/win32/png2jpeg-$version-win32.zip; extract_dir=png2jpeg-$version-win32}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/png2jpeg/win64/png2jpeg-$version-win64.zip",
+                "extract_dir": "png2jpeg-$version-win64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/png2jpeg/win32/png2jpeg-$version-win32.zip",
+                "extract_dir": "png2jpeg-$version-win32"
+            }
         }
     }
 }
