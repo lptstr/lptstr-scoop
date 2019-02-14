@@ -36,8 +36,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://erlang.org/download/otp_win64_$version.exe}",
-            "32bit": "@{url=http://erlang.org/download/otp_win32_$version.exe}"
+            "64bit": {
+                "url": "http://erlang.org/download/otp_win64_$version.exe"
+            },
+            "32bit": {
+                "url": "http://erlang.org/download/otp_win32_$version.exe"
+            }
         }
     },
     "shortcuts": [
