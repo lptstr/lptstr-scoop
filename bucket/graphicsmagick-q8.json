@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick-binaries/$version/GraphicsMagick-$version-Q8-win64-dll.exe}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick-binaries/$version/GraphicsMagick-$version-Q8-win32-dll.exe}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick-binaries/$version/GraphicsMagick-$version-Q8-win64-dll.exe"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/graphicsmagick/graphicsmagick-binaries/$version/GraphicsMagick-$version-Q8-win32-dll.exe"
+            }
         }
     }
 }
