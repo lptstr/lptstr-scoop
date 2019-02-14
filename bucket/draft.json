@@ -15,7 +15,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://azuredraft.blob.core.windows.net/draft/draft-v$version-windows-amd64.tar.gz}"
+            "64bit": {
+                "url": "https://azuredraft.blob.core.windows.net/draft/draft-v$version-windows-amd64.tar.gz"
+            }
         },
         "hash": {
             "url": "$url.sha256"
