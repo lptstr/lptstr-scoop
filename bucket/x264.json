@@ -27,8 +27,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://download.videolan.org/pub/x264/binaries/win64/x264-r$version-$matchCommit.exe#/x264.exe}",
-            "32bit": "@{url=https://download.videolan.org/pub/x264/binaries/win32/x264-r$version-$matchCommit.exe#/x264.exe}"
+            "64bit": {
+                "url": "https://download.videolan.org/pub/x264/binaries/win64/x264-r$version-$matchCommit.exe#/x264.exe"
+            },
+            "32bit": {
+                "url": "https://download.videolan.org/pub/x264/binaries/win32/x264-r$version-$matchCommit.exe#/x264.exe"
+            }
         }
     }
 }
