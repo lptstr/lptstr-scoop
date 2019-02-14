@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win64.zip}",
-            "32bit": "@{url=https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win32.zip}"
+            "64bit": {
+                "url": "https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://developers.yubico.com/yubikey-personalization/Releases/ykpers-$version-win32.zip"
+            }
         }
     }
 }
