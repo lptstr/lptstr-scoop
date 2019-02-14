@@ -18,8 +18,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/mattn/gof/releases/download/$version/gof_windows_amd64.zip}",
-            "32bit": "@{url=https://github.com/mattn/gof/releases/download/$version/gof_windows_386.zip}"
+            "64bit": {
+                "url": "https://github.com/mattn/gof/releases/download/$version/gof_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mattn/gof/releases/download/$version/gof_windows_386.zip"
+            }
         }
     }
 }
