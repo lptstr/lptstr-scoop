@@ -36,8 +36,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://cran.rstudio.com/bin/windows/base/R-$version-win.exe}",
-            "32bit": "@{url=https://cran.rstudio.com/bin/windows/base/R-$version-win.exe}"
+            "64bit": {
+                "url": "https://cran.rstudio.com/bin/windows/base/R-$version-win.exe"
+            },
+            "32bit": {
+                "url": "https://cran.rstudio.com/bin/windows/base/R-$version-win.exe"
+            }
         }
     }
 }
