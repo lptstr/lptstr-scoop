@@ -14,7 +14,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://download.handbrake.fr/handbrake/releases/$version/HandBrakeCLI-$version-win-x86_64.zip}"
+            "64bit": {
+                "url": "https://download.handbrake.fr/handbrake/releases/$version/HandBrakeCLI-$version-win-x86_64.zip"
+            }
         },
         "hash": {
             "find": "<td>([a-fA-F0-9]{64})</td>",
