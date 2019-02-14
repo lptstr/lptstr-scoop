@@ -22,8 +22,14 @@
     "checkver": "name=\"v\"\\s+value=\"([\\d.]+)\"",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-$version-win64-static.zip; extract_dir=ffmpeg-$version-win64-static}",
-            "32bit": "@{url=https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-$version-win32-static.zip; extract_dir=ffmpeg-$version-win32-static}"
+            "64bit": {
+                "url": "https://ffmpeg.zeranoe.com/builds/win64/static/ffmpeg-$version-win64-static.zip",
+                "extract_dir": "ffmpeg-$version-win64-static"
+            },
+            "32bit": {
+                "url": "https://ffmpeg.zeranoe.com/builds/win32/static/ffmpeg-$version-win32-static.zip",
+                "extract_dir": "ffmpeg-$version-win32-static"
+            }
         }
     }
 }
