@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_amd64.zip}",
-            "32bit": "@{url=https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_386.zip}"
+            "64bit": {
+                "url": "https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://releases.hashicorp.com/terraform/$version/terraform_$version_windows_386.zip"
+            }
         },
         "hash": {
             "url": "$baseurl/terraform_$version_SHA256SUMS"
