@@ -18,8 +18,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://bin.equinox.io/c/$version/ngrok-stable-windows-amd64.zip}",
-            "32bit": "@{url=https://bin.equinox.io/c/$version/ngrok-stable-windows-386.zip}"
+            "64bit": {
+                "url": "https://bin.equinox.io/c/$version/ngrok-stable-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://bin.equinox.io/c/$version/ngrok-stable-windows-386.zip"
+            }
         }
     }
 }
