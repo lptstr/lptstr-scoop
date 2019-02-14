@@ -39,7 +39,7 @@ $ Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://get
 
 Then, add this repository as a bucket to Scoop:
 ```powershell
-$ scoop bucket add openscoop http://github.com/kiedtl/open-scoop.git
+$ scoop bucket add openscoop http://github.com/lptstr/open-scoop.git
 $ scoop bucket list
 ```
 If this bucket was correctly installed, you should see the following output:
