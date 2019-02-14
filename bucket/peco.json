@@ -19,8 +19,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/peco/peco/releases/download/v$version/peco-windows-amd64.zip}",
-            "32bit": "@{url=https://github.com/peco/peco/releases/download/v$version/peco-windows-386.zip}"
+            "64bit": {
+                "url": "https://github.com/peco/peco/releases/download/v$version/peco-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/peco/peco/releases/download/v$version/peco-windows-386.zip"
+            }
         }
     }
 }
