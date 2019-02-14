@@ -21,8 +21,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-$version-no-locale-64bit.exe#/datamash.exe}",
-            "32bit": "@{url=http://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-$version-no-locale-32bit.exe#/datamash.exe}"
+            "64bit": {
+                "url": "http://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-$version-no-locale-64bit.exe#/datamash.exe"
+            },
+            "32bit": {
+                "url": "http://download.savannah.gnu.org/releases/datamash/windows-binaries/datamash-$version-no-locale-32bit.exe#/datamash.exe"
+            }
         }
     }
 }
