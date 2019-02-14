@@ -1,13 +1,14 @@
 {
-    "version": "18.09.0",
+    "version": "18.09.2",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/docker/toolbox/releases/download/v18.09.0/DockerToolbox-18.09.0.exe",
-            "hash": "5971379f1c2a1a7d200330a2042097d5c0820097dfdaeacc031c1475f8dfd683"
+            "url": "https://github.com/docker/toolbox/releases/download/v18.09.2/DockerToolbox-18.09.2.exe",
+            "hash": "29c11eadb011ec4e725d0f7de16a3d42c82a6cc2dd6cea11f75525155cfef28b"
         }
     },
     "homepage": "https://docker.com",
+    "description": "Docker is an open platform for developing, shipping, and running applications. Docker enables you to separate your applications from your infrastructure so you can deliver software quickly.",
     "innosetup": true,
     "post_install": "rm -r \"$dir\\installers\"",
     "bin": [
@@ -27,7 +28,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/docker/toolbox/releases/download/v$version/DockerToolbox-$version.exe}"
+            "64bit": {
+                "url": "https://github.com/docker/toolbox/releases/download/v$version/DockerToolbox-$version.exe"
+            }
         },
         "hash": {
             "url": "$baseurl/sha256sum.txt",
