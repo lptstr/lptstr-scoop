@@ -33,8 +33,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/git-for-windows/git/releases/download/v$matchVersion/MinGit-$matchShort-busybox-64-bit.zip}",
-            "32bit": "@{url=https://github.com/git-for-windows/git/releases/download/v$matchVersion/MinGit-$matchShort-busybox-32-bit.zip}"
+            "64bit": {
+                "url": "https://github.com/git-for-windows/git/releases/download/v$matchVersion/MinGit-$matchShort-busybox-64-bit.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/git-for-windows/git/releases/download/v$matchVersion/MinGit-$matchShort-busybox-32-bit.zip"
+            }
         },
         "hash": {
             "url": "https://github.com/git-for-windows/git/releases/latest",
