@@ -6,10 +6,22 @@
     "extract_dir": "hashcat-5.1.0",
     "architecture": {
         "64bit": {
-            "bin": "System.Object[]"
+            "bin": [
+                [
+                    "hashcat64.exe",
+                    "hashcat",
+                    ""
+                ]
+            ]
         },
         "32bit": {
-            "bin": "System.Object[]"
+            "bin": [
+                [
+                    "hashcat32.exe",
+                    "hashcat",
+                    ""
+                ]
+            ]
         }
     },
     "hash": "d3b98f183be2b676d1d9734ac40d80b79e9b53fac32045636682ca10970c8edb",
