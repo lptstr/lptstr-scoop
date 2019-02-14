@@ -26,8 +26,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://ftp.gnu.org/gnu/octave/windows/octave-$version-w64.zip; extract_dir=octave-$version-w64}",
-            "32bit": "@{url=https://ftp.gnu.org/gnu/octave/windows/octave-$version-w32.zip; extract_dir=octave-$version-w32}"
+            "64bit": {
+                "url": "https://ftp.gnu.org/gnu/octave/windows/octave-$version-w64.zip",
+                "extract_dir": "octave-$version-w64"
+            },
+            "32bit": {
+                "url": "https://ftp.gnu.org/gnu/octave/windows/octave-$version-w32.zip",
+                "extract_dir": "octave-$version-w32"
+            }
         }
     }
 }
