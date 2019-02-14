@@ -32,8 +32,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://nodejs.org/download/chakracore-release/v$version/node-v$version-win-x86.7z; extract_dir=node-v$version-win-x86}",
-            "64bit": "@{url=https://nodejs.org/download/chakracore-release/v$version/node-v$version-win-x64.7z; extract_dir=node-v$version-win-x64}"
+            "32bit": {
+                "url": "https://nodejs.org/download/chakracore-release/v$version/node-v$version-win-x86.7z",
+                "extract_dir": "node-v$version-win-x86"
+            },
+            "64bit": {
+                "url": "https://nodejs.org/download/chakracore-release/v$version/node-v$version-win-x64.7z",
+                "extract_dir": "node-v$version-win-x64"
+            }
         },
         "hash": {
             "url": "https://nodejs.org/download/chakracore-release/v$version/SHASUMS256.txt"
