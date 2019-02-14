@@ -15,7 +15,9 @@
     "autoupdate": {
         "note": "Thanks for using autoupdate, please test your updates!",
         "architecture": {
-            "64bit": "@{url=https://bin.equinox.io/a/$matchDir/forego-$matchVersion-windows-amd64.zip}"
+            "64bit": {
+                "url": "https://bin.equinox.io/a/$matchDir/forego-$matchVersion-windows-amd64.zip"
+            }
         }
     }
 }
