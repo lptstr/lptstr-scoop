@@ -16,8 +16,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.nirsoft.net/utils/nircmd.zip}",
-            "32bit": "@{url=https://www.nirsoft.net/utils/nircmd-x64.zip}"
+            "64bit": {
+                "url": "https://www.nirsoft.net/utils/nircmd.zip"
+            },
+            "32bit": {
+                "url": "https://www.nirsoft.net/utils/nircmd-x64.zip"
+            }
         }
     },
     "extract_dir": ".",
