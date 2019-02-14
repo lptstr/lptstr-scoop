@@ -1,16 +1,16 @@
 {
-    "version": "0.11.1",
+    "version": "0.11.3",
     "homepage": "https://caddyserver.com",
     "description": "HTTP/2 web server with automatic HTTPS",
     "license": "Apache-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/mholt/caddy/releases/download/v0.11.1/caddy_v0.11.1_windows_amd64.zip",
-            "hash": "293cad875b646b4f63f48369a8e1a91eec37e9e2e7e05602d51cbad8e0214981"
+            "url": "https://github.com/mholt/caddy/releases/download/v0.11.3/caddy_v0.11.3_windows_amd64.zip",
+            "hash": "5339ddb28db3788ce0bdb7b41b94176f5c640d5fcdb27fa61c0d9b830e8a8f16"
         },
         "32bit": {
-            "url": "https://github.com/mholt/caddy/releases/download/v0.11.1/caddy_v0.11.1_windows_386.zip",
-            "hash": "2af931585a54de5f05da2631d49fe737fbac7ae1dc509a507b5d043f9e242a72"
+            "url": "https://github.com/mholt/caddy/releases/download/v0.11.3/caddy_v0.11.3_windows_386.zip",
+            "hash": "5bbe3f0b23121c6166b731bea50c3f0d4e0e2d541bb513ec9c7da534f38b9191"
         }
     },
     "bin": "caddy.exe",
@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/mholt/caddy/releases/download/v$version/caddy_v$version_windows_amd64.zip}",
-            "32bit": "@{url=https://github.com/mholt/caddy/releases/download/v$version/caddy_v$version_windows_386.zip}"
+            "64bit": {
+                "url": "https://github.com/mholt/caddy/releases/download/v$version/caddy_v$version_windows_amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/mholt/caddy/releases/download/v$version/caddy_v$version_windows_386.zip"
+            }
         }
     }
 }
