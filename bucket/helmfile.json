@@ -1,31 +1,28 @@
 {
+    "version": "0.45.2",
+    "description": "Command line interface to deploy Kubernetes Helm Charts.",
     "homepage": "https://github.com/roboll/helmfile/",
-    "version": "0.41.0",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/roboll/helmfile/releases/download/v0.41.0/helmfile_windows_amd64.exe#/helmfile.exe",
-            "hash": "9fd0ecd80eb887e5430a40c2088d951c4b179316c3a8d89cff7a4d669074135f"
+            "url": "https://github.com/roboll/helmfile/releases/download/v0.45.2/helmfile_windows_amd64.exe#/helmfile.exe",
+            "hash": "7c6cea5371759f933afe946821ee4c15cc8ad558399c2c740d8f5c164c19c4a3"
         },
         "32bit": {
-            "url": "https://github.com/roboll/helmfile/releases/download/v0.41.0/helmfile_windows_386.exe#/helmfile.exe",
-            "hash": "c732677fd7bbb8f790e7021bab76fe8385225ef78a3b0253f59fb9060921c16a"
+            "url": "https://github.com/roboll/helmfile/releases/download/v0.45.2/helmfile_windows_386.exe#/helmfile.exe",
+            "hash": "dfa5fae8cc98ac64e3ae94091f75cbcc31e6a96e62d06f3492b197e6b04c3f14"
         }
     },
     "bin": "helmfile.exe",
-    "shortcuts": [
-        [
-            "helmfile.exe",
-            "helmfile"
-        ]
-    ],
-    "checkver": {
-        "github": "https://github.com/roboll/helmfile/"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/roboll/helmfile/releases/download/v$version/helmfile_windows_amd64.exe#/helmfile.exe}",
-            "32bit": "@{url=https://github.com/roboll/helmfile/releases/download/v$version/helmfile_windows_386.exe#/helmfile.exe}"
+            "64bit": {
+                "url": "https://github.com/roboll/helmfile/releases/download/v$version/helmfile_windows_amd64.exe#/helmfile.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/roboll/helmfile/releases/download/v$version/helmfile_windows_386.exe#/helmfile.exe"
+            }
         }
     }
 }
