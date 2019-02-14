@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/BurntSushi/xsv/releases/download/$version/xsv-$version-x86_64-pc-windows-msvc.zip}",
-            "32bit": "@{url=https://github.com/BurntSushi/xsv/releases/download/$version/xsv-$version-i686-pc-windows-msvc.zip}"
+            "64bit": {
+                "url": "https://github.com/BurntSushi/xsv/releases/download/$version/xsv-$version-x86_64-pc-windows-msvc.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/BurntSushi/xsv/releases/download/$version/xsv-$version-i686-pc-windows-msvc.zip"
+            }
         }
     }
 }
