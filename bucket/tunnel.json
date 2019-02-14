@@ -12,14 +12,24 @@
             "hash": "0923cb853726b9d62ab1b9cf9a1b18b2e5e0705fd3896143e1da948b0a8cf6eb"
         }
     },
-    "bin": "tunnel.exe",
+    "bin": [
+        [
+            "tunnel-client.exe",
+            "tunnel"
+        ],
+        "tunnel-client.exe"
+    ],
     "checkver": {
         "github": "https://github.com/labstack/tunnel-client"
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel-client_$version_windows_32-bit.zip}",
-            "64bit": "@{url=https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel-client_$version_windows_64-bit.zip}"
+            "32bit": {
+                "url": "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel-client_$version_windows_32-bit.zip"
+            },
+            "64bit": {
+                "url": "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel-client_$version_windows_64-bit.zip"
+            }
         },
         "hash": {
             "url": "https://github.com/labstack/tunnel-client/releases/download/v$version/tunnel-client_checksum.txt"
