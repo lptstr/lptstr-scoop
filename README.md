@@ -16,7 +16,7 @@
 <p align="center"><a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/kiedtl/open-scoop.svg" alt="Code-Size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/kiedtl/open-scoop.svg" alt="Repository size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-977-yellow.svg" alt="Apps in bucket" /></a>
- <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/lines%20of%20code-34000%2B-yellow.svg" alt="Lines of code" /></a> <a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://travis-ci.org/Kiedtl/open-scoop.svg?branch=master" alt="Travis-CI" /></a>
+ <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/lines%20of%20code-34000%2B-yellow.svg" alt="Lines of code" /></a> <a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://ci.appveyor.com/api/projects/status/q9p6ltk3vxr9ud1w?svg=true" alt="Travis-CI" /></a>
 <a href="https://github.com/kiedtl/open-scoop/blob/master/LICENSE"><img src="https://img.shields.io/github/license/kiedtl/open-scoop.svg" alt="License" /></a>
 </p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
  
