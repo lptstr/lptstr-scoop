@@ -21,8 +21,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/uncrustify/uncrustify/uncrustify-$version/uncrustify-$version-win64.zip}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/uncrustify/uncrustify/uncrustify-$version/uncrustify-$version-win32.zip}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/uncrustify/uncrustify/uncrustify-$version/uncrustify-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/uncrustify/uncrustify/uncrustify-$version/uncrustify-$version-win32.zip"
+            }
         }
     }
 }
