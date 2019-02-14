@@ -35,7 +35,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://haskell.org/platform/download/$version/HaskellPlatform-$version-core-x86_64-setup.exe}"
+            "64bit": {
+                "url": "https://haskell.org/platform/download/$version/HaskellPlatform-$version-core-x86_64-setup.exe"
+            }
         }
     }
 }
