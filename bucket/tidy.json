@@ -13,8 +13,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{extract_dir=tidy-$version-vc14-32b/bin; url=https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-vc14-32b.zip}",
-            "64bit": "@{extract_dir=tidy-$version-vc14-64b/bin; url=https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-vc14-64b.zip}"
+            "32bit": {
+                "extract_dir": "tidy-$version-vc14-32b/bin",
+                "url": "https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-vc14-32b.zip"
+            },
+            "64bit": {
+                "extract_dir": "tidy-$version-vc14-64b/bin",
+                "url": "https://github.com/htacg/tidy-html5/releases/download/$version/tidy-$version-vc14-64b.zip"
+            }
         }
     },
     "bin": "tidy.exe",
