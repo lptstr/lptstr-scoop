@@ -11,10 +11,20 @@
     "extract_dir": "install",
     "architecture": {
         "64bit": {
-            "bin": "System.Object[]"
+            "bin": [
+                [
+                    "AutoIt3_x64.exe",
+                    "autoit"
+                ]
+            ]
         },
         "32bit": {
-            "bin": "System.Object[]"
+            "bin": [
+                [
+                    "AutoIt3.exe",
+                    "autoit"
+                ]
+            ]
         }
     },
     "checkver": {
