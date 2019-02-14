@@ -2,15 +2,15 @@
     "homepage": "https://godoc.org/github.com/gokcehan/lf",
     "description": "A terminal file manager written in Go",
     "license": "MIT",
-    "version": "r8",
+    "version": "r1",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-amd64.zip",
-            "hash": "c08ca44656cb09a1c3cbe0d59ee6b084f3c2da00867ae53e3b8cc67b8729edd7"
+            "url": "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-amd64.zip",
+            "hash": "f74911b28801e385709f11934874586c748b63cd69e2937c67211b5ca7e67d7b"
         },
         "32bit": {
-            "url": "https://github.com/gokcehan/lf/releases/download/r8/lf-windows-386.zip",
-            "hash": "938abc53134a35572ce88c3863b25ca5d508812a9d0e6d0e73a2f6f35de1a486"
+            "url": "https://github.com/gokcehan/lf/releases/download/r1/lf-windows-386.zip",
+            "hash": "13183efb038da0d1186cf7056832301e9b07bbd75b3e27992d38d765c43663f1"
         }
     },
     "bin": "lf.exe",
@@ -20,8 +20,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip}",
-            "32bit": "@{url=https://github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip}"
+            "64bit": {
+                "url": "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/gokcehan/lf/releases/download/$version/lf-windows-386.zip"
+            }
         }
     }
 }
