@@ -20,8 +20,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://www.tortall.net/projects/yasm/releases/yasm-$version-win64.exe#/yasm.exe}",
-            "32bit": "@{url=http://www.tortall.net/projects/yasm/releases/yasm-$version-win32.exe#/yasm.exe}"
+            "64bit": {
+                "url": "http://www.tortall.net/projects/yasm/releases/yasm-$version-win64.exe#/yasm.exe"
+            },
+            "32bit": {
+                "url": "http://www.tortall.net/projects/yasm/releases/yasm-$version-win32.exe#/yasm.exe"
+            }
         }
     }
 }
