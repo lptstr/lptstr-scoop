@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win64.zip}",
-            "32bit": "@{url=https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win32.zip}"
+            "64bit": {
+                "url": "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win64.zip"
+            },
+            "32bit": {
+                "url": "https://developers.yubico.com/yubico-piv-tool/Releases/yubico-piv-tool-$version-win32.zip"
+            }
         }
     }
 }
