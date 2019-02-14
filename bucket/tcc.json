@@ -20,8 +20,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://download.savannah.gnu.org/releases/tinycc/tcc-$version-win64-bin.zip}",
-            "32bit": "@{url=http://download.savannah.gnu.org/releases/tinycc/tcc-$version-win32-bin.zip}"
+            "64bit": {
+                "url": "http://download.savannah.gnu.org/releases/tinycc/tcc-$version-win64-bin.zip"
+            },
+            "32bit": {
+                "url": "http://download.savannah.gnu.org/releases/tinycc/tcc-$version-win32-bin.zip"
+            }
         }
     }
 }
