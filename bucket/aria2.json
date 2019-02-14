@@ -23,8 +23,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-32bit-build$matchBuild.zip; extract_dir=aria2-$matchVersion-win-32bit-build$matchBuild}",
-            "64bit": "@{url=https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-64bit-build$matchBuild.zip; extract_dir=aria2-$matchVersion-win-64bit-build$matchBuild}"
+            "32bit": {
+                "url": "https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-32bit-build$matchBuild.zip",
+                "extract_dir": "aria2-$matchVersion-win-32bit-build$matchBuild"
+            },
+            "64bit": {
+                "url": "https://github.com/aria2/aria2/releases/download/release-$matchVersion/aria2-$matchVersion-win-64bit-build$matchBuild.zip",
+                "extract_dir": "aria2-$matchVersion-win-64bit-build$matchBuild"
+            }
         }
     }
 }
