@@ -1,17 +1,10 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-{"homepage":"https://gradle.org","version":"5.0","license":"Apache-2.0","hash":"17847c8e12b2bcfce26a79f425f082c31d4ded822f99a66127eee2d96bf18216","url":"https://services.gradle.org/distributions/gradle-5.0-all.zip","extract_dir":"gradle-5.0","bin":"bin\\gradle.bat","suggest":{"JDK":["java/oraclejdk","java/openjdk"]},"checkver":{"url":"https://gradle.org/install/","re":"The current Gradle release is version ([\\d.]+)"},"autoupdate":{"url":"https://services.gradle.org/distributions/gradle-$version-all.zip","extract_dir":"gradle-$version","hash":{"url":"$url.sha256"}}}
-=======
-{"homepage":"https://gradle.org","version":"5.1","license":"Apache-2.0","hash":"7b8a8b9cce0406733d2d3fab3874386c530657c73c3f4e9a3837d081e26060d8","url":"https://services.gradle.org/distributions/gradle-5.1-all.zip","extract_dir":"gradle-5.1","bin":"bin\\gradle.bat","suggest":{"JDK":["java/oraclejdk","java/openjdk"]},"checkver":{"url":"https://gradle.org/install/","re":"The current Gradle release is version ([\\d.]+)"},"autoupdate":{"url":"https://services.gradle.org/distributions/gradle-$version-all.zip","extract_dir":"gradle-$version","hash":{"url":"$url.sha256"}}}
->>>>>>> update-manifest
-=======
 {
     "homepage": "https://gradle.org",
-    "version": "5.1.1",
+    "version": "5.2.1",
     "license": "Apache-2.0",
-    "hash": "53b71812f18cdb2777e9f1b2a0f2038683907c90bdc406bc64d8b400e1fb2c3b",
-    "url": "https://services.gradle.org/distributions/gradle-5.1.1-all.zip",
-    "extract_dir": "gradle-5.1.1",
+    "hash": "9dc729f6dbfbbc4df1692665d301e028976dacac296a126f16148941a9cf012e",
+    "url": "https://services.gradle.org/distributions/gradle-5.2.1-all.zip",
+    "extract_dir": "gradle-5.2.1",
     "bin": "bin\\gradle.bat",
     "suggest": {
         "JDK": [
@@ -31,4 +24,3 @@
         }
     }
 }
->>>>>>> update-manifest
