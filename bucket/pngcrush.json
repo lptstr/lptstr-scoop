@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w32.exe#/pngcrush.exe}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w64.exe#/pngcrush.exe"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/pmt/pngcrush-executables/$version/pngcrush_$underscoreVersion_w32.exe#/pngcrush.exe"
+            }
         }
     }
 }
