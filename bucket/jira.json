@@ -17,8 +17,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/Netflix-Skunkworks/go-jira/releases/download/v$version/jira-windows-4.0-amd64.exe#/jira.exe}",
-            "32bit": "@{url=https://github.com/Netflix-Skunkworks/go-jira/releases/download/v$version/jira-windows-4.0-386.exe#/jira.exe}"
+            "64bit": {
+                "url": "https://github.com/Netflix-Skunkworks/go-jira/releases/download/v$version/jira-windows-4.0-amd64.exe#/jira.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/Netflix-Skunkworks/go-jira/releases/download/v$version/jira-windows-4.0-386.exe#/jira.exe"
+            }
         }
     }
 }
