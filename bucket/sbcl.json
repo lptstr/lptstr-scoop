@@ -19,7 +19,10 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/sbcl/sbcl/$version/sbcl-$version-x86-64-windows-binary.msi; extract_dir=PFiles\\Steel Bank Common Lisp\\$version}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/sbcl/sbcl/$version/sbcl-$version-x86-64-windows-binary.msi",
+                "extract_dir": "PFiles\\Steel Bank Common Lisp\\$version"
+            }
         }
     },
     "notes": "Please restart your command line for SBCL_HOME to take effect. Please consider installing http://www.quicklisp.org/"
