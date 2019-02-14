@@ -17,8 +17,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/alecthomas/chroma/releases/download/v$version/chroma-$version-windows-amd64.tar.gz}",
-            "32bit": "@{url=https://github.com/alecthomas/chroma/releases/download/v$version/chroma-$version-windows-386.tar.gz}"
+            "64bit": {
+                "url": "https://github.com/alecthomas/chroma/releases/download/v$version/chroma-$version-windows-amd64.tar.gz"
+            },
+            "32bit": {
+                "url": "https://github.com/alecthomas/chroma/releases/download/v$version/chroma-$version-windows-386.tar.gz"
+            }
         },
         "hash": {
             "url": "$baseurl/chroma-$version-checksums.txt"
