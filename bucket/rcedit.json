@@ -17,8 +17,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/electron/rcedit/releases/download/v$version/rcedit-x64.exe#/rcedit.exe}",
-            "32bit": "@{url=https://github.com/electron/rcedit/releases/download/v$version/rcedit-x86.exe#/rcedit.exe}"
+            "64bit": {
+                "url": "https://github.com/electron/rcedit/releases/download/v$version/rcedit-x64.exe#/rcedit.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/electron/rcedit/releases/download/v$version/rcedit-x86.exe#/rcedit.exe"
+            }
         }
     }
 }
