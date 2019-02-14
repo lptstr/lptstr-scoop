@@ -18,8 +18,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.exe#/force.exe}",
-            "32bit": "@{url=https://github.com/ForceCLI/force/releases/download/v$version/force_windows_386.exe#/force.exe}"
+            "64bit": {
+                "url": "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_amd64.exe#/force.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/ForceCLI/force/releases/download/v$version/force_windows_386.exe#/force.exe"
+            }
         }
     }
 }
