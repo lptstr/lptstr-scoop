@@ -1,3 +1,7 @@
 * text=auto
 
+*.json text
+*.ps1 text
+*.md text
+
 APPLIST.md -crlf
