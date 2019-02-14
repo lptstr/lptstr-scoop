@@ -28,7 +28,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64-binaries.zip}"
+            "64bit": {
+                "url": "https://get.enterprisedb.com/postgresql/postgresql-$version-1-windows-x64-binaries.zip"
+            }
         }
     }
 }
