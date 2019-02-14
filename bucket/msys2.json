@@ -28,8 +28,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/msys2/Base/x86_64/msys2-base-x86_64-$version.tar.xz; extract_dir=msys64}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/msys2/Base/i686/msys2-base-i686-$version.tar.xz; extract_dir=msys32}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/msys2/Base/x86_64/msys2-base-x86_64-$version.tar.xz",
+                "extract_dir": "msys64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/msys2/Base/i686/msys2-base-i686-$version.tar.xz",
+                "extract_dir": "msys32"
+            }
         }
     }
 }
