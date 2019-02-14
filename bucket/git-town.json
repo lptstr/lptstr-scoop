@@ -21,8 +21,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/Originate/git-town/releases/download/v$version/git-town-windows-386.exe#/git-town.exe}",
-            "64bit": "@{url=https://github.com/Originate/git-town/releases/download/v$version/git-town-windows-amd64.exe#/git-town.exe}"
+            "32bit": {
+                "url": "https://github.com/Originate/git-town/releases/download/v$version/git-town-windows-386.exe#/git-town.exe"
+            },
+            "64bit": {
+                "url": "https://github.com/Originate/git-town/releases/download/v$version/git-town-windows-amd64.exe#/git-town.exe"
+            }
         }
     }
 }
