@@ -15,7 +15,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/Genymobile/gnirehtet/releases/download/$version/gnirehtet-rust-win64-$version.zip; hash=}"
+            "64bit": {
+                "url": "https://github.com/Genymobile/gnirehtet/releases/download/$version/gnirehtet-rust-win64-$version.zip",
+                "hash": {
+                    "url": "$baseurl/SHA256SUMS.txt"
+                }
+            }
         }
     }
 }
