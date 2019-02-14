@@ -16,8 +16,12 @@
     "checkver": "\\/releases\\/download.html#([\\d.]+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://releases.llvm.org/$version/LLVM-$version-win64.exe#/llvm.7z}",
-            "32bit": "@{url=https://releases.llvm.org/$version/LLVM-$version-win32.exe#/llvm.7z}"
+            "64bit": {
+                "url": "https://releases.llvm.org/$version/LLVM-$version-win64.exe#/llvm.7z"
+            },
+            "32bit": {
+                "url": "https://releases.llvm.org/$version/LLVM-$version-win32.exe#/llvm.7z"
+            }
         }
     }
 }
