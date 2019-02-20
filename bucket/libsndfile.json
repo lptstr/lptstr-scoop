@@ -29,8 +29,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://www.mega-nerd.com/libsndfile/files/libsndfile-$version-w64.zip}",
-            "32bit": "@{url=http://www.mega-nerd.com/libsndfile/files/libsndfile-$version-w32.zip}"
+            "64bit": {
+                "url": "http://www.mega-nerd.com/libsndfile/files/libsndfile-$version-w64.zip"
+            },
+            "32bit": {
+                "url": "http://www.mega-nerd.com/libsndfile/files/libsndfile-$version-w32.zip"
+            }
         }
     },
     "installer": {

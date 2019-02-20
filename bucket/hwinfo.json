@@ -5,14 +5,34 @@
         "64bit": {
             "url": "https://www.hwinfo.com/files/hwi_600.zip",
             "hash": "06d6268a71e0ac99cdb2aec8283392e803e667b81f6e0f51768cb32a07714e2d",
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "HWiNFO64.exe",
+                    "HWiNFO64"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "HWiNFO64.exe",
+                    "HWiNFO64"
+                ]
+            ]
         },
         "32bit": {
             "url": "https://www.hwinfo.com/files/hwi_600.zip",
             "hash": "06d6268a71e0ac99cdb2aec8283392e803e667b81f6e0f51768cb32a07714e2d",
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "HWiNFO32.exe",
+                    "HWiNFO32"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "HWiNFO32.exe",
+                    "HWiNFO32"
+                ]
+            ]
         }
     },
     "persist": [
@@ -25,8 +45,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip}",
-            "32bit": "@{url=https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip}"
+            "64bit": {
+                "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip"
+            },
+            "32bit": {
+                "url": "https://www.hwinfo.com/files/hwi_$majorVersion$minorVersion.zip"
+            }
         }
     }
 }

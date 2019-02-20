@@ -19,8 +19,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x64.msi}",
-            "32bit": "@{url=https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x86.msi}"
+            "64bit": {
+                "url": "https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x64.msi"
+            },
+            "32bit": {
+                "url": "https://github.com/snakefoot/snaketail-net/releases/download/$version/SnakeTail.v$version.x86.msi"
+            }
         }
     },
     "shortcuts": [

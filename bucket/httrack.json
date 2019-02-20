@@ -29,8 +29,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://mirror.httrack.com/httrack_x64-noinst-$version.zip}",
-            "32bit": "@{url=https://mirror.httrack.com/httrack-noinst-$version.zip}"
+            "64bit": {
+                "url": "https://mirror.httrack.com/httrack_x64-noinst-$version.zip"
+            },
+            "32bit": {
+                "url": "https://mirror.httrack.com/httrack-noinst-$version.zip"
+            }
         },
         "hash": {
             "url": "$url.sha1",

@@ -24,8 +24,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://www.dependencywalker.com/depends$majorVersion$minorVersion_x64.zip}",
-            "32bit": "@{url=http://www.dependencywalker.com/depends$majorVersion$minorVersion_x86.zip}"
+            "64bit": {
+                "url": "http://www.dependencywalker.com/depends$majorVersion$minorVersion_x64.zip"
+            },
+            "32bit": {
+                "url": "http://www.dependencywalker.com/depends$majorVersion$minorVersion_x86.zip"
+            }
         }
     }
 }

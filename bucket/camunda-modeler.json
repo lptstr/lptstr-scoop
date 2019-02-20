@@ -23,8 +23,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-x64.zip}",
-            "32bit": "@{url=https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-ia32.zip}"
+            "64bit": {
+                "url": "https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://camunda.org/release/camunda-modeler/$version/camunda-modeler-$version-win-ia32.zip"
+            }
         }
     }
 }

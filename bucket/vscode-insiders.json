@@ -5,7 +5,7 @@
         "identifier": "Freeware",
         "url": "https://code.visualstudio.com/License/"
     },
-    "notes": "Add VSCode as a context menu option by running: '$dir\\vscode-install-context.reg'",
+    "notes": "Add Visual Studio Code as a context menu option by running: \"$dir\\vscode-install-context.reg\"",
     "bin": [
         [
             "bin\\code-insiders.cmd",
@@ -34,10 +34,18 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            "url": [
+                "https://vscode-update.azurewebsites.net/latest/win32-x64-archive/insider#/dl.7z",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ]
         },
         "32bit": {
-            "url": "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/dl.7z https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            "url": [
+                "https://vscode-update.azurewebsites.net/latest/win32-archive/insider#/dl.7z",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-install-context.reg",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/vscode-uninstall-context.reg"
+            ]
         }
     }
 }

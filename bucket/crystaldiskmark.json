@@ -7,12 +7,32 @@
     "hash": "md5:a2a6ed95804ed885e1e82d25cb4a5ea2",
     "architecture": {
         "64bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "DiskMark64.exe",
+                    "DiskMark"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DiskMark64.exe",
+                    "DiskMark"
+                ]
+            ]
         },
         "32bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "DiskMark32.exe",
+                    "DiskMark"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DiskMark32.exe",
+                    "DiskMark"
+                ]
+            ]
         }
     },
     "persist": [

@@ -30,8 +30,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.tuxfamily.org/godotengine/$version/mono/Godot_v$version-stable_mono_win64.zip}",
-            "32bit": "@{url=https://downloads.tuxfamily.org/godotengine/$version/mono/Godot_v$version-stable_mono_win32.zip}"
+            "64bit": {
+                "url": "https://downloads.tuxfamily.org/godotengine/$version/mono/Godot_v$version-stable_mono_win64.zip"
+            },
+            "32bit": {
+                "url": "https://downloads.tuxfamily.org/godotengine/$version/mono/Godot_v$version-stable_mono_win32.zip"
+            }
         }
     }
 }

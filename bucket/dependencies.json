@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/lucasg/Dependencies/releases/download/v$version/Dependencies_x64_Release.zip}",
-            "32bit": "@{url=https://github.com/lucasg/Dependencies/releases/download/v$version/Dependencies_x86_Release.zip}"
+            "64bit": {
+                "url": "https://github.com/lucasg/Dependencies/releases/download/v$version/Dependencies_x64_Release.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/lucasg/Dependencies/releases/download/v$version/Dependencies_x86_Release.zip"
+            }
         }
     }
 }

@@ -3,11 +3,17 @@
     "version": "1.9.70",
     "architecture": {
         "64bit": {
-            "url": "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-1.9.70.zip https://raw.github.com/lukesampson/scoop-extras/master/scripts/pyshim.ps1",
+            "url": [
+                "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-1.9.70.zip",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/pyshim.ps1"
+            ],
             "hash": "d5ca6b2f06f022a08448a06c4d716f80ef4eff00ab35e528d5d0272618fd3b26"
         },
         "32bit": {
-            "url": "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_386-1.9.70.zip https://raw.github.com/lukesampson/scoop-extras/master/scripts/pyshim.ps1",
+            "url": [
+                "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_386-1.9.70.zip",
+                "https://raw.github.com/lukesampson/scoop-extras/master/scripts/pyshim.ps1"
+            ],
             "hash": "6ede92c2f2799c6721f583d3d010f9bf13eaae9e588c8260e79cb8a09dfb0892"
         }
     },
@@ -36,8 +42,12 @@
     "notes": "appengine-go depends on either python or python27 being installed.",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-$version.zip}",
-            "32bit": "@{url=https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_386-$version.zip}"
+            "64bit": {
+                "url": "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_amd64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://storage.googleapis.com/appengine-sdks/featured/go_appengine_sdk_windows_386-$version.zip"
+            }
         }
     }
 }

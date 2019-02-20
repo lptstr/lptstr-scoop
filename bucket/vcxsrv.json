@@ -40,8 +40,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/$version/vcxsrv-64.$version.installer.exe#/dl.7z}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/$version/vcxsrv.$version.installer.exe#/dl.7z}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/$version/vcxsrv-64.$version.installer.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/vcxsrv/vcxsrv/$version/vcxsrv.$version.installer.exe#/dl.7z"
+            }
         }
     }
 }

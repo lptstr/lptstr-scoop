@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version-x86_64.zip}",
-            "32bit": "@{url=https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version-i686.zip}"
+            "64bit": {
+                "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version-x86_64.zip"
+            },
+            "32bit": {
+                "url": "https://ftpmirror.gnu.org/gnu/emacs/windows/emacs-$majorVersion/emacs-$version-i686.zip"
+            }
         }
     },
     "shortcuts": [

@@ -27,8 +27,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.strokesplus.com/files/strokesplus_$version_x64.zip}",
-            "32bit": "@{url=https://www.strokesplus.com/files/strokesplus_$version_x86.zip}"
+            "64bit": {
+                "url": "https://www.strokesplus.com/files/strokesplus_$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.strokesplus.com/files/strokesplus_$version_x86.zip"
+            }
         }
     }
 }

@@ -1,14 +1,14 @@
 {
-    "version": "228.0.0",
+    "version": "234.0.0",
     "homepage": "https://cloud.google.com/sdk/",
     "architecture": {
         "64bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-228.0.0-windows-x86_64-bundled-python.zip",
-            "hash": "eec8d6f67028d100900f08fccb2fb800f09f58f0e77868fa30ce44e9fd6f027f"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-234.0.0-windows-x86_64-bundled-python.zip",
+            "hash": "1b1271e976b8b1ca8c3e0eff424bf1b5adcf8764a4e790ccadf2d19e0898d213"
         },
         "32bit": {
-            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-228.0.0-windows-x86-bundled-python.zip",
-            "hash": "9900243e05e53b50e517bc2a144c18299077d2625949c7cd12446fd6e1a9e97f"
+            "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-234.0.0-windows-x86-bundled-python.zip",
+            "hash": "d5891de0457983ecc82cbed7194089154da431502f1bb4f9e91225266bbef2f7"
         }
     },
     "extract_dir": "google-cloud-sdk",
@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip}",
-            "32bit": "@{url=https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86-bundled-python.zip}"
+            "64bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86_64-bundled-python.zip"
+            },
+            "32bit": {
+                "url": "https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-$version-windows-x86-bundled-python.zip"
+            }
         }
     }
 }

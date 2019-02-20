@@ -8,10 +8,14 @@
     "pre_install": "Get-ChildItem \"$dir\" -Exclude 'app-64.7z', 'app-32.7z' | Remove-Item -Force -Recurse",
     "architecture": {
         "64bit": {
-            "installer": "@{script=extract_7zip \"$dir\\app-64.7z\" \"$dir\"}"
+            "installer": {
+                "script": "extract_7zip \"$dir\\app-64.7z\" \"$dir\""
+            }
         },
         "32bit": {
-            "installer": "@{script=extract_7zip \"$dir\\app-32.7z\" \"$dir\"}"
+            "installer": {
+                "script": "extract_7zip \"$dir\\app-32.7z\" \"$dir\""
+            }
         }
     },
     "post_install": "Remove-Item \"$dir\\app-64.7z\", \"$dir\\app-32.7z\"",

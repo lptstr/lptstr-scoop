@@ -24,8 +24,12 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/CobaltFusion/DebugViewPP/releases/download/v$version-x64/DebugView++.zip}",
-            "32bit": "@{url=https://github.com/CobaltFusion/DebugViewPP/releases/download/v$version/DebugView++.zip}"
+            "64bit": {
+                "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v$version-x64/DebugView++.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/CobaltFusion/DebugViewPP/releases/download/v$version/DebugView++.zip"
+            }
         }
     },
     "notes": "The 'OutputForwarderVSIX.vsix' is located at '$dir'."

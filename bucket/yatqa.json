@@ -1,8 +1,8 @@
 {
     "homepage": "http://yat.qa/",
-    "version": "3.9.5",
+    "version": "3.9.6",
     "url": "https://dl.yat.qa/stable/#/setup.exe",
-    "hash": "a842d7f9253287b3500d02e2f16f54218af2701e1cd8502d5790958a3cd61a51",
+    "hash": "8dccd242228e61fbba2d07192344f0504e2b74c42490101586b5d3254607f6ed",
     "bin": "yatqa.exe",
     "persist": "yatqa.ini",
     "shortcuts": [

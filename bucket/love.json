@@ -28,8 +28,14 @@
     "checkver": "Download LÖVE ([\\d.]+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://bitbucket.org/rude/love/downloads/love-$version-win64.zip; extract_dir=love-$version-win64}",
-            "32bit": "@{url=https://bitbucket.org/rude/love/downloads/love-$version-win32.zip; extract_dir=love-$version-win32}"
+            "64bit": {
+                "url": "https://bitbucket.org/rude/love/downloads/love-$version-win64.zip",
+                "extract_dir": "love-$version-win64"
+            },
+            "32bit": {
+                "url": "https://bitbucket.org/rude/love/downloads/love-$version-win32.zip",
+                "extract_dir": "love-$version-win32"
+            }
         }
     }
 }

@@ -23,8 +23,12 @@
     "checkver": "version ([\\d.]+)",
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://mediaarea.net/download/binary/mediainfo-gui/$version/MediaInfo_GUI_$version_Windows_i386_WithoutInstaller.7z}",
-            "64bit": "@{url=https://mediaarea.net/download/binary/mediainfo-gui/$version/MediaInfo_GUI_$version_Windows_x64_WithoutInstaller.7z}"
+            "32bit": {
+                "url": "https://mediaarea.net/download/binary/mediainfo-gui/$version/MediaInfo_GUI_$version_Windows_i386_WithoutInstaller.7z"
+            },
+            "64bit": {
+                "url": "https://mediaarea.net/download/binary/mediainfo-gui/$version/MediaInfo_GUI_$version_Windows_x64_WithoutInstaller.7z"
+            }
         }
     }
 }

@@ -42,8 +42,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion_x64-install.exe#/dl.7z}",
-            "32bit": "@{url=https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion-install.exe#/dl.7z}"
+            "64bit": {
+                "url": "https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion_x64-install.exe#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://www.reaper.fm/files/$majorVersion.x/reaper$cleanVersion-install.exe#/dl.7z"
+            }
         }
     },
     "notes": "The portable version of Reaper does not include ReWire."

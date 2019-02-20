@@ -27,8 +27,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/vifm/vifm/releases/download/v$version/vifm-w64-se-$version-binary.zip; extract_dir=vifm-w64-se-$version-binary}",
-            "32bit": "@{url=https://github.com/vifm/vifm/releases/download/v$version/vifm-w32-se-$version-binary.zip; extract_dir=vifm-w32-se-$version-binary}"
+            "64bit": {
+                "url": "https://github.com/vifm/vifm/releases/download/v$version/vifm-w64-se-$version-binary.zip",
+                "extract_dir": "vifm-w64-se-$version-binary"
+            },
+            "32bit": {
+                "url": "https://github.com/vifm/vifm/releases/download/v$version/vifm-w32-se-$version-binary.zip",
+                "extract_dir": "vifm-w32-se-$version-binary"
+            }
         }
     }
 }

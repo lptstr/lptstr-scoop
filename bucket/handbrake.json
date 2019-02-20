@@ -19,7 +19,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://download.handbrake.fr/handbrake/releases/$version/HandBrake-$version-x86_64-Win_GUI.exe#/dl.7z}"
+            "64bit": {
+                "url": "https://download.handbrake.fr/handbrake/releases/$version/HandBrake-$version-x86_64-Win_GUI.exe#/dl.7z"
+            }
         },
         "hash": {
             "find": "<td>([a-fA-F0-9]{64})</td>",

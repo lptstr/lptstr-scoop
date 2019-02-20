@@ -2,15 +2,15 @@
     "homepage": "https://mpv.io/",
     "description": "Video player based on MPlayer/mplayer2 (builds by shinchiro)",
     "license": "GPL-2.0-or-later|LGPL-2.1-or-later",
-    "version": "20181230",
+    "version": "20190210",
     "architecture": {
         "64bit": {
-            "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20181230-git-d6d6da4.7z",
-            "hash": "sha1:51975f67815a3a7d7bd10d16d9389036804d2e09"
+            "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-20190210-git-f2e7e81.7z",
+            "hash": "sha1:ecd43f2ea8c68e51ed22c3d848a57624091966e2"
         },
         "32bit": {
-            "url": "https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-20181230-git-d6d6da4.7z",
-            "hash": "sha1:f24837fce3ba437e4b1ba7f33eb259537cf5e44b"
+            "url": "https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-20190210-git-f2e7e81.7z",
+            "hash": "sha1:37b10a2181a06ce0c6c8f8da63f7f21723ade82c"
         }
     },
     "bin": "mpv.exe",
@@ -39,8 +39,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-$matchVersion-git-$matchCommit.7z}",
-            "32bit": "@{url=https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-$matchVersion-git-$matchCommit.7z}"
+            "64bit": {
+                "url": "https://sourceforge.net/projects/mpv-player-windows/files/64bit/mpv-x86_64-$matchVersion-git-$matchCommit.7z"
+            },
+            "32bit": {
+                "url": "https://sourceforge.net/projects/mpv-player-windows/files/32bit/mpv-i686-$matchVersion-git-$matchCommit.7z"
+            }
         }
     }
 }

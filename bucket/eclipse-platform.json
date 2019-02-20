@@ -6,10 +6,6 @@
         "64bit": {
             "url": "https://www.eclipse.org/downloads/download.php?r=1&file=/eclipse/downloads/drops4/R-4.10-201812060815/eclipse-platform-4.10-win32-x86_64.zip",
             "hash": "sha512:b54c2532d62a9c47e662f96926feeea77735809139c5adc03d9c1fa27782159614f5f1ea14e235b072edb7d8049759cd670995587029c9a4c388e3c806964501"
-        },
-        "32bit": {
-            "url": "https://www.eclipse.org/downloads/download.php?r=1&file=/eclipse/downloads/drops4/R-4.10-201812060815/eclipse-platform-4.10-win32.zip",
-            "hash": "0f5d8f1916044e76ef7491fd680bea39313edf78fe5f4d95ed662f7b50c266d9"
         }
     },
     "extract_dir": "eclipse",
@@ -27,8 +23,13 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.eclipse.org/downloads/download.php?r=1&file=/eclipse/downloads/$matchDrop/eclipse-platform-$matchRelease-win32-x86_64.zip; hash=}",
-            "32bit": "@{url=https://www.eclipse.org/downloads/download.php?r=1&file=/eclipse/downloads/$matchDrop/eclipse-platform-$matchRelease-win32.zip; hash=}"
+            "64bit": {
+                "url": "https://www.eclipse.org/downloads/download.php?r=1&file=/eclipse/downloads/$matchDrop/eclipse-platform-$matchRelease-win32-x86_64.zip",
+                "hash": {
+                    "url": "https://download.eclipse.org/eclipse/downloads/$matchDrop/checksum/eclipse-platform-$matchRelease-win32-x86_64.zip.sha512",
+                    "find": "([a-fA-F0-9]{128})"
+                }
+            }
         }
     }
 }

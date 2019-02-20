@@ -21,8 +21,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://lockhunter.com/exe/lockhuntersetup_$dashVersion.exe}",
-            "32bit": "@{url=https://lockhunter.com/exe/lockhuntersetup_$dashVersion.exe}"
+            "64bit": {
+                "url": "https://lockhunter.com/exe/lockhuntersetup_$dashVersion.exe"
+            },
+            "32bit": {
+                "url": "https://lockhunter.com/exe/lockhuntersetup_$dashVersion.exe"
+            }
         }
     },
     "bin": "lockhunter.exe",

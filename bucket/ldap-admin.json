@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w64-$version.zip}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w32-$version.zip}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w64-$version.zip"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/ldapadmin/ldapadmin/$version/LdapAdminExe-w32-$version.zip"
+            }
         }
     }
 }

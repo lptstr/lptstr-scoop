@@ -31,8 +31,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winx64/brave-$version-full.nupkg#/dl.7z}",
-            "32bit": "@{url=https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winia32/brave-$version-full.nupkg#/dl.7z}"
+            "64bit": {
+                "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winx64/brave-$version-full.nupkg#/dl.7z"
+            },
+            "32bit": {
+                "url": "https://brave-download.global.ssl.fastly.net/multi-channel/releases/dev/$version/winia32/brave-$version-full.nupkg#/dl.7z"
+            }
         },
         "hash": {
             "url": "$baseurl/RELEASES"

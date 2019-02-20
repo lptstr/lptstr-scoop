@@ -31,8 +31,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://download.kde.org/stable/krita/$version/krita-x64-$version.zip; extract_dir=krita-x64-$version}",
-            "32bit": "@{url=https://download.kde.org/stable/krita/$version/krita-x86-$version.zip; extract_dir=krita-x86-$version}"
+            "64bit": {
+                "url": "https://download.kde.org/stable/krita/$version/krita-x64-$version.zip",
+                "extract_dir": "krita-x64-$version"
+            },
+            "32bit": {
+                "url": "https://download.kde.org/stable/krita/$version/krita-x86-$version.zip",
+                "extract_dir": "krita-x86-$version"
+            }
         },
         "hash": {
             "url": "$baseurl/md5sum.txt"

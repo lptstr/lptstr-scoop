@@ -1,15 +1,15 @@
 {
     "homepage": "https://www.voidtools.com/",
     "license": "MIT",
-    "version": "1.4.1.924",
+    "version": "1.4.1.932",
     "architecture": {
         "64bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.924.x64.zip",
-            "hash": "3f4f73443ca52188a120b3277f27bb00e35b7aacc663dc3cfb954e0c2b1d21f5"
+            "url": "https://www.voidtools.com/Everything-1.4.1.932.x64.zip",
+            "hash": "fc2a63ef170a416059a413c9148bbdc853127bb4a186253c9911ed1fe68b4e6b"
         },
         "32bit": {
-            "url": "https://www.voidtools.com/Everything-1.4.1.924.x86.zip",
-            "hash": "cb15f87ba5a47520d0b06f6b177616276cdb9f9dbe3b5669bed8f24efe4edb9b"
+            "url": "https://www.voidtools.com/Everything-1.4.1.932.x86.zip",
+            "hash": "13861e5dc0aee329aefe272539d68dd80109e5ca0cbbfdd558775a1b0f132888"
         }
     },
     "bin": "Everything.exe",
@@ -24,8 +24,12 @@
     ],
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.voidtools.com/Everything-$version.x64.zip}",
-            "32bit": "@{url=https://www.voidtools.com/Everything-$version.x86.zip}"
+            "64bit": {
+                "url": "https://www.voidtools.com/Everything-$version.x64.zip"
+            },
+            "32bit": {
+                "url": "https://www.voidtools.com/Everything-$version.x86.zip"
+            }
         },
         "hash": {
             "url": "https://www.voidtools.com/Everything-$version.sha256"

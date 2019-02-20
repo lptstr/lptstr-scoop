@@ -24,8 +24,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-x64.nsis.7z}",
-            "32bit": "@{url=https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-ia32.nsis.7z}"
+            "64bit": {
+                "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-x64.nsis.7z"
+            },
+            "32bit": {
+                "url": "https://github.com/bitwarden/desktop/releases/download/v$version/bitwarden-$version-ia32.nsis.7z"
+            }
         }
     }
 }

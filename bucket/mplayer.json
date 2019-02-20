@@ -20,8 +20,14 @@
     "checkver": "MPlayer r([\\d-]+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version-x86_64.7z; extract_dir=mplayer-svn-$version-x86_64}",
-            "32bit": "@{url=https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version.7z; extract_dir=mplayer-svn-$version}"
+            "64bit": {
+                "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version-x86_64.7z",
+                "extract_dir": "mplayer-svn-$version-x86_64"
+            },
+            "32bit": {
+                "url": "https://downloads.sourceforge.net/project/mplayerwin/MPlayer-MEncoder/r$version/mplayer-svn-$version.7z",
+                "extract_dir": "mplayer-svn-$version"
+            }
         }
     }
 }

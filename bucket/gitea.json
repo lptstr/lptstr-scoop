@@ -1,15 +1,15 @@
 {
     "homepage": "https://gitea.io/",
-    "version": "1.6.2",
+    "version": "1.7.2",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/go-gitea/gitea/releases/download/v1.6.2/gitea-1.6.2-windows-4.0-amd64.exe#/gitea.exe",
-            "hash": "2c000ca25281e615921ebb852f9e0cd1f0cea45149012c327c900af8c365c477"
+            "url": "https://github.com/go-gitea/gitea/releases/download/v1.7.2/gitea-1.7.2-windows-4.0-amd64.exe#/gitea.exe",
+            "hash": "7ed51ff85e9ba88043307be8c97846aee812c412d755202cbb01231baed71a80"
         },
         "32bit": {
-            "url": "https://github.com/go-gitea/gitea/releases/download/v1.6.2/gitea-1.6.2-windows-4.0-386.exe#/gitea.exe",
-            "hash": "8ec70365b435aa3a1f94ecfa46bb29bb5727f86e58019b9aa30a435a47ef2e5e"
+            "url": "https://github.com/go-gitea/gitea/releases/download/v1.7.2/gitea-1.7.2-windows-4.0-386.exe#/gitea.exe",
+            "hash": "b29421f6b88217527a1f61491ac06bb4e1ea0eb6a1e0e5fa3ebe51d5484bee30"
         }
     },
     "post_install": [
@@ -29,8 +29,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-amd64.exe#/gitea.exe}",
-            "32bit": "@{url=https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-386.exe#/gitea.exe}"
+            "64bit": {
+                "url": "https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-amd64.exe#/gitea.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/go-gitea/gitea/releases/download/v$version/gitea-$version-windows-4.0-386.exe#/gitea.exe"
+            }
         },
         "hash": {
             "url": "$url.sha256"

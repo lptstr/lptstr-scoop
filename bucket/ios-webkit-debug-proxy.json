@@ -12,7 +12,9 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/google/ios-webkit-debug-proxy/releases/download/v$version/ios-webkit-debug-proxy-$version-win64-bin.zip}"
+            "64bit": {
+                "url": "https://github.com/google/ios-webkit-debug-proxy/releases/download/v$version/ios-webkit-debug-proxy-$version-win64-bin.zip"
+            }
         }
     }
 }

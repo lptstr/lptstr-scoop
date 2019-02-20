@@ -15,7 +15,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/ziglang/zig/releases/download/$version/zig-windows-x86_64-$version.zip}"
+            "64bit": {
+                "url": "https://github.com/ziglang/zig/releases/download/$version/zig-windows-x86_64-$version.zip"
+            }
         },
         "extract_dir": "zig-windows-x86_64-$version"
     }

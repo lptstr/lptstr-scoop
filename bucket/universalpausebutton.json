@@ -7,12 +7,32 @@
     "hash": "e1b70ae7f0da7f9b7500689de69915ce1f9816f5c2f02d19b6e1070f15b09701",
     "architecture": {
         "32bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "UniversalPauseButton_x86.exe",
+                    "UniversalPauseButton"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "UniversalPauseButton_x86.exe",
+                    "Universal Pause Button"
+                ]
+            ]
         },
         "64bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "UniversalPauseButton_x64.exe",
+                    "UniversalPauseButton"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "UniversalPauseButton_x64.exe",
+                    "Universal Pause Button"
+                ]
+            ]
         }
     },
     "checkver": "github",

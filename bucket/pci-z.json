@@ -25,8 +25,20 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://www.pci-z.com/current/PCI-Z.exe; hash=}",
-            "64bit": "@{url=https://www.pci-z.com/current/x64/PCI-Z.exe; hash=}"
+            "32bit": {
+                "url": "https://www.pci-z.com/current/PCI-Z.exe",
+                "hash": {
+                    "url": "https://www.pci-z.com/",
+                    "find": "current/PCI-Z.exe.*?SHA1:.*?([a-fA-F0-9]+)<"
+                }
+            },
+            "64bit": {
+                "url": "https://www.pci-z.com/current/x64/PCI-Z.exe",
+                "hash": {
+                    "url": "https://www.pci-z.com/",
+                    "find": "current/x64/PCI-Z.exe.*?SHA1:.*?([a-fA-F0-9]+)<"
+                }
+            }
         }
     }
 }

@@ -27,8 +27,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/pwsafe/pwsafe/releases/download/$version/pwsafe64-$version-bin.zip; extract_dir=pwsafe64-$version-bin}",
-            "32bit": "@{url=https://github.com/pwsafe/pwsafe/releases/download/$version/pwsafe-$version-bin.zip; extract_dir=pwsafe-$version-bin}"
+            "64bit": {
+                "url": "https://github.com/pwsafe/pwsafe/releases/download/$version/pwsafe64-$version-bin.zip",
+                "extract_dir": "pwsafe64-$version-bin"
+            },
+            "32bit": {
+                "url": "https://github.com/pwsafe/pwsafe/releases/download/$version/pwsafe-$version-bin.zip",
+                "extract_dir": "pwsafe-$version-bin"
+            }
         }
     }
 }

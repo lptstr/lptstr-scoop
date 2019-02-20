@@ -23,7 +23,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://files.kde.org/kdenlive/release/Kdenlive-$version-w64.7z}"
+            "64bit": {
+                "url": "https://files.kde.org/kdenlive/release/Kdenlive-$version-w64.7z"
+            }
         },
         "hash": {
             "url": "$url.sha256"

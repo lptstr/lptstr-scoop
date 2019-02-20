@@ -30,7 +30,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/Wyse-/ungoogled-chromium-binaries/releases/download/67.0.3396.87-3/ungoogled-chromium_$version_windows.zip; hash=; extract_dir=ungoogled-chromium_$version_windows}"
+            "64bit": {
+                "url": "https://github.com/Wyse-/ungoogled-chromium-binaries/releases/download/67.0.3396.87-3/ungoogled-chromium_$version_windows.zip",
+                "hash": {
+                    "url": "https://ungoogled-software.github.io/ungoogled-chromium-binaries/releases/windows/64bit/$version",
+                    "find": "<li>SHA256:\\s+<code>([A-Fa-f\\d+]{64})</code></li>"
+                },
+                "extract_dir": "ungoogled-chromium_$version_windows"
+            }
         }
     }
 }

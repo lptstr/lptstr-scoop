@@ -38,8 +38,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi}",
-            "32bit": "@{url=https://renderdoc.org/stable/$version/RenderDoc_$version_32.msi}"
+            "64bit": {
+                "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_64.msi"
+            },
+            "32bit": {
+                "url": "https://renderdoc.org/stable/$version/RenderDoc_$version_32.msi"
+            }
         }
     }
 }

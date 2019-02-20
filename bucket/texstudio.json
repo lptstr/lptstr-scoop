@@ -21,7 +21,9 @@
     "persist": "config",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/texstudio-org/texstudio/releases/download/$version/texstudio-$version-win-portable-qt5.zip}"
+            "64bit": {
+                "url": "https://github.com/texstudio-org/texstudio/releases/download/$version/texstudio-$version-win-portable-qt5.zip"
+            }
         }
     }
 }

@@ -26,8 +26,14 @@
     "checkver": "github",
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/canton7/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x86.zip; extract_dir=SyncTrayzorPortable-x86}",
-            "64bit": "@{url=https://github.com/canton7/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x64.zip; extract_dir=SyncTrayzorPortable-x64}"
+            "32bit": {
+                "url": "https://github.com/canton7/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x86.zip",
+                "extract_dir": "SyncTrayzorPortable-x86"
+            },
+            "64bit": {
+                "url": "https://github.com/canton7/SyncTrayzor/releases/download/v$version/SyncTrayzorPortable-x64.zip",
+                "extract_dir": "SyncTrayzorPortable-x64"
+            }
         },
         "hash": {
             "url": "https://github.com/canton7/SyncTrayzor/releases/download/v$version/sha512sum.txt.asc"

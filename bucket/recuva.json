@@ -5,12 +5,30 @@
     "hash": "997a082fb03fcdf272d58c25aba488a136cf115a1e1b53930339fb5ef95bf91f",
     "architecture": {
         "64bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "recuva64.exe",
+                    "Recuva"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "recuva64.exe",
+                    "Recuva"
+                ]
+            ]
         },
         "32bit": {
-            "bin": "recuva.exe Recuva",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                "recuva.exe",
+                "Recuva"
+            ],
+            "shortcuts": [
+                [
+                    "recuva.exe",
+                    "Recuva"
+                ]
+            ]
         }
     },
     "checkver": {

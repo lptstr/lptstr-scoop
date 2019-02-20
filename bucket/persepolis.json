@@ -31,8 +31,20 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/persepolisdm/persepolis/releases/download/$version/persepolis_$underscoreVersion_windows_64bit.exe; hash=}",
-            "32bit": "@{url=https://github.com/persepolisdm/persepolis/releases/download/$version/persepolis_$underscoreVersion_windows_32bit.exe; hash=}"
+            "64bit": {
+                "url": "https://github.com/persepolisdm/persepolis/releases/download/$version/persepolis_$underscoreVersion_windows_64bit.exe",
+                "hash": {
+                    "url": "https://github.com/AdmiringWorm/chocolatey-packages/raw/master/automatic/persepolis/legal/VERIFICATION.txt",
+                    "find": "\\s+checksum64:\\s+([a-fA-F\\d]{64})"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/persepolisdm/persepolis/releases/download/$version/persepolis_$underscoreVersion_windows_32bit.exe",
+                "hash": {
+                    "url": "https://github.com/AdmiringWorm/chocolatey-packages/raw/master/automatic/persepolis/legal/VERIFICATION.txt",
+                    "find": "\\s+checksum32:\\s+([a-fA-F\\d]{64})"
+                }
+            }
         }
     }
 }

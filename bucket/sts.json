@@ -26,8 +26,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://download.springsource.com/release/STS/$matchVersion.RELEASE/dist/e$matchShort/spring-tool-suite-$version.RELEASE-e$matchEclipse-win32-x86_64.zip}",
-            "32bit": "@{url=http://download.springsource.com/release/STS/$matchVersion.RELEASE/dist/e$matchShort/spring-tool-suite-$version.RELEASE-e$matchEclipse-win32.zip}"
+            "64bit": {
+                "url": "http://download.springsource.com/release/STS/$matchVersion.RELEASE/dist/e$matchShort/spring-tool-suite-$version.RELEASE-e$matchEclipse-win32-x86_64.zip"
+            },
+            "32bit": {
+                "url": "http://download.springsource.com/release/STS/$matchVersion.RELEASE/dist/e$matchShort/spring-tool-suite-$version.RELEASE-e$matchEclipse-win32.zip"
+            }
         },
         "hash": {
             "url": "$url.sha1"

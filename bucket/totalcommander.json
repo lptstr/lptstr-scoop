@@ -8,13 +8,23 @@
             "url": "http://totalcommander.ch/win/tcmd921ax64.exe",
             "hash": "6b978d580701b04c734ad2645a9393b2611b50f78bd9af62c0bb8f3d5b355326",
             "bin": "TOTALCMD64.EXE",
-            "shortcuts": "System.Object[]"
+            "shortcuts": [
+                [
+                    "TOTALCMD64.EXE",
+                    "Total Commander"
+                ]
+            ]
         },
         "32bit": {
             "url": "http://totalcommander.ch/win/tcmd921ax32.exe",
             "hash": "0ff8a8aff38fc06b536522b4752560d9bc3f60781d0cf93afba201e59b2149a8",
             "bin": "TOTALCMD.EXE",
-            "shortcuts": "System.Object[]"
+            "shortcuts": [
+                [
+                    "TOTALCMD.EXE",
+                    "Total Commander"
+                ]
+            ]
         }
     },
     "pre_install": [
@@ -39,8 +49,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://totalcommander.ch/win/tcmd$cleanVersionx64.exe}",
-            "32bit": "@{url=http://totalcommander.ch/win/tcmd$cleanVersionx32.exe}"
+            "64bit": {
+                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx64.exe"
+            },
+            "32bit": {
+                "url": "http://totalcommander.ch/win/tcmd$cleanVersionx32.exe"
+            }
         }
     }
 }

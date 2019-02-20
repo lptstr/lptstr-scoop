@@ -20,8 +20,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://dist.ipfs.io/go-ipfs/v$version/go-ipfs_v$version_windows-amd64.zip}",
-            "32bit": "@{url=https://dist.ipfs.io/go-ipfs/v$version/go-ipfs_v$version_windows-386.zip}"
+            "64bit": {
+                "url": "https://dist.ipfs.io/go-ipfs/v$version/go-ipfs_v$version_windows-amd64.zip"
+            },
+            "32bit": {
+                "url": "https://dist.ipfs.io/go-ipfs/v$version/go-ipfs_v$version_windows-386.zip"
+            }
         }
     }
 }

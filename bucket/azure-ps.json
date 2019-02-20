@@ -19,12 +19,16 @@
     },
     "checkver": {
         "github": "https://github.com/Azure/azure-powershell",
-        "regex": "github"
+        "regex": "download/v?(?<release>[\\d\\.]+-[\\w\\d]+)/Azure-Cmdlets-([\\d.]+).*\\.msi"
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Azure-Cmdlets-$version-x86.msi}",
-            "64bit": "@{url=https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Azure-Cmdlets-$version-x64.msi}"
+            "32bit": {
+                "url": "https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Azure-Cmdlets-$version-x86.msi"
+            },
+            "64bit": {
+                "url": "https://github.com/Azure/azure-powershell/releases/download/v$matchRelease/Azure-Cmdlets-$version-x64.msi"
+            }
         }
     }
 }

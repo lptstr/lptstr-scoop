@@ -7,12 +7,32 @@
     "hash": "md5:044d7ec1bfdc377c9338e8f283a89225",
     "architecture": {
         "64bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "DiskInfo64.exe",
+                    "DiskInfo"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DiskInfo64.exe",
+                    "DiskInfo"
+                ]
+            ]
         },
         "32bit": {
-            "bin": "System.Object[]",
-            "shortcuts": "System.Object[]"
+            "bin": [
+                [
+                    "DiskInfo32.exe",
+                    "DiskInfo"
+                ]
+            ],
+            "shortcuts": [
+                [
+                    "DiskInfo32.exe",
+                    "DiskInfo"
+                ]
+            ]
         }
     },
     "persist": "DiskInfo.ini",

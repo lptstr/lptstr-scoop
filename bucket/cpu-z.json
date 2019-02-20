@@ -19,10 +19,20 @@
     ],
     "architecture": {
         "32bit": {
-            "shortcuts": "System.Object[]"
+            "shortcuts": [
+                [
+                    "cpuz_x32.exe",
+                    "CPU-Z"
+                ]
+            ]
         },
         "64bit": {
-            "shortcuts": "System.Object[]"
+            "shortcuts": [
+                [
+                    "cpuz_x64.exe",
+                    "CPU-Z"
+                ]
+            ]
         }
     },
     "checkver": "Version ([\\d.]+) for windows",

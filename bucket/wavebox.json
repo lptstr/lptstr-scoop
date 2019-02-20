@@ -1,12 +1,12 @@
 {
-    "version": "4.5.9",
+    "version": "4.7.2",
     "description": "Bring all your web communication tools together for faster, smarter working.",
     "homepage": "https://wavebox.io/",
     "license": "MPL-2.0",
     "architecture": {
         "64bit": {
-            "url": "https://wavebox.pro/dl/client/4_5_9/Wavebox_4_5_9_windows_x86_64/wavebox-4.5.9-full.nupkg",
-            "hash": "sha1:5c3a432844aa766b92d2d189fbf94f0a974dfecc"
+            "url": "https://wavebox.pro/dl/client/4_7_2/Wavebox_4_7_2_windows_x86_64/wavebox-4.7.2-full.nupkg",
+            "hash": "sha1:c0e8b3937f04d8a6cae2782b960efc01383df8d6"
         }
     },
     "extract_dir": "lib\\net45",
@@ -22,7 +22,9 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://wavebox.pro/dl/client/$underscoreVersion/Wavebox_$underscoreVersion_windows_x86_64/wavebox-$version-full.nupkg}"
+            "64bit": {
+                "url": "https://wavebox.pro/dl/client/$underscoreVersion/Wavebox_$underscoreVersion_windows_x86_64/wavebox-$version-full.nupkg"
+            }
         },
         "hash": {
             "url": "$baseurl/RELEASES"

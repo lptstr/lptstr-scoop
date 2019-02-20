@@ -32,8 +32,14 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": "@{url=https://dl.bintray.com/zealdocs/windows/zeal-portable-$version-windows-x86.7z; extract_dir=zeal-portable-$version-windows-x86}",
-            "64bit": "@{url=https://dl.bintray.com/zealdocs/windows/zeal-portable-$version-windows-x64.7z; extract_dir=zeal-portable-$version-windows-x64}"
+            "32bit": {
+                "url": "https://dl.bintray.com/zealdocs/windows/zeal-portable-$version-windows-x86.7z",
+                "extract_dir": "zeal-portable-$version-windows-x86"
+            },
+            "64bit": {
+                "url": "https://dl.bintray.com/zealdocs/windows/zeal-portable-$version-windows-x64.7z",
+                "extract_dir": "zeal-portable-$version-windows-x64"
+            }
         }
     }
 }

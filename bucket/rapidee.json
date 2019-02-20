@@ -25,8 +25,12 @@
     "checkver": "[0-9\\.]+ build (\\d+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://www.rapidee.com/download/RapidEEx64.zip}",
-            "32bit": "@{url=https://www.rapidee.com/download/RapidEE.zip}"
+            "64bit": {
+                "url": "https://www.rapidee.com/download/RapidEEx64.zip"
+            },
+            "32bit": {
+                "url": "https://www.rapidee.com/download/RapidEE.zip"
+            }
         }
     }
 }

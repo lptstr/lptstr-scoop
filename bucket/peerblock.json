@@ -8,12 +8,26 @@
         "64bit": {
             "url": "https://github.com/scoopinstaller/binary-mirror/raw/master/peerblock/PeerBlock-Setup_v1.1%2B_r691.exe#/PeerBlock-Setup.exe",
             "hash": "sha512:09f3423fcaf0c1f0df2a46f7b8af3dbcd9eab2c79bac1d902272411a228283041babd541f71c115e5678ab8687a875035cc911c90191fbf666a6991cfb2ce8fd",
-            "pre_install": "$manifest.innosetup = $true unpack_inno \"PeerBlock-Setup.exe\" $manifest $dir rename-item \"$dir\\pbfilter,4.sys\" \"$dir\\pbfilter.sys\" remove-item \"$dir\\pbfilter,*.sys\" rename-item \"$dir\\peerblock,4.exe\" \"$dir\\peerblock.exe\" remove-item \"$dir\\peerblock,*.exe\""
+            "pre_install": [
+                "$manifest.innosetup = $true",
+                "unpack_inno \"PeerBlock-Setup.exe\" $manifest $dir",
+                "rename-item \"$dir\\pbfilter,4.sys\" \"$dir\\pbfilter.sys\"",
+                "remove-item \"$dir\\pbfilter,*.sys\"",
+                "rename-item \"$dir\\peerblock,4.exe\" \"$dir\\peerblock.exe\"",
+                "remove-item \"$dir\\peerblock,*.exe\""
+            ]
         },
         "32bit": {
             "url": "https://github.com/scoopinstaller/binary-mirror/raw/master/peerblock/PeerBlock-Setup_v1.1%2B_r691.exe#/PeerBlock-Setup.exe",
             "hash": "sha512:09f3423fcaf0c1f0df2a46f7b8af3dbcd9eab2c79bac1d902272411a228283041babd541f71c115e5678ab8687a875035cc911c90191fbf666a6991cfb2ce8fd",
-            "pre_install": "$manifest.innosetup = $true unpack_inno \"PeerBlock-Setup.exe\" $manifest $dir rename-item \"$dir\\pbfilter,3.sys\" \"$dir\\pbfilter.sys\" remove-item \"$dir\\pbfilter,*.sys\" rename-item \"$dir\\peerblock,3.exe\" \"$dir\\peerblock.exe\" remove-item \"$dir\\peerblock,*.exe\""
+            "pre_install": [
+                "$manifest.innosetup = $true",
+                "unpack_inno \"PeerBlock-Setup.exe\" $manifest $dir",
+                "rename-item \"$dir\\pbfilter,3.sys\" \"$dir\\pbfilter.sys\"",
+                "remove-item \"$dir\\pbfilter,*.sys\"",
+                "rename-item \"$dir\\peerblock,3.exe\" \"$dir\\peerblock.exe\"",
+                "remove-item \"$dir\\peerblock,*.exe\""
+            ]
         }
     },
     "depends": "innounp",

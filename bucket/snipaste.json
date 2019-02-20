@@ -16,7 +16,9 @@
         "history",
         "config.ini"
     ],
-    "depends": "vcredist2015",
+    "suggest": {
+        "vcredist": "extras/vcredist2015"
+    },
     "shortcuts": [
         [
             "Snipaste.exe",
@@ -26,8 +28,12 @@
     "checkver": "Desktop ([\\.0-9]+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x64.zip}",
-            "32bit": "@{url=https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x86.zip}"
+            "64bit": {
+                "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://bitbucket.org/liule/snipaste/downloads/Snipaste-$version-x86.zip"
+            }
         },
         "hash": {
             "url": "https://dl.snipaste.com/sha-1.txt"

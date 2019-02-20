@@ -33,8 +33,12 @@
     "persist": "config",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://dl.hexchat.net/hexchat/HexChat%20$version%20x64.exe}",
-            "32bit": "@{url=https://dl.hexchat.net/hexchat/HexChat%20$version%20x86.exe}"
+            "64bit": {
+                "url": "https://dl.hexchat.net/hexchat/HexChat%20$version%20x64.exe"
+            },
+            "32bit": {
+                "url": "https://dl.hexchat.net/hexchat/HexChat%20$version%20x86.exe"
+            }
         }
     }
 }

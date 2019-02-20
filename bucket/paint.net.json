@@ -15,10 +15,14 @@
     ],
     "architecture": {
         "64bit": {
-            "installer": "@{script=extract_msi \"$dir\\tmp\\PaintDotNet_x64.msi\" \"$dir\"}"
+            "installer": {
+                "script": "extract_msi \"$dir\\tmp\\PaintDotNet_x64.msi\" \"$dir\""
+            }
         },
         "32bit": {
-            "installer": "@{script=extract_msi \"$dir\\tmp\\PaintDotNet_x86.msi\" \"$dir\"}"
+            "installer": {
+                "script": "extract_msi \"$dir\\tmp\\PaintDotNet_x86.msi\" \"$dir\""
+            }
         }
     },
     "post_install": [

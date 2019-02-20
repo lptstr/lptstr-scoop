@@ -28,8 +28,18 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-full.nupkg#/dl.7z; hash=}",
-            "32bit": "@{url=https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-ia32-full.nupkg#/dl.7z; hash=}"
+            "64bit": {
+                "url": "https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-full.nupkg#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/RELEASES"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/webtorrent/webtorrent-desktop/releases/download/v$version/WebTorrent-$version-ia32-full.nupkg#/dl.7z",
+                "hash": {
+                    "url": "$baseurl/RELEASES-ia32"
+                }
+            }
         }
     }
 }

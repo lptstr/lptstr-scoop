@@ -25,8 +25,18 @@
     ],
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe#/PathEditor.exe; hash=}",
-            "32bit": "@{url=https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-32bit.exe#/PathEditor.exe; hash=}"
+            "64bit": {
+                "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe#/PathEditor.exe",
+                "hash": {
+                    "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-64bit.exe.sha512"
+                }
+            },
+            "32bit": {
+                "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-32bit.exe#/PathEditor.exe",
+                "hash": {
+                    "url": "https://github.com/Alorel/patheditor2-mirror/releases/download/$version/PathEditor-$version-32bit.exe.sha512"
+                }
+            }
         }
     }
 }

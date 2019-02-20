@@ -37,8 +37,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x64.zip}",
-            "32bit": "@{url=https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x86.zip}"
+            "64bit": {
+                "url": "https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/picotorrent/picotorrent/releases/download/v$version/PicoTorrent-$version-x86.zip"
+            }
         }
     }
 }

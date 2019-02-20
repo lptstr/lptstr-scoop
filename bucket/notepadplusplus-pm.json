@@ -18,8 +18,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/bruderstein/nppPluginManager/releases/download/v$version/PluginManager_v$version_x64.zip}",
-            "32bit": "@{url=https://github.com/bruderstein/nppPluginManager/releases/download/v$version/PluginManager_v$version_UNI.zip}"
+            "64bit": {
+                "url": "https://github.com/bruderstein/nppPluginManager/releases/download/v$version/PluginManager_v$version_x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/bruderstein/nppPluginManager/releases/download/v$version/PluginManager_v$version_UNI.zip"
+            }
         }
     },
     "post_install": [

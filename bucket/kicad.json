@@ -31,8 +31,12 @@
     ],
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://downloads.kicad-pcb.org/windows/stable/kicad-$version-x86_64.exe#/kicad-setup.7z}",
-            "32bit": "@{url=http://downloads.kicad-pcb.org/windows/stable/kicad-$version-i686.exe#/kicad-setup.7z}"
+            "64bit": {
+                "url": "http://downloads.kicad-pcb.org/windows/stable/kicad-$version-x86_64.exe#/kicad-setup.7z"
+            },
+            "32bit": {
+                "url": "http://downloads.kicad-pcb.org/windows/stable/kicad-$version-i686.exe#/kicad-setup.7z"
+            }
         }
     }
 }

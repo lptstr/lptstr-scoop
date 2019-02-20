@@ -35,8 +35,18 @@
     "checkver": "Package Version:\\s+([\\d\\.-]+)",
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=http://lighttpd.dtech.hu/lighttpd-$version-win64-ssl.zip; hash=}",
-            "32bit": "@{url=http://lighttpd.dtech.hu/lighttpd-$version-win32-ssl.zip; hash=}"
+            "64bit": {
+                "url": "http://lighttpd.dtech.hu/lighttpd-$version-win64-ssl.zip",
+                "hash": {
+                    "url": "$baseurl/lighttpd-$version-win64-ssl.md5"
+                }
+            },
+            "32bit": {
+                "url": "http://lighttpd.dtech.hu/lighttpd-$version-win32-ssl.zip",
+                "hash": {
+                    "url": "$baseurl/lighttpd-$version-win32-ssl.md5"
+                }
+            }
         }
     }
 }

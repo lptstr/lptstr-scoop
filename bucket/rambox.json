@@ -1,7 +1,7 @@
 {
     "version": "0.6.3",
     "description": "Free and Open Source messaging and emailing app that combines common web applications into one.",
-    "homepage": "http://rambox.pro/",
+    "homepage": "https://rambox.pro/",
     "license": {
         "identifier": "GPL-3.0-only",
         "url": "https://github.com/ramboxapp/community-edition/blob/master/LICENSE"
@@ -28,8 +28,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-win-x64.zip}",
-            "32bit": "@{url=https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-win-ia32.zip}"
+            "64bit": {
+                "url": "https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-win-x64.zip"
+            },
+            "32bit": {
+                "url": "https://github.com/ramboxapp/community-edition/releases/download/$version/Rambox-$version-win-ia32.zip"
+            }
         }
     }
 }

@@ -28,8 +28,12 @@
     },
     "autoupdate": {
         "architecture": {
-            "64bit": "@{url=https://github.com/angryip/ipscan/releases/download/$version/ipscan-win64-$version.exe#/ipscan.exe}",
-            "32bit": "@{url=https://github.com/angryip/ipscan/releases/download/$version/ipscan-win32-$version.exe#/ipscan.exe}"
+            "64bit": {
+                "url": "https://github.com/angryip/ipscan/releases/download/$version/ipscan-win64-$version.exe#/ipscan.exe"
+            },
+            "32bit": {
+                "url": "https://github.com/angryip/ipscan/releases/download/$version/ipscan-win32-$version.exe#/ipscan.exe"
+            }
         }
     },
     "suggest": {
