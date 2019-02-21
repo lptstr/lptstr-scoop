@@ -1,9 +1,9 @@
 {
     "homepage": "https://www.elastic.co/products/elasticsearch",
-    "version": "6.6.0",
-    "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.0.zip",
-    "hash": "sha512:0689de542961cecdf9cbd9976418c6de555d2fb816cac66e3998b8236a9ad9a0e8cbfa5a9b6e858073b5507c0e6dc77af724f9490c343a47fe14243be0e51807",
-    "extract_dir": "elasticsearch-6.6.0",
+    "version": "6.6.1",
+    "url": "https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.1.zip",
+    "hash": "sha512:dba474306bb90db397af6dfc98d201030c9480fa54fe1a0eed718162dc161849ea55788d1b70cf8f34be5b89724e86535d2d3c9bd29ec5f96c8867877cbb0bff",
+    "extract_dir": "elasticsearch-6.6.1",
     "bin": [
         [
             "bin\\elasticsearch.bat",
