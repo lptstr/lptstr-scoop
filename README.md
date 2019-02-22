@@ -5,10 +5,6 @@
 <b><a href="https://github.com/lptstr/lptstr-scoop#installation">Installation</a></b>
 |
 <b><a href="https://github.com/lptstr/lptstr-scoop#i-want-to-add-an-app">Add an app</a></b>
-|
-<b><a href="https://github.com/lptstr/lptstr-scoop#list-of-apps">List of apps</a></b>
-|
-<b><a href="https://github.com/lptstr/lptstr-scoop#acknowledgments">Acknowledgments</a></b>
 </p>
 
 - - -
