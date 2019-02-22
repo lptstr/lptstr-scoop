@@ -1,18 +1,18 @@
-<p align="center"><img src="https://kiedtl.surge.sh/img/open-scoop.png" alt="Open, open, open Scoop"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/lptstr/logos/master/with-tagline.png" alt="logo"/></p>
 <p align="center">
-<b><a href="https://github.com/Kiedtl/open-scoop#whats-this">What's this?</a></b>
+<b><a href="https://github.com/lptstr/lptstr-scoop#whats-this">What's this?</a></b>
 |
-<b><a href="https://github.com/Kiedtl/open-scoop#installation">Installation</a></b>
+<b><a href="https://github.com/lptstr/lptstr-scoop#installation">Installation</a></b>
 |
-<b><a href="https://github.com/Kiedtl/open-scoop#i-want-to-add-an-app">Add an app</a></b>
+<b><a href="https://github.com/lptstr/lptstr-scoop#i-want-to-add-an-app">Add an app</a></b>
 |
-<b><a href="https://github.com/Kiedtl/open-scoop#list-of-apps">List of apps</a></b>
+<b><a href="https://github.com/lptstr/lptstr-scoop#list-of-apps">List of apps</a></b>
 |
-<b><a href="https://github.com/Kiedtl/open-scoop#acknowledgments">Acknowledgments</a></b>
+<b><a href="https://github.com/lptstr/lptstr-scoop#acknowledgments">Acknowledgments</a></b>
 </p>
 
 - - -
-<p align="center"><a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/languages/code-size/kiedtl/open-scoop.svg" alt="Code-Size" /></a>
+<p align="center"><a href="https://github.com/lptstr/lptstr-scoop"><img src="https://img.shields.io/github/languages/code-size/lptstr/lptstr-scoop.svg" alt="Code-Size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/github/repo-size/kiedtl/open-scoop.svg" alt="Repository size" /></a>
 <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/apps-1,082-yellow.svg" alt="Apps in bucket" /></a>
  <a href="https://github.com/kiedtl/open-scoop"><img src="https://img.shields.io/badge/lines%20of%20code-34000%2B-yellow.svg" alt="Lines of code" /></a> <a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://ci.appveyor.com/api/projects/status/q9p6ltk3vxr9ud1w?svg=true" alt="Travis-CI" /></a>
