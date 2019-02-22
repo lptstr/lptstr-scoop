@@ -81,6 +81,8 @@ No problem! Simply fork this repository and create a JSON file with the app mani
 Once you are done, just create a pull request describing which app you added, what it does, who is the creator of the app, and the latest version of the app. If possible, add the homepage and/or the repository link also.
 
 ### What ever happened to Open Scoop?
+---
 Its gone, kiss it goodbye. You'll never see it again.
 
+---
 [![forthebadge](https://forthebadge.com/images/badges/powered-by-comcast.svg)](https://forthebadge.com)
