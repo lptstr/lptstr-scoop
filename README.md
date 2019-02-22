@@ -8,11 +8,25 @@
 </p>
 
 - - -
-<p align="center"><a href="https://github.com/lptstr/lptstr-scoop"><img src="https://img.shields.io/github/languages/code-size/lptstr/lptstr-scoop.svg" alt="Code-Size" /></a>
-<a href="https://github.com/lptstr/lptstr-scoop"><img src="https://img.shields.io/github/repo-size/lptstr/lptstr-scoop.svg" alt="Repository size" /></a>
-<a href="https://travis-ci.org/Kiedtl/open-scoop"><img src="https://ci.appveyor.com/api/projects/status/q9p6ltk3vxr9ud1w?svg=true" alt="Appveyor-CI" /></a>
-<a href="https://github.com/lptstr/lptstr-scoop/blob/master/LICENSE"><img src="https://img.shields.io/github/license/lptstr/lptstr-scoop.svg" alt="License" /></a>
-</p><p align="center"><a href="http://spacemacs.org"><img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" /></a></p>
+<p align="center"><a href="https://github.com/lptstr/lptstr-scoop">
+    <a href="https://github.com/lptstr/lptstr-scoop" >
+        <img src="https://img.shields.io/github/languages/code-size/lptstr/lptstr-scoop.svg?style=for-the-badge" alt="Code-Size" />
+    </a>
+    <a href="https://github.com/lptstr/lptstr-scoop">
+        <img src="https://img.shields.io/github/repo-size/lptstr/lptstr-scoop.svg?style=for-the-badge" alt="Repository size" />
+    </a>
+    <a href="">
+        <img src="https://img.shields.io/appveyor/ci/lptstr/lptstr-scoop.svg?style=for-the-badge" alt="Appveyor-CI" />
+    </a>
+    <a href="https://github.com/lptstr/lptstr-scoop/blob/master/LICENSE">
+        <img src="https://img.shields.io/github/license/lptstr/lptstr-scoop.svg?style=for-the-badge" alt="License" />
+    </a>
+</p>
+<p align="center">
+    <a href="http://spacemacs.org">
+        <img src="https://cdn.rawgit.com/syl20bnr/spacemacs/442d025779da2f62fc86c2082703697714db6514/assets/spacemacs-badge.svg" />
+    </a>
+</p>
 
 ### What's this?
 ---
