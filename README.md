@@ -42,7 +42,7 @@ $ scoop which scoop
 If Scoop is **not** installed, run the follwing code in Powershell (`powershell.exe` or `pwsh.exe`):
 ```powershell
 $ Set-ExecutionPolicy RemoteSigned -Scope CurrentUser
-$ Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://get.scoop.sh"
+$ Invoke-Expression (New-Object System.Net.WebClient).DownloadString("http://get.scoop.sh")
 ```
 
 Then, add this repository as a bucket to Scoop:
