@@ -5,7 +5,7 @@
     "url": "https://github.com/lptstr/pxlcon/archive/0a7966ce77974bff69686bc19dbf4de0c0ebe9de.zip",
     "extract_dir": "pxlcon-0a7966ce77974bff69686bc19dbf4de0c0ebe9de",
     "hash": "8756021614b922d14608c50a40ba5ce6b36399c7e1712dc963c5065778486282",
-    "bin": "pxlcon",
+    "bin": "pxlcon.ps1",
     "checkver": {
         "url": "https://github.com/lptstr/pxlcon",
         "re": "datetime=\"(\\d+)-(\\d+)-(\\d+)[\\S\\s]*?(?<sha>[0-9a-f]{40})\"",
