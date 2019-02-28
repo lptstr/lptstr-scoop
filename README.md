@@ -30,7 +30,7 @@
 
 ### What's this?
 ---
-This repository is a [Scoop](http://scoop.sh/) bucket for any downloadable LPTSTR project. It currently contains Meow, Kombucha, PXLCon,  and Sultan.
+This repository is a [Scoop](http://scoop.sh/) bucket for any downloadable LPTSTR project. It currently contains Meow, Painter, Kombucha, PXLCon,  and Sultan.
 
 ### Installation
 ---
